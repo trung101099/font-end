@@ -1,0 +1,75 @@
+
+.section-product{
+    padding-top: 85px;
+}
+
+.nav-product{
+    background-image: url(../image/JivaSpa.png);
+    width: 100%;
+    height:100%;
+    padding-top: 30px;
+}
+.list-product{
+    color: #ffff;
+}
+.all-product{
+    color: #fff;
+    width: 100%;
+}
+.product{
+    padding-top: 60px;
+}
+ul.nav-tabs{
+    padding-top: 40px;
+    border-bottom: 0px;
+    text-align: center;
+    margin-left: 200px;
+    li{margin-left: 30px;}
+
+}
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+    color: #555555;
+    cursor: default;
+    background-color: #fc887b;
+    border: none;
+    outline: none;
+    transition: all 0.6s ease 0s;
+    -moz-transition: all 0.9s ease 0s;
+    -webkit-transition: all 0.9s ease 0s;
+    -o-transition: all 0.9s ease 0s;
+}
+.button-view{
+    text-align: center;
+    padding-top: 68px;  
+    margin-left: 15px;
+    padding-bottom: 35px;
+    a{
+        button{
+            color: #ffff;
+            background: #fc887b;
+            width: 150px;
+            height: 50px;
+            border: none;
+        }
+        button:hover{
+            color: #ffff;
+            background: black;
+            transition: all 0.6s ease 0s;
+            -moz-transition: all 0.9s ease 0s;
+            -webkit-transition: all 0.9s ease 0s;
+            -o-transition: all 0.9s ease 0s;
+        }
+        button:focus{
+            outline: none;
+        }
+    }
+}
+@media (max-width: 1200px){
+    .new-product{
+        border: 1px solid #6c757d;
+        background: #fff;
+        position: static;
+        width: 100%;
+    }
+
+}

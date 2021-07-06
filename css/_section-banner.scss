@@ -1,0 +1,38 @@
+.section-banner{
+    position: relative;
+    background-image: url(../image/Doll.png);
+    width: 100%;
+    height: 570px;
+    background-repeat: round;
+    .section-text{
+        position: absolute;
+        bottom: 48%;
+        left: 35%;
+        color: #fff;
+        text-align: center;
+        h1{
+            font-weight: 800;
+            font-size: 50px;
+        }
+        p{
+            font-weight: 300;
+            font-size: 25px;
+        }
+    }
+    .section-button{    
+       position: absolute;
+        bottom: 38%;
+        left: 46%;
+        input{
+            width: 180px;
+            height: 50px;
+            border: none;
+        }
+        input:focus-visible{
+            outline: none;
+        }
+        
+    }
+}
+
+

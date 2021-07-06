@@ -1,0 +1,75 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?hf4cye');
+  src:  url('../fonts/icomoon.eot?hf4cye#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?hf4cye') format('truetype'),
+    url('../fonts/icomoon.woff?hf4cye') format('woff'),
+    url('../fonts/icomoon.svg?hf4cye#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-bill:before {
+  content: "\e900";
+}
+.icon-survey:before {
+  content: "\e901";
+}
+.icon-examination:before {
+  content: "\e902";
+}
+.icon-hair-cut:before {
+  content: "\e903";
+}
+.icon-nail-polish:before {
+  content: "\e904";
+}
+.icon-curl:before {
+  content: "\e905";
+}
+.icon-massage:before {
+  content: "\e906";
+}
+.icon-relax:before {
+  content: "\e907";
+}
+.icon-play-button:before {
+  content: "\e908";
+}
+.icon-chat:before {
+  content: "\e909";
+}
+.icon-like:before {
+  content: "\e90a";
+}
+.icon-star:before {
+  content: "\e90b";
+}
+.icon-right-arrow:before {
+  content: "\e90c";
+}
+.icon-left-arrow:before {
+  content: "\e90d";
+}
+.icon-previous:before {
+  content: "\e90e";
+}
+.icon-next-1:before {
+  content: "\e90f";
+}

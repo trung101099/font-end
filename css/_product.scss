@@ -1,0 +1,366 @@
+.owl-carousel .owl-nav .owl-prev {
+    left: -2%;
+}
+.owl-carousel .owl-nav .owl-next {
+    right: -2%;
+}
+.owl-prev span{
+    font-size: 30px;
+    position: absolute;
+    right: 0;
+    border: 1px solid;
+    border-radius: 15px;
+    width: 60px;
+    
+}
+.owl-prev span:hover{
+        background: #fc887b;
+        color: #fff;
+    }
+.owl-next span{
+    font-size: 30px;
+    position: absolute;
+    border: 1px solid;
+    border-radius: 15px;
+    width: 60px;
+}
+.owl-next span:hover{
+        background: #fc887b;
+        color: #fff;
+    }
+.slide-product{
+    padding-top: 46px;
+}
+.new-product{
+    border: 1px solid #6c757d;
+    background: #fff;
+    position: relative;
+    width: 100%;
+
+}
+.new-product:hover{
+    border: 1px solid #fc887b;
+}
+.product-con{
+    border: 1px solid #B2B2B2;
+}
+.product-image img{
+   width: 100%;
+}
+.product-tille{
+    padding-top: 25px;
+    color: black;
+    margin-left: 30px;
+}
+.product-phude p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: #c0c0c0;
+}
+.product-tille:hover{
+    color: #fc887b;
+}
+.product-phude{
+    margin-left: 30px;
+}
+
+
+.diachi{    
+    
+    position: relative;
+    margin-left: 30px;
+}
+.button-product{
+    position: absolute;
+    left: 60%;
+    bottom: 14%;
+
+}
+.button-product a button{
+    border: none;
+    border-radius: 15px;
+    padding: 5px 15px 5px 15px;
+    color: black;
+}
+.button-product a button:hover{
+    color: #ffff;
+    background: #fc887b;
+    border: none;
+    transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -webkit-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+}
+.button-product a button:focus{
+    outline: none;
+}
+.diachi p{
+    display: inline-block;
+    color: black;
+}
+.diachi{
+    margin-left: 30px;
+    padding-top: 5px;
+}
+.title-like{
+    border-top: 1px solid #B2B2B2;
+    padding-top: 20px;
+}
+.diachi i{
+    color: #fc887b;
+}
+.like{
+    position: absolute;
+    bottom: 2%;
+    left: 84%;
+    color: black;
+}
+.text-like{
+    position: relative;
+    color: black;
+    margin-left: 30px;
+}
+.border-like{
+    border: 1px solid;
+    width: 35px;
+    height: 35px;
+    border-radius: 20px;
+}
+.border-like input{
+    position: absolute;
+    top: 15%;
+    left: 20%;
+}
+
+.heart {
+    visibility:hidden;
+    font-size:20px;
+    cursor:pointer;
+}
+.heart:before {
+    font-family: 'icomoon';
+   content: "\e90a";
+   position: absolute;
+   visibility:visible;
+   color:#fc887b;
+}
+.heart:checked:before {
+    font-family: 'icomoon';
+   content: "\e90a";
+   position: absolute;
+   
+   color:#ccc;
+}
+
+
+.price{
+    position: absolute;
+    top: 44%;
+    left: 5%;
+}
+.price img{
+    position: relative;
+}
+.price p{
+    position: absolute;
+    top: 10%;
+    left: 40%;
+    color: #ffff;
+} 
+#rating {
+    position: absolute;
+    bottom: 48%;
+    left: 54%;
+}
+#rating_1 {
+    position: absolute;
+    bottom: 48%;
+    left: 54%;
+}
+#rating_2 {
+    position: absolute;
+    bottom: 48%;
+    left: 54%;
+}
+#rating_3 {
+    position: absolute;
+    bottom: 48%;
+    left: 54%;
+}
+#rating_4 {
+    position: absolute;
+    bottom: 48%;
+    left: 54%;
+}
+#rating_5 {
+    position: absolute;
+    bottom: 48%;
+    left: 54%;
+}
+#rating{border:none;float:left;}
+#rating>input{display:none;}/*ẩn input radio - vì chúng ta đã có label là GUI*/
+#rating>label:before{margin:5px;font-size:1.25em;font-family:FontAwesome;display:inline-block;content:"\f005";}/*1 ngôi sao*/
+#rating>.half:before{content:"\f089";position:absolute;}/*0.5 ngôi sao*/
+#rating>label{color:#ddd;float:right;}/*float:right để lật ngược các ngôi sao lại đúng theo thứ tự trong thực tế*/
+/*thêm màu cho sao đã chọn và các ngôi sao phía trước*/
+#rating>input:checked~label,
+#rating:not(:checked)>label:hover, 
+#rating:not(:checked)>label:hover~label{color:#FFD700;}
+/* Hover vào các sao phía trước ngôi sao đã chọn*/
+#rating>input:checked+label:hover,
+#rating>input:checked~label:hover,
+#rating>label:hover~input:checked~label,
+#rating>input:checked~label:hover~label{color:#FFED85;}
+
+/****   rating_1   ****/
+#rating_1{border:none;float:left;}
+#rating_1>input{display:none;}/*ẩn input radio - vì chúng ta đã có label là GUI*/
+#rating_1>label:before{margin:5px;font-size:1.25em;font-family:FontAwesome;display:inline-block;content:"\f005";}/*1 ngôi sao*/
+#rating_1>.half_1:before{content:"\f089";position:absolute;}/*0.5 ngôi sao*/
+#rating_1>label{color:#ddd;float:right;}/*float:right để lật ngược các ngôi sao lại đúng theo thứ tự trong thực tế*/
+/*thêm màu cho sao đã chọn và các ngôi sao phía trước*/
+#rating_1>input:checked~label,
+#rating_1:not(:checked)>label:hover, 
+#rating_1:not(:checked)>label:hover~label{color:#FFD700;}
+/* Hover vào các sao phía trước ngôi sao đã chọn*/
+#rating_1>input:checked+label:hover,
+#rating_1>input:checked~label:hover,
+#rating_1>label:hover~input:checked~label,
+#rating_1>input:checked~label:hover~label{color:#FFED85;}
+
+/****   rating_2   ****/
+#rating_2{border:none;float:left;}
+#rating_2>input{display:none;}/*ẩn input radio - vì chúng ta đã có label là GUI*/
+#rating_2>label:before{margin:5px;font-size:1.25em;font-family:FontAwesome;display:inline-block;content:"\f005";}/*1 ngôi sao*/
+#rating_2>.half_2:before{content:"\f089";position:absolute;}/*0.5 ngôi sao*/
+#rating_2>label{color:#ddd;float:right;}/*float:right để lật ngược các ngôi sao lại đúng theo thứ tự trong thực tế*/
+/*thêm màu cho sao đã chọn và các ngôi sao phía trước*/
+#rating_2>input:checked~label,
+#rating_2:not(:checked)>label:hover, 
+#rating_2:not(:checked)>label:hover~label{color:#FFD700;}
+/* Hover vào các sao phía trước ngôi sao đã chọn*/
+#rating_2>input:checked+label:hover,
+#rating_2>input:checked~label:hover,
+#rating_2>label:hover~input:checked~label,
+#rating_2>input:checked~label:hover~label{color:#FFED85;}
+
+
+/****   rating_3   ****/
+#rating_3{border:none;float:left;}
+#rating_3>input{display:none;}/*ẩn input radio - vì chúng ta đã có label là GUI*/
+#rating_3>label:before{margin:5px;font-size:1.25em;font-family:FontAwesome;display:inline-block;content:"\f005";}/*1 ngôi sao*/
+#rating_3>.half_3:before{content:"\f089";position:absolute;}/*0.5 ngôi sao*/
+#rating_3>label{color:#ddd;float:right;}/*float:right để lật ngược các ngôi sao lại đúng theo thứ tự trong thực tế*/
+/*thêm màu cho sao đã chọn và các ngôi sao phía trước*/
+#rating_3>input:checked~label,
+#rating_3:not(:checked)>label:hover, 
+#rating_3:not(:checked)>label:hover~label{color:#FFD700;}
+/* Hover vào các sao phía trước ngôi sao đã chọn*/
+#rating_3>input:checked+label:hover,
+#rating_3>input:checked~label:hover,
+#rating_3>label:hover~input:checked~label,
+#rating_3>input:checked~label:hover~label{color:#FFED85;}
+
+
+/****   rating_4   ****/
+#rating_4{border:none;float:left;}
+#rating_4>input{display:none;}/*ẩn input radio - vì chúng ta đã có label là GUI*/
+#rating_4>label:before{margin:5px;font-size:1.25em;font-family:FontAwesome;display:inline-block;content:"\f005";}/*1 ngôi sao*/
+#rating_4>.half_4:before{content:"\f089";position:absolute;}/*0.5 ngôi sao*/
+#rating_4>label{color:#ddd;float:right;}/*float:right để lật ngược các ngôi sao lại đúng theo thứ tự trong thực tế*/
+/*thêm màu cho sao đã chọn và các ngôi sao phía trước*/
+#rating_4>input:checked~label,
+#rating_4:not(:checked)>label:hover, 
+#rating_4:not(:checked)>label:hover~label{color:#FFD700;}
+/* Hover vào các sao phía trước ngôi sao đã chọn*/
+#rating_4>input:checked+label:hover,
+#rating_4>input:checked~label:hover,
+#rating_4>label:hover~input:checked~label,
+#rating_4>input:checked~label:hover~label{color:#FFED85;}
+
+
+
+/****   rating_5   ****/
+#rating_5{border:none;float:left;}
+#rating_5>input{display:none;}/*ẩn input radio - vì chúng ta đã có label là GUI*/
+#rating_5>label:before{margin:5px;font-size:1.25em;font-family:FontAwesome;display:inline-block;content:"\f005";}/*1 ngôi sao*/
+#rating_5>.half_5:before{content:"\f089";position:absolute;}/*0.5 ngôi sao*/
+#rating_5>label{color:#ddd;float:right;}/*float:right để lật ngược các ngôi sao lại đúng theo thứ tự trong thực tế*/
+/*thêm màu cho sao đã chọn và các ngôi sao phía trước*/
+#rating_5>input:checked~label,
+#rating_5:not(:checked)>label:hover, 
+#rating_5:not(:checked)>label:hover~label{color:#FFD700;}
+/* Hover vào các sao phía trước ngôi sao đã chọn*/
+#rating_5>input:checked+label:hover,
+#rating_5>input:checked~label:hover,
+#rating_5>label:hover~input:checked~label,
+#rating_5>input:checked~label:hover~label{color:#FFED85;}
+.type{
+    position: absolute;
+    top: 4%;
+    right: 5%;
+    color: black;
+}
+.type img{
+    position: relative;
+}
+.type p{
+    position: absolute;
+    top: 10%;
+    right: 30%;
+    color: #ffff;
+}
+.button-view{
+    text-align: center;
+    padding-top: 68px;  
+    margin-left: 15px;
+    padding-bottom: 35px;
+}
+.button-view a button{
+    color: #ffff;
+    background: #fc887b;
+    width: 150px;
+    height: 50px;
+    border: none;
+
+
+}
+.button-view a button:hover{
+    color: #ffff;
+    background: black;
+}
+.button-view a button:focus{
+    outline: none;
+}
+@media (max-width: 1200px){
+    .slide-product .owl-nav{
+         opacity: 0;
+         transition: 0.35s;
+    }
+    .owl-prev i{
+        font-size: 80px;
+        position: absolute;
+        right: 30px;
+    }
+    .owl-next i{
+        font-size: 80px;
+        position: absolute;
+        left: 30px;
+    }
+    .slide-product:hover .owl-nav{
+        opacity: 1;
+        transition: 0.35s;
+     }
+    .slide-product:hover .owl-nav .owl-next i{
+        font-size: 80px;
+        position: absolute;
+        left: -60px;
+        color: #fc887b;
+    }
+    .slide-product:hover .owl-nav .owl-prev i{
+        font-size: 80px;
+        position: absolute;
+        right: -60px;
+        color: #fc887b;
+    }
+}

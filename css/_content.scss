@@ -1,0 +1,90 @@
+.content-backgroud{
+    border: 1px solid #ccc;
+    height: 310px;
+    .content
+    {
+        .icon
+        {
+            .icon-iteam
+            {
+                span{
+                       position: absolute;
+                        top: 12%;
+                        left: 15%;
+                        font-size: 50px;
+                        color: #fff;
+                    }
+               
+            }
+        }
+        .icon-number
+        {
+            position: absolute;
+            top: 36%;
+            left: 34%;
+            p
+            {
+                position: absolute;
+                color: #ffff;
+                top: 30%;
+                left: 38%;
+            }
+        }
+        .content-text
+        {
+            padding-top: 30px;
+            p
+            {
+                text-align: left;
+            }
+        }
+    }
+}
+.icon-back::before{
+    position: absolute;
+    content:"";
+    width: 128px;
+    height: 13px;
+    background: url(../image/Arrow.png);
+    left: -102px;
+    top: 60px; 
+    z-index: 100;
+}
+.icon-back::after{
+    position: absolute;
+    content:"";
+    width: 128px;
+    height: 13px;
+    right: -25px;
+    top: 60px;
+    background: url(../image/Arrow.png);
+    z-index: 100;
+}
+@media screen and (max-width: 768px)
+{
+    .icon-iteam{
+        position: absolute;
+        left: 8%;
+        top: 15%;
+    }
+    .icon-number{
+        margin-left: -127px;
+    }
+    .icon-back::before{
+        display: none;
+    }
+    .icon-back::after{
+        display: none;
+    }
+}
+@media screen and (max-width: 320px)
+{
+    .icon-number{
+        margin-left: 12px;
+    }
+    .icon-iteam{
+        position: absolute;
+        left: 8%;
+        top: 15%;
+    }
+}

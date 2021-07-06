@@ -1,0 +1,31 @@
+
+.categore{
+    text-align: center;
+    border: 1px solid #e5e5e5;
+    width: 186px;
+    height: 182px;
+    padding-top: 22px;
+    padding-right: 15px;
+}
+.categore:hover{
+     background: #f28478;
+     color: #ffff;
+}
+.nav-categore{
+    border-bottom: 1px solid #e5e5e5;
+}
+.categore-icon{
+    font-size: 53px;
+    margin-top: 14px;
+}
+.categore-icon span{
+    margin-left: 50px;
+}
+.categore-text{
+    margin-left: 48px;
+}
+@media (max-width: 1200px){
+    .categore {
+        width: 100%;
+    }
+}

@@ -1,0 +1,23 @@
+.get-link-app{
+    background-image: url(../image/AppDownload.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 80px;
+    .link-app{
+         padding-top: 260px;
+         padding-left: 45px;
+        .img-app{
+            display: flex;
+        }
+        @media screen and (max-width: 425px){
+            .img-app{
+                display: inline-block;
+            }
+        }
+    }
+}
+@media screen and (max-width: 425px){
+    .box-img img{
+        max-width: 100%;
+    }
+}
