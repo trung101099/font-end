@@ -1,11 +1,15 @@
-
+.list-categore{
+    margin-right: 50px;
+}
 .categore{
-    text-align: center;
-    border: 1px solid #e5e5e5;
-    width: 186px;
-    height: 182px;
+    border-right: 1px solid #e5e5e5;
+    height: 180px;
     padding-top: 22px;
-    padding-right: 15px;
+    border-bottom: none;
+    width: 200px;
+}
+#categore-salon:first-child{
+    border-left: 1px solid #e5e5e5;
 }
 .categore:hover{
      background: #f28478;
@@ -16,13 +20,16 @@
 }
 .categore-icon{
     font-size: 53px;
-    margin-top: 14px;
+    margin-left: 36px;
+    padding-top: 16px;
 }
 .categore-icon span{
     margin-left: 50px;
+
 }
 .categore-text{
-    margin-left: 48px;
+    margin-left: 70px;
+    margin-top: -10px;
 }
 @media (max-width: 1200px){
     .categore {

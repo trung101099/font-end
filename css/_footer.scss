@@ -2,61 +2,150 @@
     padding-top: 65px;
     color: #ffff;
     background: #2b3840;
-}
-.newsletter{
-    margin-top: 18px;
-}
-.footer-input{
-    margin-top: 18px;
-}
-.footer-input input{
-    width: 330px;
-    height: 50px;
-    background:#2b3840;
-    border: 1px solid #414c53;
-}
-.footer-input button{
-    width: 190px;
-    height: 50px;
-    background:#fc887b;
-    color: #ffff;
-    border: none;
-}
-.footer-input button, input:focus{
-    outline: none;
+    .header-footer{
+        margin-top: -13px;  
+        .footer-logo{
+            margin-left: 22px;
+            margin-top: 7px;
+        }
+        .newsletter{
+            margin-left: 30px;
+            margin-top: 24px;
+        }
+        .footer-input{
+            margin-top: 18px;
+            margin-left: -4px;
+            input{
+                width: 330px;
+                height: 50px;
+                background:#2b3840;
+                border: 1px solid #414c53;
+            }
+            button{
+                margin-left: 27px;
+                width: 190px;
+                height: 50px;
+                background:#fc887b;
+                color: #ffff;
+                border: none;
+            }
+            button, input:focus{
+                outline: none;
+            }
+        }
+    }
 }
 .footer-border{
     border-bottom: 1px solid #414c53;
-    padding-top: 30px;
+    padding-top: 55px;
 }
-.footer-tittle-line{
-    padding-bottom: 20px;
-}
-.footer-link{
-    padding-bottom: 20px;
-}
-.footer-link a{
-    color:#fc887b ;
-}
-.footer-tittle-text{
-    letter-spacing: 1px;
-}
-.footer-tittle-list ul li{
-    padding-bottom: 15px;
-    font-size: 16 px;
-    i{
-        font-size: 10px;
-        margin-left: -35px;
-        margin-right: 35px;
+.midle-footer{
+    margin-top: 45px;
+    .footer-tittle{
+        margin-left: 24px;
+        .footer-tittle-line{
+            padding-bottom: 18px;
+            img{
+                margin-bottom: 8px
+            }
+        }
+        .footer-tittle-text{
+            letter-spacing: 1px;
+        }
+        .footer-link{
+            padding-bottom: 26px;
+            margin-left: -13px;
+            margin-top: -2px;
+            color:#fc887b ;
+        } 
+    }
+    .footer-tittle_1{
+        margin-left: 42px;
+        .footer-tittle-line{
+            padding-bottom: 18px;
+            img{
+                margin-bottom: 8px
+            }
+        }
+        .footer-tittle-list{
+            padding-top: 17px;
+            margin-left: -3px;
+            ul{
+                margin-top: -18px;
+                li{
+                    padding-bottom: 15px;
+                    font-size: 14px;
+                    i{
+                        font-size: 10px;
+                        margin-left: -35px;
+                        margin-right: 20px;
+                    }
+                }
+            }
+        }
+    }
+    .footer-tittle_2{
+        margin-left: 37px;
+        .footer-tittle-line{
+            padding-bottom: 30px;
+            margin-top: 5px;
+        }
+        .footer-tittle-list{
+            padding-top: 17px;
+            margin-left: -3px;
+            ul{
+                margin-top: -28px;
+                margin-left: -2px;
+                li{
+                    padding-bottom: 15px;
+                    font-size: 15px;
+                    i{
+                        font-size: 10px;
+                        margin-left: -35px;
+                        margin-right: 20px;
+                    }
+                }
+            }
+        }
+    }
+    .footer-tittle_3{
+        .footer-tittle-line{
+            img{
+                margin-bottom: 8px;
+            }
+        }
+        .footer-icon-phone{
+            i{
+                color: #fc887b;
+                margin-right: 29px;
+                padding-bottom: 10px;
+                font-size: 29px;
+                margin-top: 23px;
+            }
+            p{
+                margin-left: 52px;
+                font-size: 22px;
+                margin-top: -10px;
+                color: #fc887b;
+            }
+
+        }
+        .footer-icon-email{
+            margin-top: -7px;
+            i{
+                color: #fc887b;
+                margin-right: 29px;
+                padding-bottom: 21px;
+                font-size: 20px;
+                margin-top: 23px;
+            }
+            p{
+                margin-left: 52px;
+                font-size: 22px;
+                margin-top: -10px;
+                color: #fc887b;
+            }
+        }
     }
 }
-.footer-icon i{
-    color:#fc887b;
-    margin-right: 15px;
-    padding-bottom: 10px;
-}
-.footer-icon p{
-    font-size: 20px;
-    color: #fc887b;
-    margin-left: 28px;
-}
+

@@ -29,13 +29,14 @@
         color: #fff;
     }
 .slide-product{
-    padding-top: 46px;
+    padding-top: 48px;
 }
 .new-product{
     border: 1px solid #6c757d;
     background: #fff;
     position: relative;
     width: 100%;
+    height: 475px;
 
 }
 .new-product:hover{
@@ -48,7 +49,7 @@
    width: 100%;
 }
 .product-tille{
-    padding-top: 25px;
+    padding-top: 14px;
     color: black;
     margin-left: 30px;
 }
@@ -62,6 +63,7 @@
 }
 .product-phude{
     margin-left: 30px;
+    padding-top: 10px;
 }
 
 
@@ -69,6 +71,7 @@
     
     position: relative;
     margin-left: 30px;
+    padding-top: 10px;
 }
 .button-product{
     position: absolute;
@@ -100,7 +103,7 @@
 }
 .diachi{
     margin-left: 30px;
-    padding-top: 5px;
+    padding-top: 10px;
 }
 .title-like{
     border-top: 1px solid #B2B2B2;
@@ -118,7 +121,8 @@
 .text-like{
     position: relative;
     color: black;
-    margin-left: 30px;
+    margin-left: 22px;
+    padding-top: 10px;
 }
 .border-like{
     border: 1px solid;
@@ -170,36 +174,36 @@
 #rating {
     position: absolute;
     bottom: 48%;
-    left: 54%;
+    left: 68%;
 }
 #rating_1 {
     position: absolute;
     bottom: 48%;
-    left: 54%;
+    left: 65%;
 }
 #rating_2 {
     position: absolute;
     bottom: 48%;
-    left: 54%;
+    left: 65%;
 }
 #rating_3 {
     position: absolute;
     bottom: 48%;
-    left: 54%;
+    left: 65%;
 }
 #rating_4 {
     position: absolute;
     bottom: 48%;
-    left: 54%;
+    left: 65%;
 }
 #rating_5 {
     position: absolute;
     bottom: 48%;
-    left: 54%;
+    left: 65%;
 }
 #rating{border:none;float:left;}
 #rating>input{display:none;}/*ẩn input radio - vì chúng ta đã có label là GUI*/
-#rating>label:before{margin:5px;font-size:1.25em;font-family:FontAwesome;display:inline-block;content:"\f005";}/*1 ngôi sao*/
+#rating>label:before{margin:5px;font-size:12px;font-family:FontAwesome;display:inline-block;content:"\f005";}/*1 ngôi sao*/
 #rating>.half:before{content:"\f089";position:absolute;}/*0.5 ngôi sao*/
 #rating>label{color:#ddd;float:right;}/*float:right để lật ngược các ngôi sao lại đúng theo thứ tự trong thực tế*/
 /*thêm màu cho sao đã chọn và các ngôi sao phía trước*/
@@ -215,7 +219,7 @@
 /****   rating_1   ****/
 #rating_1{border:none;float:left;}
 #rating_1>input{display:none;}/*ẩn input radio - vì chúng ta đã có label là GUI*/
-#rating_1>label:before{margin:5px;font-size:1.25em;font-family:FontAwesome;display:inline-block;content:"\f005";}/*1 ngôi sao*/
+#rating_1>label:before{margin:5px;font-size:14px;font-family:FontAwesome;display:inline-block;content:"\f005";}/*1 ngôi sao*/
 #rating_1>.half_1:before{content:"\f089";position:absolute;}/*0.5 ngôi sao*/
 #rating_1>label{color:#ddd;float:right;}/*float:right để lật ngược các ngôi sao lại đúng theo thứ tự trong thực tế*/
 /*thêm màu cho sao đã chọn và các ngôi sao phía trước*/
@@ -231,7 +235,7 @@
 /****   rating_2   ****/
 #rating_2{border:none;float:left;}
 #rating_2>input{display:none;}/*ẩn input radio - vì chúng ta đã có label là GUI*/
-#rating_2>label:before{margin:5px;font-size:1.25em;font-family:FontAwesome;display:inline-block;content:"\f005";}/*1 ngôi sao*/
+#rating_2>label:before{margin:5px;font-size:14px;font-family:FontAwesome;display:inline-block;content:"\f005";}/*1 ngôi sao*/
 #rating_2>.half_2:before{content:"\f089";position:absolute;}/*0.5 ngôi sao*/
 #rating_2>label{color:#ddd;float:right;}/*float:right để lật ngược các ngôi sao lại đúng theo thứ tự trong thực tế*/
 /*thêm màu cho sao đã chọn và các ngôi sao phía trước*/
@@ -248,7 +252,7 @@
 /****   rating_3   ****/
 #rating_3{border:none;float:left;}
 #rating_3>input{display:none;}/*ẩn input radio - vì chúng ta đã có label là GUI*/
-#rating_3>label:before{margin:5px;font-size:1.25em;font-family:FontAwesome;display:inline-block;content:"\f005";}/*1 ngôi sao*/
+#rating_3>label:before{margin:5px;font-size:14px;font-family:FontAwesome;display:inline-block;content:"\f005";}/*1 ngôi sao*/
 #rating_3>.half_3:before{content:"\f089";position:absolute;}/*0.5 ngôi sao*/
 #rating_3>label{color:#ddd;float:right;}/*float:right để lật ngược các ngôi sao lại đúng theo thứ tự trong thực tế*/
 /*thêm màu cho sao đã chọn và các ngôi sao phía trước*/
@@ -265,7 +269,7 @@
 /****   rating_4   ****/
 #rating_4{border:none;float:left;}
 #rating_4>input{display:none;}/*ẩn input radio - vì chúng ta đã có label là GUI*/
-#rating_4>label:before{margin:5px;font-size:1.25em;font-family:FontAwesome;display:inline-block;content:"\f005";}/*1 ngôi sao*/
+#rating_4>label:before{margin:5px;font-size:14px;font-family:FontAwesome;display:inline-block;content:"\f005";}/*1 ngôi sao*/
 #rating_4>.half_4:before{content:"\f089";position:absolute;}/*0.5 ngôi sao*/
 #rating_4>label{color:#ddd;float:right;}/*float:right để lật ngược các ngôi sao lại đúng theo thứ tự trong thực tế*/
 /*thêm màu cho sao đã chọn và các ngôi sao phía trước*/
@@ -283,7 +287,7 @@
 /****   rating_5   ****/
 #rating_5{border:none;float:left;}
 #rating_5>input{display:none;}/*ẩn input radio - vì chúng ta đã có label là GUI*/
-#rating_5>label:before{margin:5px;font-size:1.25em;font-family:FontAwesome;display:inline-block;content:"\f005";}/*1 ngôi sao*/
+#rating_5>label:before{margin:5px;font-size:14px;font-family:FontAwesome;display:inline-block;content:"\f005";}/*1 ngôi sao*/
 #rating_5>.half_5:before{content:"\f089";position:absolute;}/*0.5 ngôi sao*/
 #rating_5>label{color:#ddd;float:right;}/*float:right để lật ngược các ngôi sao lại đúng theo thứ tự trong thực tế*/
 /*thêm màu cho sao đã chọn và các ngôi sao phía trước*/
@@ -312,7 +316,7 @@
 }
 .button-view{
     text-align: center;
-    padding-top: 68px;  
+    padding-top: 62px;  
     margin-left: 15px;
     padding-bottom: 35px;
 }

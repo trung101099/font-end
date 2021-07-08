@@ -8,7 +8,36 @@
          padding-left: 45px;
         .img-app{
             display: flex;
+            margin-top: 40px;
+            margin-left: -43px;
+            .iphone{
+                margin-left: 8px;
+            }
         }
+        .text-app{
+            h1{
+                font-size: 50px;
+                margin-top: -20px;
+                margin-left: -38px;
+                font-weight: 700;
+            }
+            span{
+                font-size: 44px;
+                font-weight: 700;
+                margin-left: -33px;
+            }
+
+        }
+        .text-app-title{
+            p{
+                margin-top: 10px;
+                margin-left: -33px;
+                font-size: 17px;
+            }
+        }
+        
+            
+
         @media screen and (max-width: 425px){
             .img-app{
                 display: inline-block;
@@ -21,3 +50,9 @@
         max-width: 100%;
     }
 }
+strong{
+        color: #fc887b;
+    }
+.box-img{
+            margin-left: 27px;
+        }

@@ -1582,10 +1582,6 @@ pre code {
 }
 .container {
   width: 1170px;
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
 }
 @media (min-width: 768px) {
   .container {
@@ -3826,9 +3822,7 @@ tbody.collapse.in {
   display: block;
   float: none;
   width: 100%;
-  .container {
-    max-width: 1170px;
-}: 100%;
+  max-width: 100%;
 }
 .btn-group-vertical > .btn-group > .btn {
   float: none;

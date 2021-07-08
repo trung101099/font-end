@@ -6,27 +6,34 @@
     background-repeat: round;
     .section-text{
         position: absolute;
-        bottom: 48%;
-        left: 35%;
+        bottom: 56%;
+        left: 33%;
         color: #fff;
         text-align: center;
         h1{
             font-weight: 800;
-            font-size: 50px;
-        }
+            font-size: 58px;
+        } 
+    }
+    .section-text-title{
+        position: absolute;
+        bottom: 44%;
+        left: 41%;
+        color: #fff;
         p{
             font-weight: 300;
             font-size: 25px;
         }
-    }
+    }   
     .section-button{    
        position: absolute;
-        bottom: 38%;
+        bottom: 33%;
         left: 46%;
         input{
-            width: 180px;
+            width: 183px;
             height: 50px;
             border: none;
+            margin-left: -5px;
         }
         input:focus-visible{
             outline: none;

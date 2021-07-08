@@ -12,7 +12,7 @@
             font-family: 'Poppins', sans-serif;
             position: absolute;
             left: 21%;
-            bottom: 42%;
+            bottom: 43%;
             color: #ffff;
             font-weight: 900;
             transition: all 0.3s;
@@ -20,7 +20,7 @@
             letter-spacing: 1.1px;
             p{
                 font-size: 30px;
-                margin-bottom: 5px;
+                margin-bottom: -10px;
                 margin-left: 12px;
             }
             h1{
@@ -33,7 +33,7 @@
         .button-banner{
             position: absolute;
             left: 21%;
-            bottom: 32%;
+            bottom: 33%;
             transition: all 0.3s;
             z-index: 1;
             margin-left: 14px;
@@ -43,12 +43,12 @@
             }
             input{
                 text-align: center;
-                width: 270px;
+                width: 230px;
                 height: 50px;
                 border: none;
                 color: #8a8a8a;
             }
-            .button-banner input:focus-visible{
+            input:focus-visible{
                 outline: none;
             }
             select {
@@ -62,7 +62,7 @@
                 background-size: 1px 32px;
                 background-position: left;
             }
-            .button-banner select:focus-visible{
+            select:focus-visible{
                 outline: none;
             }
             button{
