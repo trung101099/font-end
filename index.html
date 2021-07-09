@@ -3,8 +3,8 @@
 <head>
 	<title></title>
 	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<meta name="viewport" content="width=device-width, inital-scale=1">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
@@ -17,20 +17,18 @@
 <div class="header_top"><!--header_top-->
 	<div class="container">
 		<div class="row">
-			<div class="col-md-8">
+			<div class="col-md-8 ">
 				<div class="contactinfo pull-left">
-						<a href="">Have any question?</a>
-						<a href=""><i class="fa fa-envelope"></i>support@example.com</a>
-						<a href=""><i class="fa fa-phone"></i>+1 814 251 152</a>
+						<a href="" id="text">Have any question?</a>
+						<a href="" id="icon-email"><i class="fa fa-envelope"></i>support@example.com</a>
+						<a href="" id="icon-phone"><i class="fa fa-phone"></i>+1 814 251 152</a>
 			</div>	
 				</div>
 			<div class="col-md-4">
 				<div class="social-icons pull-right">
 						<a href=""><i class="fa fa-sign-in" aria-hidden="true"></i>
 						</a>
-						<a href="">Login</a>
-						<a href="">/</a>
-						<a href="">Register</a>
+						<a href="">Login / Register</a>
 				</div>
 			</div>	
 		</div>
@@ -79,7 +77,7 @@
 		<div class="row">
 			<div class="banner">
 				<div class="banner-img">
-					<img src="./image/banner-med1.png" alt="Cinque Terre"class="pricing">
+					<img src="./image/banner-med1.png" class="pricing">
 				</div>
 				<div class="banner-text">
 					<p>OUR DISCOVER</p>
@@ -99,13 +97,12 @@
 		</div>
 	</div>
 </section>
- 
 <!--/slider-->
-	<section class="nav-categore"><!--categore-->
+	<section class="nav-categore">
 		<div class="container">
 			<div class="list-categore">
-				<div class="row ">
-					<div class="col-md-2">
+				<ul>
+					<li>
 						<div class="categore" id="categore-salon">
 							<div class="categore-icon">
 								<span class="icon-curl"></span>
@@ -114,8 +111,8 @@
 								<h5>Beauty Salon</h5>
 							</div>
 						</div>
-					</div>
-					<div class="col-md-2">
+					</li>
+					<li>
 						<div class="categore">
 							<div class="categore-icon">
 								<span class="icon-hair-cut"></span>
@@ -124,8 +121,8 @@
 								<h5>Hair Salon</h5>
 							</div>
 						</div>
-					</div>
-					<div class="col-md-2">
+					</li>
+					<li>
 						<div class="categore">
 							<div class="categore-icon">
 								<span class="icon-relax"></span>
@@ -134,9 +131,8 @@
 								<h5>spa</h5>
 							</div>
 						</div>
-					</div>
-
-					<div class="col-md-2">
+					</li>
+					<li>
 						<div class="categore">
 							<div class="categore-icon">
 								<span class="icon-massage"></span>
@@ -145,8 +141,8 @@
 								<h5>Massage</h5>
 							</div>
 						</div>
-					</div>
-					<div class="col-md-2">
+					</li>
+					<li>
 						<div class="categore">
 							<div class="categore-icon">
 								<span class="icon-nail-polish"></span>
@@ -155,8 +151,8 @@
 								<h5>Nail Salon</h5>
 							</div>
 						</div>
-					</div>
-					<div class="col-md-2">
+					</li>
+					<li>
 						<div class="categore">
 							<div class="categore-icon">
 								<span class="icon-examination"></span>
@@ -165,10 +161,11 @@
 								<h5>Therapy</h5>
 							</div>
 						</div>
-					</div>
+					</li>
+				</ul>
 			</div>
 		</div>
-	</section><!--/categre-->
+	</section>
 	<!--title-->
 	<section>
 		<div class="container">
@@ -225,11 +222,12 @@
 									    <label class="half" for="starhalf" title="Sucks big time - 0.5 stars"></label>
 									</div>
                                 </div>
-                                    <div class="product-tille">
+                                <div class="text-product">
+                                	<div class="product-tille">
                                         <h4>Skincare Treatment: Bleach</h4>
                                     </div>  
                                     <div class="product-phude">
-                                        <p>Morbi mollis vestibulum sollicitudin. Nunc in eros a justo faci</p>
+                                        <p>Morbi mollis vestibulum sollicitudin. Nuncineros a justo faci</p>
                                     </div>
                                     <div class="diachi">
                                         <i class="fa fa-map-marker" aria-hidden="true"></i>
@@ -260,6 +258,7 @@
                                         <img src="./image/blue.png">
                                         <p>new</p>
                                     </div>
+                                </div>                                  
                             </div>
 
                 </div>
@@ -299,39 +298,42 @@
 							    <label class="half_1" for="starhalf_1" title="Sucks big time - 0.5 stars"></label>
 							</div>
                             </div>
-                                <div class="product-tille">
-                                    <h4>Skincare Treatment: Bleach</h4>
-                                </div>  
-                                <div class="product-phude">
-                                    <p>Morbi mollis vestibulum sollicitudin. Nunc in eros a justo faci</p>
-                                </div>
-                                <div class="diachi">
-                                     
+                               <div class="text-product">
+                                	<div class="product-tille">
+                                        <h4>Skincare Treatment: Bleach</h4>
+                                    </div>  
+                                    <div class="product-phude">
+                                        <p>Morbi mollis vestibulum sollicitudin. Nuncineros a justo faci</p>
+                                    </div>
+                                    <div class="diachi">
                                         <i class="fa fa-map-marker" aria-hidden="true"></i>
                                         <p>Miami</p>
-                                </div>
-                                <div class="button-product">
-                                    <a href=""><button>Book Now</button></a>
-                                </div>
-                                <div class="title-like">
-                                    <div class="text-like">
-                                        <p>Massage , Beauty Salon</p>
                                     </div>
-                                     <div class="like" >
+                                    <div class="button-product">
+                                        <a href=""><button>Book Now</button></a>
+                                    </div>
+                                    <div class="title-like">
+                                        <div class="text-like">
+                                            <p>Massage , Beauty Salon</p>
+                                        </div>
+                                        <div class="like" >
                                             <div class="border-like">
                                             	<input class="heart" type="checkbox" title="bookmark page" checked>
                                             </div>
                                         </div>
-                                </div>
-                                <div class="price">
-                                    <div >
-                                        <img src="./image/Price.png">
                                     </div>
-                                    <div class="price-text"><p>$25</p></div>
-                                </div>
-                                <div class="type">
-                                    <img src="./image/blue.png">
-                                    <p>new</p>
+                                    <div class="price">
+                                        <div >
+                                            <img src="./image/Price.png">
+                                        </div>
+                                        <div class="price-text">
+                                            <p>$25</p>
+                                        </div>
+                                    </div>
+                                    <div class="type">
+                                        <img src="./image/blue.png">
+                                        <p>new</p>
+                                    </div>
                                 </div>
                             </div>
                 </div>
@@ -372,86 +374,14 @@
                             </div>
 
                             </div>
-                                <div class="product-tille">
-                                    <h4>Skincare Treatment: Bleach</h4>
-                                </div>  
-                                <div class="product-phude">
-                                    <p>Morbi mollis vestibulum sollicitudin. Nunc in eros a justo faci</p>
-                                </div>
-                                <div class="diachi">
-                                     
-                                        <i class="fa fa-map-marker" aria-hidden="true"></i>
-                                        <p>Miami</p>
-                                </div>
-                                <div class="button-product">
-                                    <a href=""><button>Book Now</button></a>
-                                </div>
-                                <div class="title-like">    
-                                    <div class="text-like">
-                                        <p>Massage , Beauty Salon</p>
-                                    </div>
-                                    <div class="like" >
-                                            <div class="border-like">
-                                            	<input class="heart" type="checkbox" title="bookmark page" checked>
-                                            </div>
-                                    </div>
-                                </div>
-                                <div class="price">
-                                    <div >
-                                        <img src="./image/Price.png">
-                                    </div>
-                                    <div class="price-text"><p>$25</p></div>
-                                </div>
-                                <div class="type">
-                                    <img src="./image/blue.png">
-                                    <p>new</p>
-                                </div>
-                            </div>
-                </div>
-                 <div class="item">
-                            <div class="new-product">
-                                <div class="product-image">
-                                    <img src="./image/frizzy.png">
-                                    <div id="rating_3">
-		                                <input type="radio" id="star5_3" name="rating_3" value="5" />
-		                                <label class = "full_3" for="star5_3" title="Awesome - 5 stars"></label>
-		                                
-		                                <input type="radio" id="star4half_3" name="rating_3" value="4 and a half" />
-		                                <label class="half_3" for="star4half_3" title="Pretty good - 4.5 stars"></label>
-		                                
-		                                <input type="radio" id="star4_2" name="rating_3" value="4" />
-		                                <label class = "full_3" for="star4_2" title="Pretty good - 4 stars"></label>
-		                                
-		                                <input type="radio" id="star3half_3" name="rating_3" value="3 and a half" />
-		                                <label class="half_3" for="star3half_3" title="Meh - 3.5 stars"></label>
-		                                
-		                                <input type="radio" id="star3_2" name="rating_3" value="3" />
-		                                <label class = "full_3" for="star3_2" title="Meh - 3 stars"></label>
-		                                
-		                                <input type="radio" id="star2half_3" name="rating_3" value="2 and a half" />
-		                                <label class="half_3" for="star2half_3" title="Kinda bad - 2.5 stars"></label>
-		                                
-		                                <input type="radio" id="star2_2" name="rating_3" value="2" />
-		                                <label class = "full_3" for="star2_2" title="Kinda bad - 2 stars"></label>
-		                                
-		                                <input type="radio" id="star1half_3" name="rating_3" value="1 and a half" />
-		                                <label class="half_3" for="star1half_3" title="Meh - 1.5 stars"></label>
-		                                
-		                                <input type="radio" id="star1_2" name="rating_3" value="1" />
-		                                <label class = "full_3" for="star1_2" title="Sucks big time - 1 star"></label>
-		                                
-		                                <input type="radio" id="starhalf_3" name="rating_3" value="half" />
-		                                <label class="half_3" for="starhalf_3" title="Sucks big time - 0.5 stars"></label>
-		                            </div>
-                                </div>
-                                    <div class="product-tille">
+                                <div class="text-product">
+                                	<div class="product-tille">
                                         <h4>Skincare Treatment: Bleach</h4>
                                     </div>  
                                     <div class="product-phude">
-                                        <p>Morbi mollis vestibulum sollicitudin. Nunc in eros a justo faci</p>
+                                        <p>Morbi mollis vestibulum sollicitudin. Nuncineros a justo faci</p>
                                     </div>
                                     <div class="diachi">
-                                         
                                         <i class="fa fa-map-marker" aria-hidden="true"></i>
                                         <p>Miami</p>
                                     </div>
@@ -480,6 +410,82 @@
                                         <img src="./image/blue.png">
                                         <p>new</p>
                                     </div>
+                                </div>
+                            </div>
+                </div>
+                 <div class="item">
+                            <div class="new-product">
+                                <div class="product-image">
+                                    <img src="./image/frizzy.png">
+                                    <div id="rating_3">
+		                                <input type="radio" id="star5_3" name="rating_3" value="5" />
+		                                <label class = "full_3" for="star5_3" title="Awesome - 5 stars"></label>
+		                                
+		                                <input type="radio" id="star4half_3" name="rating_3" value="4 and a half" />
+		                                <label class="half_3" for="star4half_3" title="Pretty good - 4.5 stars"></label>
+		                                
+		                                <input type="radio" id="star4_3" name="rating_3" value="4" />
+		                                <label class = "full_3" for="star4_3" title="Pretty good - 4 stars"></label>
+		                                
+		                                <input type="radio" id="star3half_3" name="rating_3" value="3 and a half" />
+		                                <label class="half_3" for="star3half_3" title="Meh - 3.5 stars"></label>
+		                                
+		                                <input type="radio" id="star3_3" name="rating_3" value="3" />
+		                                <label class = "full_3" for="star3_3" title="Meh - 3 stars"></label>
+		                                
+		                                <input type="radio" id="star2half_3" name="rating_3" value="2 and a half" />
+		                                <label class="half_3" for="star2half_3" title="Kinda bad - 2.5 stars"></label>
+		                                
+		                                <input type="radio" id="star2_3" name="rating_3" value="2" />
+		                                <label class = "full_3" for="star2_3" title="Kinda bad - 2 stars"></label>
+		                                
+		                                <input type="radio" id="star1half_3" name="rating_3" value="1 and a half" />
+		                                <label class="half_3" for="star1half_3" title="Meh - 1.5 stars"></label>
+		                                
+		                                <input type="radio" id="star1_3" name="rating_3" value="1" />
+		                                <label class = "full_3" for="star1_3" title="Sucks big time - 1 star"></label>
+		                                
+		                                <input type="radio" id="starhalf_3" name="rating_3" value="half" />
+		                                <label class="half_3" for="starhalf_3" title="Sucks big time - 0.5 stars"></label>
+		                            </div>
+                                </div>
+                                    <div class="text-product">
+                                	<div class="product-tille">
+                                        <h4>Skincare Treatment: Bleach</h4>
+                                    </div>  
+                                    <div class="product-phude">
+                                        <p>Morbi mollis vestibulum sollicitudin. Nuncineros a justo faci</p>
+                                    </div>
+                                    <div class="diachi">
+                                        <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                        <p>Miami</p>
+                                    </div>
+                                    <div class="button-product">
+                                        <a href=""><button>Book Now</button></a>
+                                    </div>
+                                    <div class="title-like">
+                                        <div class="text-like">
+                                            <p>Massage , Beauty Salon</p>
+                                        </div>
+                                        <div class="like" >
+                                            <div class="border-like">
+                                            	<input class="heart" type="checkbox" title="bookmark page" checked>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="price">
+                                        <div >
+                                            <img src="./image/Price.png">
+                                        </div>
+                                        <div class="price-text">
+                                            <p>$25</p>
+                                        </div>
+                                    </div>
+                                    <div class="type">
+                                        <img src="./image/blue.png">
+                                        <p>new</p>
+                                    </div>
+                                </div>
                             </div>
 
                 </div>
@@ -519,14 +525,14 @@
 		                                <label class="half_4" for="starhalf_4" title="Sucks big time - 0.5 stars"></label>
 		                            </div>
                                 </div>
-                                    <div class="product-tille">
+                                    <div class="text-product">
+                                	<div class="product-tille">
                                         <h4>Skincare Treatment: Bleach</h4>
                                     </div>  
                                     <div class="product-phude">
-                                        <p>Morbi mollis vestibulum sollicitudin. Nunc in eros a justo faci</p>
+                                        <p>Morbi mollis vestibulum sollicitudin. Nuncineros a justo faci</p>
                                     </div>
                                     <div class="diachi">
-                                        
                                         <i class="fa fa-map-marker" aria-hidden="true"></i>
                                         <p>Miami</p>
                                     </div>
@@ -555,6 +561,7 @@
                                         <img src="./image/blue.png">
                                         <p>new</p>
                                     </div>
+                                </div>
                             </div>
 
                 </div>
@@ -594,14 +601,14 @@
 		                                <label class="half_5" for="starhalf_5" title="Sucks big time - 0.5 stars"></label>
 		                            </div>
                                 </div>
-                                    <div class="product-tille">
+                                    <div class="text-product">
+                                	<div class="product-tille">
                                         <h4>Skincare Treatment: Bleach</h4>
                                     </div>  
                                     <div class="product-phude">
-                                        <p>Morbi mollis vestibulum sollicitudin. Nunc in eros a justo faci</p>
+                                        <p>Morbi mollis vestibulum sollicitudin. Nuncineros a justo faci</p>
                                     </div>
                                     <div class="diachi">
-                                        
                                         <i class="fa fa-map-marker" aria-hidden="true"></i>
                                         <p>Miami</p>
                                     </div>
@@ -630,6 +637,8 @@
                                         <img src="./image/blue.png">
                                         <p>new</p>
                                     </div>
+                                </div>
+                                        
                             </div>
 
                 </div>
@@ -647,7 +656,7 @@
 	</section>
 	<section>
 		<div class="container-fluid">
-			<div class="btn">
+			<div class="nav-video">
   			<div data-toggle="modal" data-target="#myModal">
   				
   				<div class="img-video">
@@ -684,7 +693,7 @@
 					<img src="./image/icon-line.png">
 				</div>
 				<div class="title-text">
-					<p>Inspires people to look and feel their best – which is why we're tructed by millions </br>of custormers and thounsands of bussinesses woldwide</p>
+					<p>Inspires people to look and feel their best – which is why we're tructed by millions of custormers and thounsands of bussinesses woldwide</p>
 				</div>
 			</div>
 		</div>
@@ -710,7 +719,7 @@
 							</div>
 							<div class="content-text">
 								<h3>Search Your Service</h3>
-								<p>Of Clinical Surveys, Reviews,</br> And Pro opinions,</br> The “Bigpicture of Intimate Health</p>
+								<p>Of Clinical Surveys, Reviews, And Pro opinions, The “Bigpicture of Intimate Health</p>
 							</div> 
 						</div>
 						</div> 
@@ -732,7 +741,7 @@
 							</div>
 							<div class="content-text">
 								<h3>Search Your Service</h3>
-								<p>Of Clinical Surveys, Reviews,</br> And Pro opinions,</br> The “Bigpicture of Intimate Health</p>
+								<p>Of Clinical Surveys, Reviews, And Pro opinions, The “Bigpicture of Intimate Health</p>
 							</div> 
 						</div>
 						</div> 
@@ -754,7 +763,7 @@
 							</div>
 							<div class="content-text">
 								<h3>Search Your Service</h3>
-								<p>Of Clinical Surveys, Reviews,</br> And Pro opinions,</br> The “Bigpicture of Intimate Health</p>
+								<p>Of Clinical Surveys, Reviews, And Pro opinions, The “Bigpicture of Intimate Health</p>
 							</div> 
 						</div>
 						</div> 
@@ -776,7 +785,7 @@
 								<img src="./image/icon-line.png">
 							</div>
 							<div class="title-text">
-								<p>Inspires people to look and feel their best – which is why we're tructed by millions </br>of custormers and thounsands of bussinesses woldwide</p>
+								<p>Inspires people to look and feel their best – which is why we're tructed by millions of custormers and thounsands of bussinesses woldwide</p>
 							</div>
 						</div>
 					</div>
@@ -831,38 +840,43 @@
 								    <label class="half" for="starhalf" title="Sucks big time - 0.5 stars"></label>
 								</div>
 							</div>
-							<div class="product-tille">
-								<h4>Skincare Treatment: Bleach</h4>
-							</div>
-							<div class="product-phude">
-								<p>Morbi mollis vestibulum sollicitudin. Nunc in eros a justo faci</p>
-							</div>
-							<div class="diachi"><img src="./image/diachi.png"> 
-								<p>Miami</p>
-							</div>
-							<div class="button-product">
-								<a href=""><button>Book Now</button></a>
-							</div>
-							<div class="title-like">
-								<div class="text-like">
-									<p>Massage , Beauty Salon</p>
-								</div>
-								<div class="like" >
-	                                <div class="border-like">
-	                                     <input class="heart" type="checkbox" title="bookmark page" checked>
-	                                </div>
-	                            </div>
-							</div>
-							<div class="price">
-								<div >
-									<img src="./image/Price.png">
-								</div>
-								<div><p>$25</p></div>
-							</div>
-							<div class="type">
-								<img src="./image/blue.png">
-								<p>new</p>
-							</div>
+							<div class="text-product">
+                                	<div class="product-tille">
+                                        <h4>Skincare Treatment: Bleach</h4>
+                                    </div>  
+                                    <div class="product-phude">
+                                        <p>Morbi mollis vestibulum sollicitudin. Nuncineros a justo faci</p>
+                                    </div>
+                                    <div class="diachi">
+                                        <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                        <p>Miami</p>
+                                    </div>
+                                    <div class="button-product">
+                                        <a href=""><button>Book Now</button></a>
+                                    </div>
+                                    <div class="title-like">
+                                        <div class="text-like">
+                                            <p>Massage , Beauty Salon</p>
+                                        </div>
+                                        <div class="like" >
+                                            <div class="border-like">
+                                            	<input class="heart" type="checkbox" title="bookmark page" checked>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="price">
+                                        <div >
+                                            <img src="./image/Price.png">
+                                        </div>
+                                        <div class="price-text">
+                                            <p>$25</p>
+                                        </div>
+                                    </div>
+                                    <div class="type">
+                                        <img src="./image/blue.png">
+                                        <p>new</p>
+                                    </div>
+                                </div>
 						</div>
 					</div>
 					<div class="col-md-4">
@@ -901,38 +915,43 @@
 								    <label class="half_1" for="starhalf_1" title="Sucks big time - 0.5 stars"></label>
 								</div>
 							</div>
-							<div class="product-tille">
-								<h4>Skincare Treatment: Bleach</h4>
-							</div>
-							<div class="product-phude">
-								<p>Morbi mollis vestibulum sollicitudin. Nunc in eros a justo faci</p>
-							</div>
-							<div class="diachi"><img src="./image/diachi.png"> 
-								<p>Miami</p>
-							</div>
-							<div class="button-product">
-								<a href=""><button>Book Now</button></a>
-							</div>
-							<div class="title-like">
-								<div class="text-like">
-									<p>Massage , Beauty Salon</p>
-								</div>
-								<div class="like" >
-	                                <div class="border-like">
-	                                     <input class="heart" type="checkbox" title="bookmark page" checked>
-	                                </div>
-	                            </div>
-							</div>
-							<div class="price">
-								<div >
-									<img src="./image/Price.png">
-								</div>
-								<div><p>$25</p></div>
-							</div>
-							<div class="type">
-								<img src="./image/blue.png">
-								<p>new</p>
-							</div>
+							<div class="text-product">
+                                	<div class="product-tille">
+                                        <h4>Skincare Treatment: Bleach</h4>
+                                    </div>  
+                                    <div class="product-phude">
+                                        <p>Morbi mollis vestibulum sollicitudin. Nuncineros a justo faci</p>
+                                    </div>
+                                    <div class="diachi">
+                                        <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                        <p>Miami</p>
+                                    </div>
+                                    <div class="button-product">
+                                        <a href=""><button>Book Now</button></a>
+                                    </div>
+                                    <div class="title-like">
+                                        <div class="text-like">
+                                            <p>Massage , Beauty Salon</p>
+                                        </div>
+                                        <div class="like" >
+                                            <div class="border-like">
+                                            	<input class="heart" type="checkbox" title="bookmark page" checked>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="price">
+                                        <div >
+                                            <img src="./image/Price.png">
+                                        </div>
+                                        <div class="price-text">
+                                            <p>$25</p>
+                                        </div>
+                                    </div>
+                                    <div class="type">
+                                        <img src="./image/blue.png">
+                                        <p>new</p>
+                                    </div>
+                                </div>
 						</div>
 					</div>
 					<div class="col-md-4">
@@ -971,38 +990,43 @@
 	                                <label class="half_2" for="starhalf_2" title="Sucks big time - 0.5 stars"></label>
 	                            </div>
 							</div>
-							<div class="product-tille">
-								<h4>Skincare Treatment: Bleach</h4>
-							</div>
-							<div class="product-phude">
-								<p>Morbi mollis vestibulum sollicitudin. Nunc in eros a justo faci</p>
-							</div>
-							<div class="diachi"><img src="./image/diachi.png"> 
-								<p>Miami</p>
-							</div>
-							<div class="button-product">
-								<a href=""><button>Book Now</button></a>
-							</div>
-							<div class="title-like">
-								<div class="text-like">
-								<p>Massage , Beauty Salon</p>
-								</div>
-								<div class="like" >
-	                                <div class="border-like">
-	                                    <input class="heart" type="checkbox" title="bookmark page" checked>
-	                                </div>
-	                            </div>
-							</div>
-							<div class="price">
-								<div >
-									<img src="./image/Price.png">
-								</div>
-								<div><p>$25</p></div>
-							</div>
-							<div class="type">
-								<img src="./image/blue.png">
-								<p>new</p>
-							</div>
+							<div class="text-product">
+                                	<div class="product-tille">
+                                        <h4>Skincare Treatment: Bleach</h4>
+                                    </div>  
+                                    <div class="product-phude">
+                                        <p>Morbi mollis vestibulum sollicitudin. Nuncineros a justo faci</p>
+                                    </div>
+                                    <div class="diachi">
+                                        <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                        <p>Miami</p>
+                                    </div>
+                                    <div class="button-product">
+                                        <a href=""><button>Book Now</button></a>
+                                    </div>
+                                    <div class="title-like">
+                                        <div class="text-like">
+                                            <p>Massage , Beauty Salon</p>
+                                        </div>
+                                        <div class="like" >
+                                            <div class="border-like">
+                                            	<input class="heart" type="checkbox" title="bookmark page" checked>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="price">
+                                        <div >
+                                            <img src="./image/Price.png">
+                                        </div>
+                                        <div class="price-text">
+                                            <p>$25</p>
+                                        </div>
+                                    </div>
+                                    <div class="type">
+                                        <img src="./image/blue.png">
+                                        <p>new</p>
+                                    </div>
+                                </div>
 						</div>
 					</div>
 				</div>
@@ -1045,38 +1069,43 @@
 		                                <label class="half_3" for="starhalf_3" title="Sucks big time - 0.5 stars"></label>
 		                            </div>
 								</div>
-								<div class="product-tille">
-									<h4>Skincare Treatment: Bleach</h4>
-								</div>
-								<div class="product-phude">
-									<p>Morbi mollis vestibulum sollicitudin. Nunc in eros a justo faci</p>
-								</div>
-								<div class="diachi"><img src="./image/diachi.png"> 
-								<p>Miami</p>
-								</div>
-								<div class="button-product">
-									<a href=""><button>Book Now</button></a>
-								</div>
-								<div class="title-like">
-									<div class="text-like">
-									<p>Massage , Beauty Salon</p>
-									</div>
-									<div class="like" >
-		                                <div class="border-like">
-		                                    <input class="heart" type="checkbox" title="bookmark page" checked>
-		                                </div>
-		                            </div>
-								</div>
-								<div class="price">
-									<div >
-										<img src="./image/Price.png">
-									</div>
-									<div><p>$25</p></div>
-								</div>
-								<div class="type">
-									<img src="./image/blue.png">
-									<p>new</p>
-								</div>
+								<div class="text-product">
+                                	<div class="product-tille">
+                                        <h4>Skincare Treatment: Bleach</h4>
+                                    </div>  
+                                    <div class="product-phude">
+                                        <p>Morbi mollis vestibulum sollicitudin. Nuncineros a justo faci</p>
+                                    </div>
+                                    <div class="diachi">
+                                        <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                        <p>Miami</p>
+                                    </div>
+                                    <div class="button-product">
+                                        <a href=""><button>Book Now</button></a>
+                                    </div>
+                                    <div class="title-like">
+                                        <div class="text-like">
+                                            <p>Massage , Beauty Salon</p>
+                                        </div>
+                                        <div class="like" >
+                                            <div class="border-like">
+                                            	<input class="heart" type="checkbox" title="bookmark page" checked>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="price">
+                                        <div >
+                                            <img src="./image/Price.png">
+                                        </div>
+                                        <div class="price-text">
+                                            <p>$25</p>
+                                        </div>
+                                    </div>
+                                    <div class="type">
+                                        <img src="./image/blue.png">
+                                        <p>new</p>
+                                    </div>
+                                </div>
 							</div>
 						</div>
 						<div class="col-md-4">
@@ -1115,38 +1144,43 @@
 		                                <label class="half_4" for="starhalf_4" title="Sucks big time - 0.5 stars"></label>
 		                            </div>
 								</div>
-							<div class="product-tille">
-								<h4>Skincare Treatment: Bleach</h4>
-							</div>
-							<div class="product-phude">
-								<p>Morbi mollis vestibulum sollicitudin. Nunc in eros a justo faci</p>
-							</div>
-							<div class="diachi"><img src="./image/diachi.png"> 
-							<p>Miami</p>
-							</div>
-							<div class="button-product">
-								<a href=""><button>Book Now</button></a>
-							</div>
-							<div class="title-like">
-								<div class="text-like">
-								<p>Massage , Beauty Salon</p>
-								</div>
-								<div class="like" >
-	                                <div class="border-like">
-	                                    <input class="heart" type="checkbox" title="bookmark page" checked>
-	                                </div>
-	                            </div>
-							</div>
-							<div class="price">
-								<div >
-									<img src="./image/Price.png">
-								</div>
-								<div><p>$25</p></div>
-							</div>
-							<div class="type">
-								<img src="./image/blue.png">
-								<p>new</p>
-							</div>
+							<div class="text-product">
+                                	<div class="product-tille">
+                                        <h4>Skincare Treatment: Bleach</h4>
+                                    </div>  
+                                    <div class="product-phude">
+                                        <p>Morbi mollis vestibulum sollicitudin. Nuncineros a justo faci</p>
+                                    </div>
+                                    <div class="diachi">
+                                        <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                        <p>Miami</p>
+                                    </div>
+                                    <div class="button-product">
+                                        <a href=""><button>Book Now</button></a>
+                                    </div>
+                                    <div class="title-like">
+                                        <div class="text-like">
+                                            <p>Massage , Beauty Salon</p>
+                                        </div>
+                                        <div class="like" >
+                                            <div class="border-like">
+                                            	<input class="heart" type="checkbox" title="bookmark page" checked>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="price">
+                                        <div >
+                                            <img src="./image/Price.png">
+                                        </div>
+                                        <div class="price-text">
+                                            <p>$25</p>
+                                        </div>
+                                    </div>
+                                    <div class="type">
+                                        <img src="./image/blue.png">
+                                        <p>new</p>
+                                    </div>
+                                </div>
 						</div>
 					</div>
 					<div class="col-md-4">
@@ -1185,38 +1219,43 @@
 	                                <label class="half_5" for="starhalf_5" title="Sucks big time - 0.5 stars"></label>
 	                            </div>
 							</div>
-							<div class="product-tille">
-								<h4>Skincare Treatment: Bleach</h4>
-							</div>
-							<div class="product-phude">
-								<p>Morbi mollis vestibulum sollicitudin. Nunc in eros a justo faci</p>
-							</div>
-							<div class="diachi"><img src="./image/diachi.png"> 
-							<p>Miami</p>
-							</div>
-							<div class="button-product">
-								<a href=""><button>Book Now</button></a>
-							</div>
-							<div class="title-like">
-								<div class="text-like">
-								<p>Massage , Beauty Salon</p>
-								</div>
-								<div class="like" >
-	                                <div class="border-like">
-	                                    <input class="heart" type="checkbox" title="bookmark page" checked>
-	                                </div>
-	                            </div>
-							</div>
-							<div class="price">
-								<div >
-									<img src="./image/Price.png">
-								</div>
-								<div><p>$25</p></div>
-							</div>
-							<div class="type">
-										<img src="./image/blue.png">
-										<p>new</p>
-							</div>
+							<div class="text-product">
+                                	<div class="product-tille">
+                                        <h4>Skincare Treatment: Bleach</h4>
+                                    </div>  
+                                    <div class="product-phude">
+                                        <p>Morbi mollis vestibulum sollicitudin. Nuncineros a justo faci</p>
+                                    </div>
+                                    <div class="diachi">
+                                        <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                        <p>Miami</p>
+                                    </div>
+                                    <div class="button-product">
+                                        <a href=""><button>Book Now</button></a>
+                                    </div>
+                                    <div class="title-like">
+                                        <div class="text-like">
+                                            <p>Massage , Beauty Salon</p>
+                                        </div>
+                                        <div class="like" >
+                                            <div class="border-like">
+                                            	<input class="heart" type="checkbox" title="bookmark page" checked>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="price">
+                                        <div >
+                                            <img src="./image/Price.png">
+                                        </div>
+                                        <div class="price-text">
+                                            <p>$25</p>
+                                        </div>
+                                    </div>
+                                    <div class="type">
+                                        <img src="./image/blue.png">
+                                        <p>new</p>
+                                    </div>
+                                </div>
 						</div>
 					</div>
 				</div>
@@ -1272,38 +1311,43 @@
 								    <label class="half" for="starhalf" title="Sucks big time - 0.5 stars"></label>
 								</div>
 							</div>
-							<div class="product-tille">
-								<h4>Skincare Treatment: Bleach</h4>
-							</div>
-							<div class="product-phude">
-								<p>Morbi mollis vestibulum sollicitudin. Nunc in eros a justo faci</p>
-							</div>
-							<div class="diachi"><img src="./image/diachi.png"> 
-								<p>Miami</p>
-							</div>
-							<div class="button-product">
-								<a href=""><button>Book Now</button></a>
-							</div>
-							<div class="title-like">
-								<div class="text-like">
-									<p>Massage , Beauty Salon</p>
-								</div>
-								<div class="like" >
-	                                <div class="border-like">
-	                                     <input class="heart" type="checkbox" title="bookmark page" checked>
-	                                </div>
-	                            </div>
-							</div>
-							<div class="price">
-								<div >
-									<img src="./image/Price.png">
-								</div>
-								<div><p>$25</p></div>
-							</div>
-							<div class="type">
-								<img src="./image/blue.png">
-								<p>new</p>
-							</div>
+							<div class="text-product">
+                                	<div class="product-tille">
+                                        <h4>Skincare Treatment: Bleach</h4>
+                                    </div>  
+                                    <div class="product-phude">
+                                        <p>Morbi mollis vestibulum sollicitudin. Nuncineros a justo faci</p>
+                                    </div>
+                                    <div class="diachi">
+                                        <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                        <p>Miami</p>
+                                    </div>
+                                    <div class="button-product">
+                                        <a href=""><button>Book Now</button></a>
+                                    </div>
+                                    <div class="title-like">
+                                        <div class="text-like">
+                                            <p>Massage , Beauty Salon</p>
+                                        </div>
+                                        <div class="like" >
+                                            <div class="border-like">
+                                            	<input class="heart" type="checkbox" title="bookmark page" checked>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="price">
+                                        <div >
+                                            <img src="./image/Price.png">
+                                        </div>
+                                        <div class="price-text">
+                                            <p>$25</p>
+                                        </div>
+                                    </div>
+                                    <div class="type">
+                                        <img src="./image/blue.png">
+                                        <p>new</p>
+                                    </div>
+                                </div>
 						</div>
 					</div>
 					<div class="col-md-4">
@@ -1342,38 +1386,43 @@
 								    <label class="half_1" for="starhalf_1" title="Sucks big time - 0.5 stars"></label>
 								</div>
 							</div>
-							<div class="product-tille">
-								<h4>Skincare Treatment: Bleach</h4>
-							</div>
-							<div class="product-phude">
-								<p>Morbi mollis vestibulum sollicitudin. Nunc in eros a justo faci</p>
-							</div>
-							<div class="diachi"><img src="./image/diachi.png"> 
-								<p>Miami</p>
-							</div>
-							<div class="button-product">
-								<a href=""><button>Book Now</button></a>
-							</div>
-							<div class="title-like">
-								<div class="text-like">
-									<p>Massage , Beauty Salon</p>
-								</div>
-								<div class="like" >
-	                                <div class="border-like">
-	                                     <input class="heart" type="checkbox" title="bookmark page" checked>
-	                                </div>
-	                            </div>
-							</div>
-							<div class="price">
-								<div >
-									<img src="./image/Price.png">
-								</div>
-								<div><p>$25</p></div>
-							</div>
-							<div class="type">
-								<img src="./image/blue.png">
-								<p>new</p>
-							</div>
+							<div class="text-product">
+                                	<div class="product-tille">
+                                        <h4>Skincare Treatment: Bleach</h4>
+                                    </div>  
+                                    <div class="product-phude">
+                                        <p>Morbi mollis vestibulum sollicitudin. Nuncineros a justo faci</p>
+                                    </div>
+                                    <div class="diachi">
+                                        <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                        <p>Miami</p>
+                                    </div>
+                                    <div class="button-product">
+                                        <a href=""><button>Book Now</button></a>
+                                    </div>
+                                    <div class="title-like">
+                                        <div class="text-like">
+                                            <p>Massage , Beauty Salon</p>
+                                        </div>
+                                        <div class="like" >
+                                            <div class="border-like">
+                                            	<input class="heart" type="checkbox" title="bookmark page" checked>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="price">
+                                        <div >
+                                            <img src="./image/Price.png">
+                                        </div>
+                                        <div class="price-text">
+                                            <p>$25</p>
+                                        </div>
+                                    </div>
+                                    <div class="type">
+                                        <img src="./image/blue.png">
+                                        <p>new</p>
+                                    </div>
+                                </div>
 						</div>
 					</div>
 					<div class="col-md-4">
@@ -1412,38 +1461,43 @@
 	                                <label class="half_2" for="starhalf_2" title="Sucks big time - 0.5 stars"></label>
 	                            </div>
 							</div>
-							<div class="product-tille">
-								<h4>Skincare Treatment: Bleach</h4>
-							</div>
-							<div class="product-phude">
-								<p>Morbi mollis vestibulum sollicitudin. Nunc in eros a justo faci</p>
-							</div>
-							<div class="diachi"><img src="./image/diachi.png"> 
-								<p>Miami</p>
-							</div>
-							<div class="button-product">
-								<a href=""><button>Book Now</button></a>
-							</div>
-							<div class="title-like">
-								<div class="text-like">
-								<p>Massage , Beauty Salon</p>
-								</div>
-								<div class="like" >
-	                                <div class="border-like">
-	                                    <input class="heart" type="checkbox" title="bookmark page" checked>
-	                                </div>
-	                            </div>
-							</div>
-							<div class="price">
-								<div >
-									<img src="./image/Price.png">
-								</div>
-								<div><p>$25</p></div>
-							</div>
-							<div class="type">
-								<img src="./image/blue.png">
-								<p>new</p>
-							</div>
+							<div class="text-product">
+                                	<div class="product-tille">
+                                        <h4>Skincare Treatment: Bleach</h4>
+                                    </div>  
+                                    <div class="product-phude">
+                                        <p>Morbi mollis vestibulum sollicitudin. Nuncineros a justo faci</p>
+                                    </div>
+                                    <div class="diachi">
+                                        <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                        <p>Miami</p>
+                                    </div>
+                                    <div class="button-product">
+                                        <a href=""><button>Book Now</button></a>
+                                    </div>
+                                    <div class="title-like">
+                                        <div class="text-like">
+                                            <p>Massage , Beauty Salon</p>
+                                        </div>
+                                        <div class="like" >
+                                            <div class="border-like">
+                                            	<input class="heart" type="checkbox" title="bookmark page" checked>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="price">
+                                        <div >
+                                            <img src="./image/Price.png">
+                                        </div>
+                                        <div class="price-text">
+                                            <p>$25</p>
+                                        </div>
+                                    </div>
+                                    <div class="type">
+                                        <img src="./image/blue.png">
+                                        <p>new</p>
+                                    </div>
+                                </div>
 						</div>
 					</div>
 				</div>
@@ -1486,38 +1540,43 @@
 		                                <label class="half_3" for="starhalf_3" title="Sucks big time - 0.5 stars"></label>
 		                            </div>
 								</div>
-								<div class="product-tille">
-									<h4>Skincare Treatment: Bleach</h4>
-								</div>
-								<div class="product-phude">
-									<p>Morbi mollis vestibulum sollicitudin. Nunc in eros a justo faci</p>
-								</div>
-								<div class="diachi"><img src="./image/diachi.png"> 
-								<p>Miami</p>
-								</div>
-								<div class="button-product">
-									<a href=""><button>Book Now</button></a>
-								</div>
-								<div class="title-like">
-									<div class="text-like">
-									<p>Massage , Beauty Salon</p>
-									</div>
-									<div class="like" >
-		                                <div class="border-like">
-		                                    <input class="heart" type="checkbox" title="bookmark page" checked>
-		                                </div>
-		                            </div>
-								</div>
-								<div class="price">
-									<div >
-										<img src="./image/Price.png">
-									</div>
-									<div><p>$25</p></div>
-								</div>
-								<div class="type">
-									<img src="./image/blue.png">
-									<p>new</p>
-								</div>
+								<div class="text-product">
+                                	<div class="product-tille">
+                                        <h4>Skincare Treatment: Bleach</h4>
+                                    </div>  
+                                    <div class="product-phude">
+                                        <p>Morbi mollis vestibulum sollicitudin. Nuncineros a justo faci</p>
+                                    </div>
+                                    <div class="diachi">
+                                        <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                        <p>Miami</p>
+                                    </div>
+                                    <div class="button-product">
+                                        <a href=""><button>Book Now</button></a>
+                                    </div>
+                                    <div class="title-like">
+                                        <div class="text-like">
+                                            <p>Massage , Beauty Salon</p>
+                                        </div>
+                                        <div class="like" >
+                                            <div class="border-like">
+                                            	<input class="heart" type="checkbox" title="bookmark page" checked>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="price">
+                                        <div >
+                                            <img src="./image/Price.png">
+                                        </div>
+                                        <div class="price-text">
+                                            <p>$25</p>
+                                        </div>
+                                    </div>
+                                    <div class="type">
+                                        <img src="./image/blue.png">
+                                        <p>new</p>
+                                    </div>
+                                </div>
 							</div>
 						</div>
 						<div class="col-md-4">
@@ -1556,38 +1615,43 @@
 		                                <label class="half_4" for="starhalf_4" title="Sucks big time - 0.5 stars"></label>
 		                            </div>
 								</div>
-							<div class="product-tille">
-								<h4>Skincare Treatment: Bleach</h4>
-							</div>
-							<div class="product-phude">
-								<p>Morbi mollis vestibulum sollicitudin. Nunc in eros a justo faci</p>
-							</div>
-							<div class="diachi"><img src="./image/diachi.png"> 
-							<p>Miami</p>
-							</div>
-							<div class="button-product">
-								<a href=""><button>Book Now</button></a>
-							</div>
-							<div class="title-like">
-								<div class="text-like">
-								<p>Massage , Beauty Salon</p>
-								</div>
-								<div class="like" >
-	                                <div class="border-like">
-	                                    <input class="heart" type="checkbox" title="bookmark page" checked>
-	                                </div>
-	                            </div>
-							</div>
-							<div class="price">
-								<div >
-									<img src="./image/Price.png">
-								</div>
-								<div><p>$25</p></div>
-							</div>
-							<div class="type">
-								<img src="./image/blue.png">
-								<p>new</p>
-							</div>
+							<div class="text-product">
+                                	<div class="product-tille">
+                                        <h4>Skincare Treatment: Bleach</h4>
+                                    </div>  
+                                    <div class="product-phude">
+                                        <p>Morbi mollis vestibulum sollicitudin. Nuncineros a justo faci</p>
+                                    </div>
+                                    <div class="diachi">
+                                        <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                        <p>Miami</p>
+                                    </div>
+                                    <div class="button-product">
+                                        <a href=""><button>Book Now</button></a>
+                                    </div>
+                                    <div class="title-like">
+                                        <div class="text-like">
+                                            <p>Massage , Beauty Salon</p>
+                                        </div>
+                                        <div class="like" >
+                                            <div class="border-like">
+                                            	<input class="heart" type="checkbox" title="bookmark page" checked>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="price">
+                                        <div >
+                                            <img src="./image/Price.png">
+                                        </div>
+                                        <div class="price-text">
+                                            <p>$25</p>
+                                        </div>
+                                    </div>
+                                    <div class="type">
+                                        <img src="./image/blue.png">
+                                        <p>new</p>
+                                    </div>
+                                </div>
 						</div>
 					</div>
 					<div class="col-md-4">
@@ -1626,38 +1690,43 @@
 	                                <label class="half_5" for="starhalf_5" title="Sucks big time - 0.5 stars"></label>
 	                            </div>
 							</div>
-							<div class="product-tille">
-								<h4>Skincare Treatment: Bleach</h4>
-							</div>
-							<div class="product-phude">
-								<p>Morbi mollis vestibulum sollicitudin. Nunc in eros a justo faci</p>
-							</div>
-							<div class="diachi"><img src="./image/diachi.png"> 
-							<p>Miami</p>
-							</div>
-							<div class="button-product">
-								<a href=""><button>Book Now</button></a>
-							</div>
-							<div class="title-like">
-								<div class="text-like">
-								<p>Massage , Beauty Salon</p>
-								</div>
-								<div class="like" >
-	                                <div class="border-like">
-	                                    <input class="heart" type="checkbox" title="bookmark page" checked>
-	                                </div>
-	                            </div>
-							</div>
-							<div class="price">
-								<div >
-									<img src="./image/Price.png">
-								</div>
-								<div><p>$25</p></div>
-							</div>
-							<div class="type">
-										<img src="./image/blue.png">
-										<p>new</p>
-							</div>
+							<div class="text-product">
+                                	<div class="product-tille">
+                                        <h4>Skincare Treatment: Bleach</h4>
+                                    </div>  
+                                    <div class="product-phude">
+                                        <p>Morbi mollis vestibulum sollicitudin. Nuncineros a justo faci</p>
+                                    </div>
+                                    <div class="diachi">
+                                        <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                        <p>Miami</p>
+                                    </div>
+                                    <div class="button-product">
+                                        <a href=""><button>Book Now</button></a>
+                                    </div>
+                                    <div class="title-like">
+                                        <div class="text-like">
+                                            <p>Massage , Beauty Salon</p>
+                                        </div>
+                                        <div class="like" >
+                                            <div class="border-like">
+                                            	<input class="heart" type="checkbox" title="bookmark page" checked>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="price">
+                                        <div >
+                                            <img src="./image/Price.png">
+                                        </div>
+                                        <div class="price-text">
+                                            <p>$25</p>
+                                        </div>
+                                    </div>
+                                    <div class="type">
+                                        <img src="./image/blue.png">
+                                        <p>new</p>
+                                    </div>
+                                </div>
 						</div>
 					</div>
 				</div>
@@ -1713,38 +1782,43 @@
 								    <label class="half" for="starhalf" title="Sucks big time - 0.5 stars"></label>
 								</div>
 							</div>
-							<div class="product-tille">
-								<h4>Skincare Treatment: Bleach</h4>
-							</div>
-							<div class="product-phude">
-								<p>Morbi mollis vestibulum sollicitudin. Nunc in eros a justo faci</p>
-							</div>
-							<div class="diachi"><img src="./image/diachi.png"> 
-								<p>Miami</p>
-							</div>
-							<div class="button-product">
-								<a href=""><button>Book Now</button></a>
-							</div>
-							<div class="title-like">
-								<div class="text-like">
-									<p>Massage , Beauty Salon</p>
-								</div>
-								<div class="like" >
-	                                <div class="border-like">
-	                                     <input class="heart" type="checkbox" title="bookmark page" checked>
-	                                </div>
-	                            </div>
-							</div>
-							<div class="price">
-								<div >
-									<img src="./image/Price.png">
-								</div>
-								<div><p>$25</p></div>
-							</div>
-							<div class="type">
-								<img src="./image/blue.png">
-								<p>new</p>
-							</div>
+							<div class="text-product">
+                                	<div class="product-tille">
+                                        <h4>Skincare Treatment: Bleach</h4>
+                                    </div>  
+                                    <div class="product-phude">
+                                        <p>Morbi mollis vestibulum sollicitudin. Nuncineros a justo faci</p>
+                                    </div>
+                                    <div class="diachi">
+                                        <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                        <p>Miami</p>
+                                    </div>
+                                    <div class="button-product">
+                                        <a href=""><button>Book Now</button></a>
+                                    </div>
+                                    <div class="title-like">
+                                        <div class="text-like">
+                                            <p>Massage , Beauty Salon</p>
+                                        </div>
+                                        <div class="like" >
+                                            <div class="border-like">
+                                            	<input class="heart" type="checkbox" title="bookmark page" checked>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="price">
+                                        <div >
+                                            <img src="./image/Price.png">
+                                        </div>
+                                        <div class="price-text">
+                                            <p>$25</p>
+                                        </div>
+                                    </div>
+                                    <div class="type">
+                                        <img src="./image/blue.png">
+                                        <p>new</p>
+                                    </div>
+                                </div>
 						</div>
 					</div>
 					<div class="col-md-4">
@@ -1783,38 +1857,43 @@
 								    <label class="half_1" for="starhalf_1" title="Sucks big time - 0.5 stars"></label>
 								</div>
 							</div>
-							<div class="product-tille">
-								<h4>Skincare Treatment: Bleach</h4>
-							</div>
-							<div class="product-phude">
-								<p>Morbi mollis vestibulum sollicitudin. Nunc in eros a justo faci</p>
-							</div>
-							<div class="diachi"><img src="./image/diachi.png"> 
-								<p>Miami</p>
-							</div>
-							<div class="button-product">
-								<a href=""><button>Book Now</button></a>
-							</div>
-							<div class="title-like">
-								<div class="text-like">
-									<p>Massage , Beauty Salon</p>
-								</div>
-								<div class="like" >
-	                                <div class="border-like">
-	                                     <input class="heart" type="checkbox" title="bookmark page" checked>
-	                                </div>
-	                            </div>
-							</div>
-							<div class="price">
-								<div >
-									<img src="./image/Price.png">
-								</div>
-								<div><p>$25</p></div>
-							</div>
-							<div class="type">
-								<img src="./image/blue.png">
-								<p>new</p>
-							</div>
+							<div class="text-product">
+                                	<div class="product-tille">
+                                        <h4>Skincare Treatment: Bleach</h4>
+                                    </div>  
+                                    <div class="product-phude">
+                                        <p>Morbi mollis vestibulum sollicitudin. Nuncineros a justo faci</p>
+                                    </div>
+                                    <div class="diachi">
+                                        <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                        <p>Miami</p>
+                                    </div>
+                                    <div class="button-product">
+                                        <a href=""><button>Book Now</button></a>
+                                    </div>
+                                    <div class="title-like">
+                                        <div class="text-like">
+                                            <p>Massage , Beauty Salon</p>
+                                        </div>
+                                        <div class="like" >
+                                            <div class="border-like">
+                                            	<input class="heart" type="checkbox" title="bookmark page" checked>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="price">
+                                        <div >
+                                            <img src="./image/Price.png">
+                                        </div>
+                                        <div class="price-text">
+                                            <p>$25</p>
+                                        </div>
+                                    </div>
+                                    <div class="type">
+                                        <img src="./image/blue.png">
+                                        <p>new</p>
+                                    </div>
+                                </div>
 						</div>
 					</div>
 					<div class="col-md-4">
@@ -1853,38 +1932,43 @@
 	                                <label class="half_2" for="starhalf_2" title="Sucks big time - 0.5 stars"></label>
 	                            </div>
 							</div>
-							<div class="product-tille">
-								<h4>Skincare Treatment: Bleach</h4>
-							</div>
-							<div class="product-phude">
-								<p>Morbi mollis vestibulum sollicitudin. Nunc in eros a justo faci</p>
-							</div>
-							<div class="diachi"><img src="./image/diachi.png"> 
-								<p>Miami</p>
-							</div>
-							<div class="button-product">
-								<a href=""><button>Book Now</button></a>
-							</div>
-							<div class="title-like">
-								<div class="text-like">
-								<p>Massage , Beauty Salon</p>
-								</div>
-								<div class="like" >
-	                                <div class="border-like">
-	                                    <input class="heart" type="checkbox" title="bookmark page" checked>
-	                                </div>
-	                            </div>
-							</div>
-							<div class="price">
-								<div >
-									<img src="./image/Price.png">
-								</div>
-								<div><p>$25</p></div>
-							</div>
-							<div class="type">
-								<img src="./image/blue.png">
-								<p>new</p>
-							</div>
+							<div class="text-product">
+                                	<div class="product-tille">
+                                        <h4>Skincare Treatment: Bleach</h4>
+                                    </div>  
+                                    <div class="product-phude">
+                                        <p>Morbi mollis vestibulum sollicitudin. Nuncineros a justo faci</p>
+                                    </div>
+                                    <div class="diachi">
+                                        <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                        <p>Miami</p>
+                                    </div>
+                                    <div class="button-product">
+                                        <a href=""><button>Book Now</button></a>
+                                    </div>
+                                    <div class="title-like">
+                                        <div class="text-like">
+                                            <p>Massage , Beauty Salon</p>
+                                        </div>
+                                        <div class="like" >
+                                            <div class="border-like">
+                                            	<input class="heart" type="checkbox" title="bookmark page" checked>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="price">
+                                        <div >
+                                            <img src="./image/Price.png">
+                                        </div>
+                                        <div class="price-text">
+                                            <p>$25</p>
+                                        </div>
+                                    </div>
+                                    <div class="type">
+                                        <img src="./image/blue.png">
+                                        <p>new</p>
+                                    </div>
+                                </div>
 						</div>
 					</div>
 				</div>
@@ -1927,38 +2011,43 @@
 		                                <label class="half_3" for="starhalf_3" title="Sucks big time - 0.5 stars"></label>
 		                            </div>
 								</div>
-								<div class="product-tille">
-									<h4>Skincare Treatment: Bleach</h4>
-								</div>
-								<div class="product-phude">
-									<p>Morbi mollis vestibulum sollicitudin. Nunc in eros a justo faci</p>
-								</div>
-								<div class="diachi"><img src="./image/diachi.png"> 
-								<p>Miami</p>
-								</div>
-								<div class="button-product">
-									<a href=""><button>Book Now</button></a>
-								</div>
-								<div class="title-like">
-									<div class="text-like">
-									<p>Massage , Beauty Salon</p>
-									</div>
-									<div class="like" >
-		                                <div class="border-like">
-		                                    <input class="heart" type="checkbox" title="bookmark page" checked>
-		                                </div>
-		                            </div>
-								</div>
-								<div class="price">
-									<div >
-										<img src="./image/Price.png">
-									</div>
-									<div><p>$25</p></div>
-								</div>
-								<div class="type">
-									<img src="./image/blue.png">
-									<p>new</p>
-								</div>
+								<div class="text-product">
+                                	<div class="product-tille">
+                                        <h4>Skincare Treatment: Bleach</h4>
+                                    </div>  
+                                    <div class="product-phude">
+                                        <p>Morbi mollis vestibulum sollicitudin. Nuncineros a justo faci</p>
+                                    </div>
+                                    <div class="diachi">
+                                        <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                        <p>Miami</p>
+                                    </div>
+                                    <div class="button-product">
+                                        <a href=""><button>Book Now</button></a>
+                                    </div>
+                                    <div class="title-like">
+                                        <div class="text-like">
+                                            <p>Massage , Beauty Salon</p>
+                                        </div>
+                                        <div class="like" >
+                                            <div class="border-like">
+                                            	<input class="heart" type="checkbox" title="bookmark page" checked>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="price">
+                                        <div >
+                                            <img src="./image/Price.png">
+                                        </div>
+                                        <div class="price-text">
+                                            <p>$25</p>
+                                        </div>
+                                    </div>
+                                    <div class="type">
+                                        <img src="./image/blue.png">
+                                        <p>new</p>
+                                    </div>
+                                </div>
 							</div>
 						</div>
 						<div class="col-md-4">
@@ -1997,38 +2086,43 @@
 		                                <label class="half_4" for="starhalf_4" title="Sucks big time - 0.5 stars"></label>
 		                            </div>
 								</div>
-							<div class="product-tille">
-								<h4>Skincare Treatment: Bleach</h4>
-							</div>
-							<div class="product-phude">
-								<p>Morbi mollis vestibulum sollicitudin. Nunc in eros a justo faci</p>
-							</div>
-							<div class="diachi"><img src="./image/diachi.png"> 
-							<p>Miami</p>
-							</div>
-							<div class="button-product">
-								<a href=""><button>Book Now</button></a>
-							</div>
-							<div class="title-like">
-								<div class="text-like">
-								<p>Massage , Beauty Salon</p>
-								</div>
-								<div class="like" >
-	                                <div class="border-like">
-	                                    <input class="heart" type="checkbox" title="bookmark page" checked>
-	                                </div>
-	                            </div>
-							</div>
-							<div class="price">
-								<div >
-									<img src="./image/Price.png">
-								</div>
-								<div><p>$25</p></div>
-							</div>
-							<div class="type">
-								<img src="./image/blue.png">
-								<p>new</p>
-							</div>
+							<div class="text-product">
+                                	<div class="product-tille">
+                                        <h4>Skincare Treatment: Bleach</h4>
+                                    </div>  
+                                    <div class="product-phude">
+                                        <p>Morbi mollis vestibulum sollicitudin. Nuncineros a justo faci</p>
+                                    </div>
+                                    <div class="diachi">
+                                        <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                        <p>Miami</p>
+                                    </div>
+                                    <div class="button-product">
+                                        <a href=""><button>Book Now</button></a>
+                                    </div>
+                                    <div class="title-like">
+                                        <div class="text-like">
+                                            <p>Massage , Beauty Salon</p>
+                                        </div>
+                                        <div class="like" >
+                                            <div class="border-like">
+                                            	<input class="heart" type="checkbox" title="bookmark page" checked>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="price">
+                                        <div >
+                                            <img src="./image/Price.png">
+                                        </div>
+                                        <div class="price-text">
+                                            <p>$25</p>
+                                        </div>
+                                    </div>
+                                    <div class="type">
+                                        <img src="./image/blue.png">
+                                        <p>new</p>
+                                    </div>
+                                </div>
 						</div>
 					</div>
 					<div class="col-md-4">
@@ -2067,38 +2161,43 @@
 	                                <label class="half_5" for="starhalf_5" title="Sucks big time - 0.5 stars"></label>
 	                            </div>
 							</div>
-							<div class="product-tille">
-								<h4>Skincare Treatment: Bleach</h4>
-							</div>
-							<div class="product-phude">
-								<p>Morbi mollis vestibulum sollicitudin. Nunc in eros a justo faci</p>
-							</div>
-							<div class="diachi"><img src="./image/diachi.png"> 
-							<p>Miami</p>
-							</div>
-							<div class="button-product">
-								<a href=""><button>Book Now</button></a>
-							</div>
-							<div class="title-like">
-								<div class="text-like">
-								<p>Massage , Beauty Salon</p>
-								</div>
-								<div class="like" >
-	                                <div class="border-like">
-	                                    <input class="heart" type="checkbox" title="bookmark page" checked>
-	                                </div>
-	                            </div>
-							</div>
-							<div class="price">
-								<div >
-									<img src="./image/Price.png">
-								</div>
-								<div><p>$25</p></div>
-							</div>
-							<div class="type">
-										<img src="./image/blue.png">
-										<p>new</p>
-							</div>
+							<div class="text-product">
+                                	<div class="product-tille">
+                                        <h4>Skincare Treatment: Bleach</h4>
+                                    </div>  
+                                    <div class="product-phude">
+                                        <p>Morbi mollis vestibulum sollicitudin. Nuncineros a justo faci</p>
+                                    </div>
+                                    <div class="diachi">
+                                        <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                        <p>Miami</p>
+                                    </div>
+                                    <div class="button-product">
+                                        <a href=""><button>Book Now</button></a>
+                                    </div>
+                                    <div class="title-like">
+                                        <div class="text-like">
+                                            <p>Massage , Beauty Salon</p>
+                                        </div>
+                                        <div class="like" >
+                                            <div class="border-like">
+                                            	<input class="heart" type="checkbox" title="bookmark page" checked>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="price">
+                                        <div >
+                                            <img src="./image/Price.png">
+                                        </div>
+                                        <div class="price-text">
+                                            <p>$25</p>
+                                        </div>
+                                    </div>
+                                    <div class="type">
+                                        <img src="./image/blue.png">
+                                        <p>new</p>
+                                    </div>
+                                </div>
 						</div>
 					</div>
 				</div>
@@ -2154,38 +2253,43 @@
 								    <label class="half" for="starhalf" title="Sucks big time - 0.5 stars"></label>
 								</div>
 							</div>
-							<div class="product-tille">
-								<h4>Skincare Treatment: Bleach</h4>
-							</div>
-							<div class="product-phude">
-								<p>Morbi mollis vestibulum sollicitudin. Nunc in eros a justo faci</p>
-							</div>
-							<div class="diachi"><img src="./image/diachi.png"> 
-								<p>Miami</p>
-							</div>
-							<div class="button-product">
-								<a href=""><button>Book Now</button></a>
-							</div>
-							<div class="title-like">
-								<div class="text-like">
-									<p>Massage , Beauty Salon</p>
-								</div>
-								<div class="like" >
-	                                <div class="border-like">
-	                                     <input class="heart" type="checkbox" title="bookmark page" checked>
-	                                </div>
-	                            </div>
-							</div>
-							<div class="price">
-								<div >
-									<img src="./image/Price.png">
-								</div>
-								<div><p>$25</p></div>
-							</div>
-							<div class="type">
-								<img src="./image/blue.png">
-								<p>new</p>
-							</div>
+							<div class="text-product">
+                                	<div class="product-tille">
+                                        <h4>Skincare Treatment: Bleach</h4>
+                                    </div>  
+                                    <div class="product-phude">
+                                        <p>Morbi mollis vestibulum sollicitudin. Nuncineros a justo faci</p>
+                                    </div>
+                                    <div class="diachi">
+                                        <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                        <p>Miami</p>
+                                    </div>
+                                    <div class="button-product">
+                                        <a href=""><button>Book Now</button></a>
+                                    </div>
+                                    <div class="title-like">
+                                        <div class="text-like">
+                                            <p>Massage , Beauty Salon</p>
+                                        </div>
+                                        <div class="like" >
+                                            <div class="border-like">
+                                            	<input class="heart" type="checkbox" title="bookmark page" checked>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="price">
+                                        <div >
+                                            <img src="./image/Price.png">
+                                        </div>
+                                        <div class="price-text">
+                                            <p>$25</p>
+                                        </div>
+                                    </div>
+                                    <div class="type">
+                                        <img src="./image/blue.png">
+                                        <p>new</p>
+                                    </div>
+                                </div>
 						</div>
 					</div>
 					<div class="col-md-4">
@@ -2224,38 +2328,43 @@
 								    <label class="half_1" for="starhalf_1" title="Sucks big time - 0.5 stars"></label>
 								</div>
 							</div>
-							<div class="product-tille">
-								<h4>Skincare Treatment: Bleach</h4>
-							</div>
-							<div class="product-phude">
-								<p>Morbi mollis vestibulum sollicitudin. Nunc in eros a justo faci</p>
-							</div>
-							<div class="diachi"><img src="./image/diachi.png"> 
-								<p>Miami</p>
-							</div>
-							<div class="button-product">
-								<a href=""><button>Book Now</button></a>
-							</div>
-							<div class="title-like">
-								<div class="text-like">
-									<p>Massage , Beauty Salon</p>
-								</div>
-								<div class="like" >
-	                                <div class="border-like">
-	                                     <input class="heart" type="checkbox" title="bookmark page" checked>
-	                                </div>
-	                            </div>
-							</div>
-							<div class="price">
-								<div >
-									<img src="./image/Price.png">
-								</div>
-								<div><p>$25</p></div>
-							</div>
-							<div class="type">
-								<img src="./image/blue.png">
-								<p>new</p>
-							</div>
+							<div class="text-product">
+                                	<div class="product-tille">
+                                        <h4>Skincare Treatment: Bleach</h4>
+                                    </div>  
+                                    <div class="product-phude">
+                                        <p>Morbi mollis vestibulum sollicitudin. Nuncineros a justo faci</p>
+                                    </div>
+                                    <div class="diachi">
+                                        <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                        <p>Miami</p>
+                                    </div>
+                                    <div class="button-product">
+                                        <a href=""><button>Book Now</button></a>
+                                    </div>
+                                    <div class="title-like">
+                                        <div class="text-like">
+                                            <p>Massage , Beauty Salon</p>
+                                        </div>
+                                        <div class="like" >
+                                            <div class="border-like">
+                                            	<input class="heart" type="checkbox" title="bookmark page" checked>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="price">
+                                        <div >
+                                            <img src="./image/Price.png">
+                                        </div>
+                                        <div class="price-text">
+                                            <p>$25</p>
+                                        </div>
+                                    </div>
+                                    <div class="type">
+                                        <img src="./image/blue.png">
+                                        <p>new</p>
+                                    </div>
+                                </div>
 						</div>
 					</div>
 					<div class="col-md-4">
@@ -2294,38 +2403,43 @@
 	                                <label class="half_2" for="starhalf_2" title="Sucks big time - 0.5 stars"></label>
 	                            </div>
 							</div>
-							<div class="product-tille">
-								<h4>Skincare Treatment: Bleach</h4>
-							</div>
-							<div class="product-phude">
-								<p>Morbi mollis vestibulum sollicitudin. Nunc in eros a justo faci</p>
-							</div>
-							<div class="diachi"><img src="./image/diachi.png"> 
-								<p>Miami</p>
-							</div>
-							<div class="button-product">
-								<a href=""><button>Book Now</button></a>
-							</div>
-							<div class="title-like">
-								<div class="text-like">
-								<p>Massage , Beauty Salon</p>
-								</div>
-								<div class="like" >
-	                                <div class="border-like">
-	                                    <input class="heart" type="checkbox" title="bookmark page" checked>
-	                                </div>
-	                            </div>
-							</div>
-							<div class="price">
-								<div >
-									<img src="./image/Price.png">
-								</div>
-								<div><p>$25</p></div>
-							</div>
-							<div class="type">
-								<img src="./image/blue.png">
-								<p>new</p>
-							</div>
+							<div class="text-product">
+                                	<div class="product-tille">
+                                        <h4>Skincare Treatment: Bleach</h4>
+                                    </div>  
+                                    <div class="product-phude">
+                                        <p>Morbi mollis vestibulum sollicitudin. Nuncineros a justo faci</p>
+                                    </div>
+                                    <div class="diachi">
+                                        <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                        <p>Miami</p>
+                                    </div>
+                                    <div class="button-product">
+                                        <a href=""><button>Book Now</button></a>
+                                    </div>
+                                    <div class="title-like">
+                                        <div class="text-like">
+                                            <p>Massage , Beauty Salon</p>
+                                        </div>
+                                        <div class="like" >
+                                            <div class="border-like">
+                                            	<input class="heart" type="checkbox" title="bookmark page" checked>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="price">
+                                        <div >
+                                            <img src="./image/Price.png">
+                                        </div>
+                                        <div class="price-text">
+                                            <p>$25</p>
+                                        </div>
+                                    </div>
+                                    <div class="type">
+                                        <img src="./image/blue.png">
+                                        <p>new</p>
+                                    </div>
+                                </div>
 						</div>
 					</div>
 				</div>
@@ -2368,38 +2482,43 @@
 		                                <label class="half_3" for="starhalf_3" title="Sucks big time - 0.5 stars"></label>
 		                            </div>
 								</div>
-								<div class="product-tille">
-									<h4>Skincare Treatment: Bleach</h4>
-								</div>
-								<div class="product-phude">
-									<p>Morbi mollis vestibulum sollicitudin. Nunc in eros a justo faci</p>
-								</div>
-								<div class="diachi"><img src="./image/diachi.png"> 
-								<p>Miami</p>
-								</div>
-								<div class="button-product">
-									<a href=""><button>Book Now</button></a>
-								</div>
-								<div class="title-like">
-									<div class="text-like">
-									<p>Massage , Beauty Salon</p>
-									</div>
-									<div class="like" >
-		                                <div class="border-like">
-		                                    <input class="heart" type="checkbox" title="bookmark page" checked>
-		                                </div>
-		                            </div>
-								</div>
-								<div class="price">
-									<div >
-										<img src="./image/Price.png">
-									</div>
-									<div><p>$25</p></div>
-								</div>
-								<div class="type">
-									<img src="./image/blue.png">
-									<p>new</p>
-								</div>
+								<div class="text-product">
+                                	<div class="product-tille">
+                                        <h4>Skincare Treatment: Bleach</h4>
+                                    </div>  
+                                    <div class="product-phude">
+                                        <p>Morbi mollis vestibulum sollicitudin. Nuncineros a justo faci</p>
+                                    </div>
+                                    <div class="diachi">
+                                        <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                        <p>Miami</p>
+                                    </div>
+                                    <div class="button-product">
+                                        <a href=""><button>Book Now</button></a>
+                                    </div>
+                                    <div class="title-like">
+                                        <div class="text-like">
+                                            <p>Massage , Beauty Salon</p>
+                                        </div>
+                                        <div class="like" >
+                                            <div class="border-like">
+                                            	<input class="heart" type="checkbox" title="bookmark page" checked>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="price">
+                                        <div >
+                                            <img src="./image/Price.png">
+                                        </div>
+                                        <div class="price-text">
+                                            <p>$25</p>
+                                        </div>
+                                    </div>
+                                    <div class="type">
+                                        <img src="./image/blue.png">
+                                        <p>new</p>
+                                    </div>
+                                </div>
 							</div>
 						</div>
 						<div class="col-md-4">
@@ -2438,38 +2557,43 @@
 		                                <label class="half_4" for="starhalf_4" title="Sucks big time - 0.5 stars"></label>
 		                            </div>
 								</div>
-							<div class="product-tille">
-								<h4>Skincare Treatment: Bleach</h4>
-							</div>
-							<div class="product-phude">
-								<p>Morbi mollis vestibulum sollicitudin. Nunc in eros a justo faci</p>
-							</div>
-							<div class="diachi"><img src="./image/diachi.png"> 
-							<p>Miami</p>
-							</div>
-							<div class="button-product">
-								<a href=""><button>Book Now</button></a>
-							</div>
-							<div class="title-like">
-								<div class="text-like">
-								<p>Massage , Beauty Salon</p>
-								</div>
-								<div class="like" >
-	                                <div class="border-like">
-	                                    <input class="heart" type="checkbox" title="bookmark page" checked>
-	                                </div>
-	                            </div>
-							</div>
-							<div class="price">
-								<div >
-									<img src="./image/Price.png">
-								</div>
-								<div><p>$25</p></div>
-							</div>
-							<div class="type">
-								<img src="./image/blue.png">
-								<p>new</p>
-							</div>
+							<div class="text-product">
+                                	<div class="product-tille">
+                                        <h4>Skincare Treatment: Bleach</h4>
+                                    </div>  
+                                    <div class="product-phude">
+                                        <p>Morbi mollis vestibulum sollicitudin. Nuncineros a justo faci</p>
+                                    </div>
+                                    <div class="diachi">
+                                        <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                        <p>Miami</p>
+                                    </div>
+                                    <div class="button-product">
+                                        <a href=""><button>Book Now</button></a>
+                                    </div>
+                                    <div class="title-like">
+                                        <div class="text-like">
+                                            <p>Massage , Beauty Salon</p>
+                                        </div>
+                                        <div class="like" >
+                                            <div class="border-like">
+                                            	<input class="heart" type="checkbox" title="bookmark page" checked>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="price">
+                                        <div >
+                                            <img src="./image/Price.png">
+                                        </div>
+                                        <div class="price-text">
+                                            <p>$25</p>
+                                        </div>
+                                    </div>
+                                    <div class="type">
+                                        <img src="./image/blue.png">
+                                        <p>new</p>
+                                    </div>
+                                </div>
 						</div>
 					</div>
 					<div class="col-md-4">
@@ -2508,38 +2632,43 @@
 	                                <label class="half_5" for="starhalf_5" title="Sucks big time - 0.5 stars"></label>
 	                            </div>
 							</div>
-							<div class="product-tille">
-								<h4>Skincare Treatment: Bleach</h4>
-							</div>
-							<div class="product-phude">
-								<p>Morbi mollis vestibulum sollicitudin. Nunc in eros a justo faci</p>
-							</div>
-							<div class="diachi"><img src="./image/diachi.png"> 
-							<p>Miami</p>
-							</div>
-							<div class="button-product">
-								<a href=""><button>Book Now</button></a>
-							</div>
-							<div class="title-like">
-								<div class="text-like">
-								<p>Massage , Beauty Salon</p>
-								</div>
-								<div class="like" >
-	                                <div class="border-like">
-	                                    <input class="heart" type="checkbox" title="bookmark page" checked>
-	                                </div>
-	                            </div>
-							</div>
-							<div class="price">
-								<div >
-									<img src="./image/Price.png">
-								</div>
-								<div><p>$25</p></div>
-							</div>
-							<div class="type">
-										<img src="./image/blue.png">
-										<p>new</p>
-							</div>
+							<div class="text-product">
+                                	<div class="product-tille">
+                                        <h4>Skincare Treatment: Bleach</h4>
+                                    </div>  
+                                    <div class="product-phude">
+                                        <p>Morbi mollis vestibulum sollicitudin. Nuncineros a justo faci</p>
+                                    </div>
+                                    <div class="diachi">
+                                        <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                        <p>Miami</p>
+                                    </div>
+                                    <div class="button-product">
+                                        <a href=""><button>Book Now</button></a>
+                                    </div>
+                                    <div class="title-like">
+                                        <div class="text-like">
+                                            <p>Massage , Beauty Salon</p>
+                                        </div>
+                                        <div class="like" >
+                                            <div class="border-like">
+                                            	<input class="heart" type="checkbox" title="bookmark page" checked>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="price">
+                                        <div >
+                                            <img src="./image/Price.png">
+                                        </div>
+                                        <div class="price-text">
+                                            <p>$25</p>
+                                        </div>
+                                    </div>
+                                    <div class="type">
+                                        <img src="./image/blue.png">
+                                        <p>new</p>
+                                    </div>
+                                </div>
 						</div>
 					</div>
 				</div>
@@ -2595,38 +2724,43 @@
 								    <label class="half" for="starhalf" title="Sucks big time - 0.5 stars"></label>
 								</div>
 							</div>
-							<div class="product-tille">
-								<h4>Skincare Treatment: Bleach</h4>
-							</div>
-							<div class="product-phude">
-								<p>Morbi mollis vestibulum sollicitudin. Nunc in eros a justo faci</p>
-							</div>
-							<div class="diachi"><img src="./image/diachi.png"> 
-								<p>Miami</p>
-							</div>
-							<div class="button-product">
-								<a href=""><button>Book Now</button></a>
-							</div>
-							<div class="title-like">
-								<div class="text-like">
-									<p>Massage , Beauty Salon</p>
-								</div>
-								<div class="like" >
-	                                <div class="border-like">
-	                                     <input class="heart" type="checkbox" title="bookmark page" checked>
-	                                </div>
-	                            </div>
-							</div>
-							<div class="price">
-								<div >
-									<img src="./image/Price.png">
-								</div>
-								<div><p>$25</p></div>
-							</div>
-							<div class="type">
-								<img src="./image/blue.png">
-								<p>new</p>
-							</div>
+							<div class="text-product">
+                                	<div class="product-tille">
+                                        <h4>Skincare Treatment: Bleach</h4>
+                                    </div>  
+                                    <div class="product-phude">
+                                        <p>Morbi mollis vestibulum sollicitudin. Nuncineros a justo faci</p>
+                                    </div>
+                                    <div class="diachi">
+                                        <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                        <p>Miami</p>
+                                    </div>
+                                    <div class="button-product">
+                                        <a href=""><button>Book Now</button></a>
+                                    </div>
+                                    <div class="title-like">
+                                        <div class="text-like">
+                                            <p>Massage , Beauty Salon</p>
+                                        </div>
+                                        <div class="like" >
+                                            <div class="border-like">
+                                            	<input class="heart" type="checkbox" title="bookmark page" checked>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="price">
+                                        <div >
+                                            <img src="./image/Price.png">
+                                        </div>
+                                        <div class="price-text">
+                                            <p>$25</p>
+                                        </div>
+                                    </div>
+                                    <div class="type">
+                                        <img src="./image/blue.png">
+                                        <p>new</p>
+                                    </div>
+                                </div>
 						</div>
 					</div>
 					<div class="col-md-4">
@@ -2665,38 +2799,43 @@
 								    <label class="half_1" for="starhalf_1" title="Sucks big time - 0.5 stars"></label>
 								</div>
 							</div>
-							<div class="product-tille">
-								<h4>Skincare Treatment: Bleach</h4>
-							</div>
-							<div class="product-phude">
-								<p>Morbi mollis vestibulum sollicitudin. Nunc in eros a justo faci</p>
-							</div>
-							<div class="diachi"><img src="./image/diachi.png"> 
-								<p>Miami</p>
-							</div>
-							<div class="button-product">
-								<a href=""><button>Book Now</button></a>
-							</div>
-							<div class="title-like">
-								<div class="text-like">
-									<p>Massage , Beauty Salon</p>
-								</div>
-								<div class="like" >
-	                                <div class="border-like">
-	                                     <input class="heart" type="checkbox" title="bookmark page" checked>
-	                                </div>
-	                            </div>
-							</div>
-							<div class="price">
-								<div >
-									<img src="./image/Price.png">
-								</div>
-								<div><p>$25</p></div>
-							</div>
-							<div class="type">
-								<img src="./image/blue.png">
-								<p>new</p>
-							</div>
+							<div class="text-product">
+                                	<div class="product-tille">
+                                        <h4>Skincare Treatment: Bleach</h4>
+                                    </div>  
+                                    <div class="product-phude">
+                                        <p>Morbi mollis vestibulum sollicitudin. Nuncineros a justo faci</p>
+                                    </div>
+                                    <div class="diachi">
+                                        <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                        <p>Miami</p>
+                                    </div>
+                                    <div class="button-product">
+                                        <a href=""><button>Book Now</button></a>
+                                    </div>
+                                    <div class="title-like">
+                                        <div class="text-like">
+                                            <p>Massage , Beauty Salon</p>
+                                        </div>
+                                        <div class="like" >
+                                            <div class="border-like">
+                                            	<input class="heart" type="checkbox" title="bookmark page" checked>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="price">
+                                        <div >
+                                            <img src="./image/Price.png">
+                                        </div>
+                                        <div class="price-text">
+                                            <p>$25</p>
+                                        </div>
+                                    </div>
+                                    <div class="type">
+                                        <img src="./image/blue.png">
+                                        <p>new</p>
+                                    </div>
+                                </div>
 						</div>
 					</div>
 					<div class="col-md-4">
@@ -2735,38 +2874,43 @@
 	                                <label class="half_2" for="starhalf_2" title="Sucks big time - 0.5 stars"></label>
 	                            </div>
 							</div>
-							<div class="product-tille">
-								<h4>Skincare Treatment: Bleach</h4>
-							</div>
-							<div class="product-phude">
-								<p>Morbi mollis vestibulum sollicitudin. Nunc in eros a justo faci</p>
-							</div>
-							<div class="diachi"><img src="./image/diachi.png"> 
-								<p>Miami</p>
-							</div>
-							<div class="button-product">
-								<a href=""><button>Book Now</button></a>
-							</div>
-							<div class="title-like">
-								<div class="text-like">
-								<p>Massage , Beauty Salon</p>
-								</div>
-								<div class="like" >
-	                                <div class="border-like">
-	                                    <input class="heart" type="checkbox" title="bookmark page" checked>
-	                                </div>
-	                            </div>
-							</div>
-							<div class="price">
-								<div >
-									<img src="./image/Price.png">
-								</div>
-								<div><p>$25</p></div>
-							</div>
-							<div class="type">
-								<img src="./image/blue.png">
-								<p>new</p>
-							</div>
+							<div class="text-product">
+                                	<div class="product-tille">
+                                        <h4>Skincare Treatment: Bleach</h4>
+                                    </div>  
+                                    <div class="product-phude">
+                                        <p>Morbi mollis vestibulum sollicitudin. Nuncineros a justo faci</p>
+                                    </div>
+                                    <div class="diachi">
+                                        <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                        <p>Miami</p>
+                                    </div>
+                                    <div class="button-product">
+                                        <a href=""><button>Book Now</button></a>
+                                    </div>
+                                    <div class="title-like">
+                                        <div class="text-like">
+                                            <p>Massage , Beauty Salon</p>
+                                        </div>
+                                        <div class="like" >
+                                            <div class="border-like">
+                                            	<input class="heart" type="checkbox" title="bookmark page" checked>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="price">
+                                        <div >
+                                            <img src="./image/Price.png">
+                                        </div>
+                                        <div class="price-text">
+                                            <p>$25</p>
+                                        </div>
+                                    </div>
+                                    <div class="type">
+                                        <img src="./image/blue.png">
+                                        <p>new</p>
+                                    </div>
+                                </div>
 						</div>
 					</div>
 				</div>
@@ -2809,38 +2953,43 @@
 		                                <label class="half_3" for="starhalf_3" title="Sucks big time - 0.5 stars"></label>
 		                            </div>
 								</div>
-								<div class="product-tille">
-									<h4>Skincare Treatment: Bleach</h4>
-								</div>
-								<div class="product-phude">
-									<p>Morbi mollis vestibulum sollicitudin. Nunc in eros a justo faci</p>
-								</div>
-								<div class="diachi"><img src="./image/diachi.png"> 
-								<p>Miami</p>
-								</div>
-								<div class="button-product">
-									<a href=""><button>Book Now</button></a>
-								</div>
-								<div class="title-like">
-									<div class="text-like">
-									<p>Massage , Beauty Salon</p>
-									</div>
-									<div class="like" >
-		                                <div class="border-like">
-		                                    <input class="heart" type="checkbox" title="bookmark page" checked>
-		                                </div>
-		                            </div>
-								</div>
-								<div class="price">
-									<div >
-										<img src="./image/Price.png">
-									</div>
-									<div><p>$25</p></div>
-								</div>
-								<div class="type">
-									<img src="./image/blue.png">
-									<p>new</p>
-								</div>
+								<div class="text-product">
+                                	<div class="product-tille">
+                                        <h4>Skincare Treatment: Bleach</h4>
+                                    </div>  
+                                    <div class="product-phude">
+                                        <p>Morbi mollis vestibulum sollicitudin. Nuncineros a justo faci</p>
+                                    </div>
+                                    <div class="diachi">
+                                        <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                        <p>Miami</p>
+                                    </div>
+                                    <div class="button-product">
+                                        <a href=""><button>Book Now</button></a>
+                                    </div>
+                                    <div class="title-like">
+                                        <div class="text-like">
+                                            <p>Massage , Beauty Salon</p>
+                                        </div>
+                                        <div class="like" >
+                                            <div class="border-like">
+                                            	<input class="heart" type="checkbox" title="bookmark page" checked>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="price">
+                                        <div >
+                                            <img src="./image/Price.png">
+                                        </div>
+                                        <div class="price-text">
+                                            <p>$25</p>
+                                        </div>
+                                    </div>
+                                    <div class="type">
+                                        <img src="./image/blue.png">
+                                        <p>new</p>
+                                    </div>
+                                </div>
 							</div>
 						</div>
 						<div class="col-md-4">
@@ -2879,38 +3028,43 @@
 		                                <label class="half_4" for="starhalf_4" title="Sucks big time - 0.5 stars"></label>
 		                            </div>
 								</div>
-							<div class="product-tille">
-								<h4>Skincare Treatment: Bleach</h4>
-							</div>
-							<div class="product-phude">
-								<p>Morbi mollis vestibulum sollicitudin. Nunc in eros a justo faci</p>
-							</div>
-							<div class="diachi"><img src="./image/diachi.png"> 
-							<p>Miami</p>
-							</div>
-							<div class="button-product">
-								<a href=""><button>Book Now</button></a>
-							</div>
-							<div class="title-like">
-								<div class="text-like">
-								<p>Massage , Beauty Salon</p>
-								</div>
-								<div class="like" >
-	                                <div class="border-like">
-	                                    <input class="heart" type="checkbox" title="bookmark page" checked>
-	                                </div>
-	                            </div>
-							</div>
-							<div class="price">
-								<div >
-									<img src="./image/Price.png">
-								</div>
-								<div><p>$25</p></div>
-							</div>
-							<div class="type">
-								<img src="./image/blue.png">
-								<p>new</p>
-							</div>
+							<div class="text-product">
+                                	<div class="product-tille">
+                                        <h4>Skincare Treatment: Bleach</h4>
+                                    </div>  
+                                    <div class="product-phude">
+                                        <p>Morbi mollis vestibulum sollicitudin. Nuncineros a justo faci</p>
+                                    </div>
+                                    <div class="diachi">
+                                        <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                        <p>Miami</p>
+                                    </div>
+                                    <div class="button-product">
+                                        <a href=""><button>Book Now</button></a>
+                                    </div>
+                                    <div class="title-like">
+                                        <div class="text-like">
+                                            <p>Massage , Beauty Salon</p>
+                                        </div>
+                                        <div class="like" >
+                                            <div class="border-like">
+                                            	<input class="heart" type="checkbox" title="bookmark page" checked>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="price">
+                                        <div >
+                                            <img src="./image/Price.png">
+                                        </div>
+                                        <div class="price-text">
+                                            <p>$25</p>
+                                        </div>
+                                    </div>
+                                    <div class="type">
+                                        <img src="./image/blue.png">
+                                        <p>new</p>
+                                    </div>
+                                </div>
 						</div>
 					</div>
 					<div class="col-md-4">
@@ -2949,38 +3103,43 @@
 	                                <label class="half_5" for="starhalf_5" title="Sucks big time - 0.5 stars"></label>
 	                            </div>
 							</div>
-							<div class="product-tille">
-								<h4>Skincare Treatment: Bleach</h4>
-							</div>
-							<div class="product-phude">
-								<p>Morbi mollis vestibulum sollicitudin. Nunc in eros a justo faci</p>
-							</div>
-							<div class="diachi"><img src="./image/diachi.png"> 
-							<p>Miami</p>
-							</div>
-							<div class="button-product">
-								<a href=""><button>Book Now</button></a>
-							</div>
-							<div class="title-like">
-								<div class="text-like">
-								<p>Massage , Beauty Salon</p>
-								</div>
-								<div class="like" >
-	                                <div class="border-like">
-	                                    <input class="heart" type="checkbox" title="bookmark page" checked>
-	                                </div>
-	                            </div>
-							</div>
-							<div class="price">
-								<div >
-									<img src="./image/Price.png">
-								</div>
-								<div><p>$25</p></div>
-							</div>
-							<div class="type">
-										<img src="./image/blue.png">
-										<p>new</p>
-							</div>
+							<div class="text-product">
+                                	<div class="product-tille">
+                                        <h4>Skincare Treatment: Bleach</h4>
+                                    </div>  
+                                    <div class="product-phude">
+                                        <p>Morbi mollis vestibulum sollicitudin. Nuncineros a justo faci</p>
+                                    </div>
+                                    <div class="diachi">
+                                        <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                        <p>Miami</p>
+                                    </div>
+                                    <div class="button-product">
+                                        <a href=""><button>Book Now</button></a>
+                                    </div>
+                                    <div class="title-like">
+                                        <div class="text-like">
+                                            <p>Massage , Beauty Salon</p>
+                                        </div>
+                                        <div class="like" >
+                                            <div class="border-like">
+                                            	<input class="heart" type="checkbox" title="bookmark page" checked>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="price">
+                                        <div >
+                                            <img src="./image/Price.png">
+                                        </div>
+                                        <div class="price-text">
+                                            <p>$25</p>
+                                        </div>
+                                    </div>
+                                    <div class="type">
+                                        <img src="./image/blue.png">
+                                        <p>new</p>
+                                    </div>
+                                </div>
 						</div>
 					</div>
 				</div>
@@ -3036,38 +3195,43 @@
 								    <label class="half" for="starhalf" title="Sucks big time - 0.5 stars"></label>
 								</div>
 							</div>
-							<div class="product-tille">
-								<h4>Skincare Treatment: Bleach</h4>
-							</div>
-							<div class="product-phude">
-								<p>Morbi mollis vestibulum sollicitudin. Nunc in eros a justo faci</p>
-							</div>
-							<div class="diachi"><img src="./image/diachi.png"> 
-								<p>Miami</p>
-							</div>
-							<div class="button-product">
-								<a href=""><button>Book Now</button></a>
-							</div>
-							<div class="title-like">
-								<div class="text-like">
-									<p>Massage , Beauty Salon</p>
-								</div>
-								<div class="like" >
-	                                <div class="border-like">
-	                                     <input class="heart" type="checkbox" title="bookmark page" checked>
-	                                </div>
-	                            </div>
-							</div>
-							<div class="price">
-								<div >
-									<img src="./image/Price.png">
-								</div>
-								<div><p>$25</p></div>
-							</div>
-							<div class="type">
-								<img src="./image/blue.png">
-								<p>new</p>
-							</div>
+							<div class="text-product">
+                                	<div class="product-tille">
+                                        <h4>Skincare Treatment: Bleach</h4>
+                                    </div>  
+                                    <div class="product-phude">
+                                        <p>Morbi mollis vestibulum sollicitudin. Nuncineros a justo faci</p>
+                                    </div>
+                                    <div class="diachi">
+                                        <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                        <p>Miami</p>
+                                    </div>
+                                    <div class="button-product">
+                                        <a href=""><button>Book Now</button></a>
+                                    </div>
+                                    <div class="title-like">
+                                        <div class="text-like">
+                                            <p>Massage , Beauty Salon</p>
+                                        </div>
+                                        <div class="like" >
+                                            <div class="border-like">
+                                            	<input class="heart" type="checkbox" title="bookmark page" checked>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="price">
+                                        <div >
+                                            <img src="./image/Price.png">
+                                        </div>
+                                        <div class="price-text">
+                                            <p>$25</p>
+                                        </div>
+                                    </div>
+                                    <div class="type">
+                                        <img src="./image/blue.png">
+                                        <p>new</p>
+                                    </div>
+                                </div>
 						</div>
 					</div>
 					<div class="col-md-4">
@@ -3106,38 +3270,43 @@
 								    <label class="half_1" for="starhalf_1" title="Sucks big time - 0.5 stars"></label>
 								</div>
 							</div>
-							<div class="product-tille">
-								<h4>Skincare Treatment: Bleach</h4>
-							</div>
-							<div class="product-phude">
-								<p>Morbi mollis vestibulum sollicitudin. Nunc in eros a justo faci</p>
-							</div>
-							<div class="diachi"><img src="./image/diachi.png"> 
-								<p>Miami</p>
-							</div>
-							<div class="button-product">
-								<a href=""><button>Book Now</button></a>
-							</div>
-							<div class="title-like">
-								<div class="text-like">
-									<p>Massage , Beauty Salon</p>
-								</div>
-								<div class="like" >
-	                                <div class="border-like">
-	                                     <input class="heart" type="checkbox" title="bookmark page" checked>
-	                                </div>
-	                            </div>
-							</div>
-							<div class="price">
-								<div >
-									<img src="./image/Price.png">
-								</div>
-								<div><p>$25</p></div>
-							</div>
-							<div class="type">
-								<img src="./image/blue.png">
-								<p>new</p>
-							</div>
+							<div class="text-product">
+                                	<div class="product-tille">
+                                        <h4>Skincare Treatment: Bleach</h4>
+                                    </div>  
+                                    <div class="product-phude">
+                                        <p>Morbi mollis vestibulum sollicitudin. Nuncineros a justo faci</p>
+                                    </div>
+                                    <div class="diachi">
+                                        <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                        <p>Miami</p>
+                                    </div>
+                                    <div class="button-product">
+                                        <a href=""><button>Book Now</button></a>
+                                    </div>
+                                    <div class="title-like">
+                                        <div class="text-like">
+                                            <p>Massage , Beauty Salon</p>
+                                        </div>
+                                        <div class="like" >
+                                            <div class="border-like">
+                                            	<input class="heart" type="checkbox" title="bookmark page" checked>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="price">
+                                        <div >
+                                            <img src="./image/Price.png">
+                                        </div>
+                                        <div class="price-text">
+                                            <p>$25</p>
+                                        </div>
+                                    </div>
+                                    <div class="type">
+                                        <img src="./image/blue.png">
+                                        <p>new</p>
+                                    </div>
+                                </div>
 						</div>
 					</div>
 					<div class="col-md-4">
@@ -3176,38 +3345,43 @@
 	                                <label class="half_2" for="starhalf_2" title="Sucks big time - 0.5 stars"></label>
 	                            </div>
 							</div>
-							<div class="product-tille">
-								<h4>Skincare Treatment: Bleach</h4>
-							</div>
-							<div class="product-phude">
-								<p>Morbi mollis vestibulum sollicitudin. Nunc in eros a justo faci</p>
-							</div>
-							<div class="diachi"><img src="./image/diachi.png"> 
-								<p>Miami</p>
-							</div>
-							<div class="button-product">
-								<a href=""><button>Book Now</button></a>
-							</div>
-							<div class="title-like">
-								<div class="text-like">
-								<p>Massage , Beauty Salon</p>
-								</div>
-								<div class="like" >
-	                                <div class="border-like">
-	                                    <input class="heart" type="checkbox" title="bookmark page" checked>
-	                                </div>
-	                            </div>
-							</div>
-							<div class="price">
-								<div >
-									<img src="./image/Price.png">
-								</div>
-								<div><p>$25</p></div>
-							</div>
-							<div class="type">
-								<img src="./image/blue.png">
-								<p>new</p>
-							</div>
+							<div class="text-product">
+                                	<div class="product-tille">
+                                        <h4>Skincare Treatment: Bleach</h4>
+                                    </div>  
+                                    <div class="product-phude">
+                                        <p>Morbi mollis vestibulum sollicitudin. Nuncineros a justo faci</p>
+                                    </div>
+                                    <div class="diachi">
+                                        <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                        <p>Miami</p>
+                                    </div>
+                                    <div class="button-product">
+                                        <a href=""><button>Book Now</button></a>
+                                    </div>
+                                    <div class="title-like">
+                                        <div class="text-like">
+                                            <p>Massage , Beauty Salon</p>
+                                        </div>
+                                        <div class="like" >
+                                            <div class="border-like">
+                                            	<input class="heart" type="checkbox" title="bookmark page" checked>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="price">
+                                        <div >
+                                            <img src="./image/Price.png">
+                                        </div>
+                                        <div class="price-text">
+                                            <p>$25</p>
+                                        </div>
+                                    </div>
+                                    <div class="type">
+                                        <img src="./image/blue.png">
+                                        <p>new</p>
+                                    </div>
+                                </div>
 						</div>
 					</div>
 				</div>
@@ -3250,38 +3424,43 @@
 		                                <label class="half_3" for="starhalf_3" title="Sucks big time - 0.5 stars"></label>
 		                            </div>
 								</div>
-								<div class="product-tille">
-									<h4>Skincare Treatment: Bleach</h4>
-								</div>
-								<div class="product-phude">
-									<p>Morbi mollis vestibulum sollicitudin. Nunc in eros a justo faci</p>
-								</div>
-								<div class="diachi"><img src="./image/diachi.png"> 
-								<p>Miami</p>
-								</div>
-								<div class="button-product">
-									<a href=""><button>Book Now</button></a>
-								</div>
-								<div class="title-like">
-									<div class="text-like">
-									<p>Massage , Beauty Salon</p>
-									</div>
-									<div class="like" >
-		                                <div class="border-like">
-		                                    <input class="heart" type="checkbox" title="bookmark page" checked>
-		                                </div>
-		                            </div>
-								</div>
-								<div class="price">
-									<div >
-										<img src="./image/Price.png">
-									</div>
-									<div><p>$25</p></div>
-								</div>
-								<div class="type">
-									<img src="./image/blue.png">
-									<p>new</p>
-								</div>
+								<div class="text-product">
+                                	<div class="product-tille">
+                                        <h4>Skincare Treatment: Bleach</h4>
+                                    </div>  
+                                    <div class="product-phude">
+                                        <p>Morbi mollis vestibulum sollicitudin. Nuncineros a justo faci</p>
+                                    </div>
+                                    <div class="diachi">
+                                        <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                        <p>Miami</p>
+                                    </div>
+                                    <div class="button-product">
+                                        <a href=""><button>Book Now</button></a>
+                                    </div>
+                                    <div class="title-like">
+                                        <div class="text-like">
+                                            <p>Massage , Beauty Salon</p>
+                                        </div>
+                                        <div class="like" >
+                                            <div class="border-like">
+                                            	<input class="heart" type="checkbox" title="bookmark page" checked>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="price">
+                                        <div >
+                                            <img src="./image/Price.png">
+                                        </div>
+                                        <div class="price-text">
+                                            <p>$25</p>
+                                        </div>
+                                    </div>
+                                    <div class="type">
+                                        <img src="./image/blue.png">
+                                        <p>new</p>
+                                    </div>
+                                </div>
 							</div>
 						</div>
 						<div class="col-md-4">
@@ -3320,38 +3499,43 @@
 		                                <label class="half_4" for="starhalf_4" title="Sucks big time - 0.5 stars"></label>
 		                            </div>
 								</div>
-							<div class="product-tille">
-								<h4>Skincare Treatment: Bleach</h4>
-							</div>
-							<div class="product-phude">
-								<p>Morbi mollis vestibulum sollicitudin. Nunc in eros a justo faci</p>
-							</div>
-							<div class="diachi"><img src="./image/diachi.png"> 
-							<p>Miami</p>
-							</div>
-							<div class="button-product">
-								<a href=""><button>Book Now</button></a>
-							</div>
-							<div class="title-like">
-								<div class="text-like">
-								<p>Massage , Beauty Salon</p>
-								</div>
-								<div class="like" >
-	                                <div class="border-like">
-	                                    <input class="heart" type="checkbox" title="bookmark page" checked>
-	                                </div>
-	                            </div>
-							</div>
-							<div class="price">
-								<div >
-									<img src="./image/Price.png">
-								</div>
-								<div><p>$25</p></div>
-							</div>
-							<div class="type">
-								<img src="./image/blue.png">
-								<p>new</p>
-							</div>
+							<div class="text-product">
+                                	<div class="product-tille">
+                                        <h4>Skincare Treatment: Bleach</h4>
+                                    </div>  
+                                    <div class="product-phude">
+                                        <p>Morbi mollis vestibulum sollicitudin. Nuncineros a justo faci</p>
+                                    </div>
+                                    <div class="diachi">
+                                        <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                        <p>Miami</p>
+                                    </div>
+                                    <div class="button-product">
+                                        <a href=""><button>Book Now</button></a>
+                                    </div>
+                                    <div class="title-like">
+                                        <div class="text-like">
+                                            <p>Massage , Beauty Salon</p>
+                                        </div>
+                                        <div class="like" >
+                                            <div class="border-like">
+                                            	<input class="heart" type="checkbox" title="bookmark page" checked>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="price">
+                                        <div >
+                                            <img src="./image/Price.png">
+                                        </div>
+                                        <div class="price-text">
+                                            <p>$25</p>
+                                        </div>
+                                    </div>
+                                    <div class="type">
+                                        <img src="./image/blue.png">
+                                        <p>new</p>
+                                    </div>
+                                </div>
 						</div>
 					</div>
 					<div class="col-md-4">
@@ -3390,38 +3574,43 @@
 	                                <label class="half_5" for="starhalf_5" title="Sucks big time - 0.5 stars"></label>
 	                            </div>
 							</div>
-							<div class="product-tille">
-								<h4>Skincare Treatment: Bleach</h4>
-							</div>
-							<div class="product-phude">
-								<p>Morbi mollis vestibulum sollicitudin. Nunc in eros a justo faci</p>
-							</div>
-							<div class="diachi"><img src="./image/diachi.png"> 
-							<p>Miami</p>
-							</div>
-							<div class="button-product">
-								<a href=""><button>Book Now</button></a>
-							</div>
-							<div class="title-like">
-								<div class="text-like">
-								<p>Massage , Beauty Salon</p>
-								</div>
-								<div class="like" >
-	                                <div class="border-like">
-	                                    <input class="heart" type="checkbox" title="bookmark page" checked>
-	                                </div>
-	                            </div>
-							</div>
-							<div class="price">
-								<div >
-									<img src="./image/Price.png">
-								</div>
-								<div><p>$25</p></div>
-							</div>
-							<div class="type">
-										<img src="./image/blue.png">
-										<p>new</p>
-							</div>
+							<div class="text-product">
+                                	<div class="product-tille">
+                                        <h4>Skincare Treatment: Bleach</h4>
+                                    </div>  
+                                    <div class="product-phude">
+                                        <p>Morbi mollis vestibulum sollicitudin. Nuncineros a justo faci</p>
+                                    </div>
+                                    <div class="diachi">
+                                        <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                        <p>Miami</p>
+                                    </div>
+                                    <div class="button-product">
+                                        <a href=""><button>Book Now</button></a>
+                                    </div>
+                                    <div class="title-like">
+                                        <div class="text-like">
+                                            <p>Massage , Beauty Salon</p>
+                                        </div>
+                                        <div class="like" >
+                                            <div class="border-like">
+                                            	<input class="heart" type="checkbox" title="bookmark page" checked>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="price">
+                                        <div >
+                                            <img src="./image/Price.png">
+                                        </div>
+                                        <div class="price-text">
+                                            <p>$25</p>
+                                        </div>
+                                    </div>
+                                    <div class="type">
+                                        <img src="./image/blue.png">
+                                        <p>new</p>
+                                    </div>
+                                </div>	
 						</div>
 					</div>
 				</div>
@@ -3468,7 +3657,7 @@
                   <i class="fa fa-star" aria-hidden="true"></i>
                 </div>
                 <div class="title-text">
-                  <p>Inspires people to look and feel their best – which is why we're tructed by millions </br>of custormers and thounsands of bussinesses woldwide</p>
+                  <p>Inspires people to look and feel their best – which is why we're tructed by millions of custormers and thounsands of bussinesses woldwide</p>
                 </div>
               </div>
             </div>
@@ -3485,7 +3674,7 @@
                 <i class="fa fa-star" aria-hidden="true"></i>
               </div>
               <div class="title-text">
-                <p>Inspires people to look and feel their best – which is why we're tructed by millions </br>of custormers and thounsands of bussinesses woldwide</p>
+                <p>Inspires people to look and feel their best – which is why we're tructed by millions of custormers and thounsands of bussinesses woldwide</p>
               </div>
             </div>
         </div>
@@ -3498,7 +3687,7 @@
                 <i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i>
               </div>
               <div class="title-text">
-                <p>Inspires people to look and feel their best – which is why we're tructed by millions </br>of custormers and thounsands of bussinesses woldwide</p>
+                <p>Inspires people to look and feel their best – which is why we're tructed by millions of custormers and thounsands of bussinesses woldwide</p>
               </div>
             </div>
         </div>
@@ -3511,7 +3700,7 @@
                 <i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i>
               </div>
               <div class="title-text">
-                <p>Inspires people to look and feel their best – which is why we're tructed by millions </br>of custormers and thounsands of bussinesses woldwide</p>
+                <p>Inspires people to look and feel their best – which is why we're tructed by millions of custormers and thounsands of bussinesses woldwide</p>
               </div>
             </div>
         </div>
@@ -3524,7 +3713,7 @@
                 <img src="./image/jan.png">
               </div>
               <div class="news-text">
-                <h5>Jan Losert</h5>
+                <h4>Jan Losert</h4>
                 <p>(Newyork)</p>
               </div>
             </div>
@@ -3535,7 +3724,7 @@
                 <img src="./image/diana.png">
               </div>
               <div class="news-text">
-                <h5>Diana Tihai</h5>
+                <h4>Diana Tihai</h4>
                 <p>(USA)</p>
               </div>
             </div>
@@ -3546,7 +3735,7 @@
                 <img src="./image/victor.png">
               </div>
               <div class="news-text">
-                <h5>Victor Tihal</h5>
+                <h4>Victor Tihal</h4>
                 <p>(Japan)</p>
               </div>
             </div>
@@ -3557,7 +3746,7 @@
                 <img src="./image/lisa.png">
               </div>
               <div class="news-text">
-                <h5>Lisa Doe</h5>
+                <h4>Lisa Doe</h4>
                 <p>(india)</p>
               </div>
             </div>

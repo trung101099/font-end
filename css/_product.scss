@@ -32,15 +32,19 @@
     padding-top: 48px;
 }
 .new-product{
-    border: 1px solid #6c757d;
     background: #fff;
     position: relative;
     width: 100%;
     height: 475px;
 
 }
-.new-product:hover{
+.new-product:hover .text-product{
     border: 1px solid #fc887b;
+    border-top: none;
+}
+.text-product{
+    border: 1px solid #6c757d;
+    border-top: none;
 }
 .product-con{
     border: 1px solid #B2B2B2;
@@ -80,9 +84,10 @@
 
 }
 .button-product a button{
-    border: none;
+    border: 1px solid #c0c0c0;
+    background: #fff;
     border-radius: 15px;
-    padding: 5px 15px 5px 15px;
+    padding: 5px 20px 5px 20px;
     color: black;
 }
 .button-product a button:hover{
@@ -100,6 +105,7 @@
 .diachi p{
     display: inline-block;
     color: black;
+    font-weight: 400;
 }
 .diachi{
     margin-left: 30px;
@@ -121,11 +127,10 @@
 .text-like{
     position: relative;
     color: black;
-    margin-left: 22px;
-    padding-top: 10px;
+    margin-left: 28px;
 }
 .border-like{
-    border: 1px solid;
+    border: 1px solid #c0c0c0;
     width: 35px;
     height: 35px;
     border-radius: 20px;
@@ -173,39 +178,39 @@
 } 
 #rating {
     position: absolute;
-    bottom: 48%;
-    left: 68%;
+    bottom: 50%;
+    left: 78%;
 }
 #rating_1 {
     position: absolute;
-    bottom: 48%;
-    left: 65%;
+    bottom: 50%;
+    left: 76%;
 }
 #rating_2 {
     position: absolute;
-    bottom: 48%;
-    left: 65%;
+    bottom: 50%;
+    left: 76%;
 }
 #rating_3 {
     position: absolute;
-    bottom: 48%;
-    left: 65%;
+    bottom: 50%;
+    left: 76%;
 }
 #rating_4 {
     position: absolute;
-    bottom: 48%;
-    left: 65%;
+    bottom: 50%;
+    left: 76%;
 }
 #rating_5 {
     position: absolute;
-    bottom: 48%;
-    left: 65%;
+    bottom: 50%;
+    left: 76%;
 }
 #rating{border:none;float:left;}
 #rating>input{display:none;}/*ẩn input radio - vì chúng ta đã có label là GUI*/
-#rating>label:before{margin:5px;font-size:12px;font-family:FontAwesome;display:inline-block;content:"\f005";}/*1 ngôi sao*/
-#rating>.half:before{content:"\f089";position:absolute;}/*0.5 ngôi sao*/
-#rating>label{color:#ddd;float:right;}/*float:right để lật ngược các ngôi sao lại đúng theo thứ tự trong thực tế*/
+#rating>label:before{font-size:12px;font-family:FontAwesome;display:inline-block;content:"\f005";margin: 2px;}/*1 ngôi sao*/
+#rating>.half:before{content:"\f089";position:absolute;margin-top: 4px;}/*0.5 ngôi sao*/
+#rating>label{color:#797979;float:right; }/*float:right để lật ngược các ngôi sao lại đúng theo thứ tự trong thực tế*/
 /*thêm màu cho sao đã chọn và các ngôi sao phía trước*/
 #rating>input:checked~label,
 #rating:not(:checked)>label:hover, 
@@ -219,9 +224,9 @@
 /****   rating_1   ****/
 #rating_1{border:none;float:left;}
 #rating_1>input{display:none;}/*ẩn input radio - vì chúng ta đã có label là GUI*/
-#rating_1>label:before{margin:5px;font-size:14px;font-family:FontAwesome;display:inline-block;content:"\f005";}/*1 ngôi sao*/
-#rating_1>.half_1:before{content:"\f089";position:absolute;}/*0.5 ngôi sao*/
-#rating_1>label{color:#ddd;float:right;}/*float:right để lật ngược các ngôi sao lại đúng theo thứ tự trong thực tế*/
+#rating_1>label:before{margin:2px;font-size:12px;font-family:FontAwesome;display:inline-block;content:"\f005";}/*1 ngôi sao*/
+#rating_1>.half_1:before{content:"\f089";position:absolute;margin-top: 4px;}/*0.5 ngôi sao*/
+#rating_1>label{color:#797979;float:right;}/*float:right để lật ngược các ngôi sao lại đúng theo thứ tự trong thực tế*/
 /*thêm màu cho sao đã chọn và các ngôi sao phía trước*/
 #rating_1>input:checked~label,
 #rating_1:not(:checked)>label:hover, 
@@ -235,9 +240,9 @@
 /****   rating_2   ****/
 #rating_2{border:none;float:left;}
 #rating_2>input{display:none;}/*ẩn input radio - vì chúng ta đã có label là GUI*/
-#rating_2>label:before{margin:5px;font-size:14px;font-family:FontAwesome;display:inline-block;content:"\f005";}/*1 ngôi sao*/
-#rating_2>.half_2:before{content:"\f089";position:absolute;}/*0.5 ngôi sao*/
-#rating_2>label{color:#ddd;float:right;}/*float:right để lật ngược các ngôi sao lại đúng theo thứ tự trong thực tế*/
+#rating_2>label:before{margin:2px;font-size:12px;font-family:FontAwesome;display:inline-block;content:"\f005";}/*1 ngôi sao*/
+#rating_2>.half_2:before{content:"\f089";position:absolute;margin-top: 4px;}/*0.5 ngôi sao*/
+#rating_2>label{color:#797979;float:right;}/*float:right để lật ngược các ngôi sao lại đúng theo thứ tự trong thực tế*/
 /*thêm màu cho sao đã chọn và các ngôi sao phía trước*/
 #rating_2>input:checked~label,
 #rating_2:not(:checked)>label:hover, 
@@ -252,9 +257,9 @@
 /****   rating_3   ****/
 #rating_3{border:none;float:left;}
 #rating_3>input{display:none;}/*ẩn input radio - vì chúng ta đã có label là GUI*/
-#rating_3>label:before{margin:5px;font-size:14px;font-family:FontAwesome;display:inline-block;content:"\f005";}/*1 ngôi sao*/
-#rating_3>.half_3:before{content:"\f089";position:absolute;}/*0.5 ngôi sao*/
-#rating_3>label{color:#ddd;float:right;}/*float:right để lật ngược các ngôi sao lại đúng theo thứ tự trong thực tế*/
+#rating_3>label:before{margin:2px;font-size:12px;font-family:FontAwesome;display:inline-block;content:"\f005";}/*1 ngôi sao*/
+#rating_3>.half_3:before{content:"\f089";position:absolute;margin-top: 4px;}/*0.5 ngôi sao*/
+#rating_3>label{color:#797979;float:right;}/*float:right để lật ngược các ngôi sao lại đúng theo thứ tự trong thực tế*/
 /*thêm màu cho sao đã chọn và các ngôi sao phía trước*/
 #rating_3>input:checked~label,
 #rating_3:not(:checked)>label:hover, 
@@ -269,9 +274,9 @@
 /****   rating_4   ****/
 #rating_4{border:none;float:left;}
 #rating_4>input{display:none;}/*ẩn input radio - vì chúng ta đã có label là GUI*/
-#rating_4>label:before{margin:5px;font-size:14px;font-family:FontAwesome;display:inline-block;content:"\f005";}/*1 ngôi sao*/
-#rating_4>.half_4:before{content:"\f089";position:absolute;}/*0.5 ngôi sao*/
-#rating_4>label{color:#ddd;float:right;}/*float:right để lật ngược các ngôi sao lại đúng theo thứ tự trong thực tế*/
+#rating_4>label:before{margin:2px;font-size:12px;font-family:FontAwesome;display:inline-block;content:"\f005";}/*1 ngôi sao*/
+#rating_4>.half_4:before{content:"\f089";position:absolute;margin-top: 4px;}/*0.5 ngôi sao*/
+#rating_4>label{color:#797979;float:right;}/*float:right để lật ngược các ngôi sao lại đúng theo thứ tự trong thực tế*/
 /*thêm màu cho sao đã chọn và các ngôi sao phía trước*/
 #rating_4>input:checked~label,
 #rating_4:not(:checked)>label:hover, 
@@ -287,9 +292,9 @@
 /****   rating_5   ****/
 #rating_5{border:none;float:left;}
 #rating_5>input{display:none;}/*ẩn input radio - vì chúng ta đã có label là GUI*/
-#rating_5>label:before{margin:5px;font-size:14px;font-family:FontAwesome;display:inline-block;content:"\f005";}/*1 ngôi sao*/
-#rating_5>.half_5:before{content:"\f089";position:absolute;}/*0.5 ngôi sao*/
-#rating_5>label{color:#ddd;float:right;}/*float:right để lật ngược các ngôi sao lại đúng theo thứ tự trong thực tế*/
+#rating_5>label:before{margin:2px;font-size:12px;font-family:FontAwesome;display:inline-block;content:"\f005";}/*1 ngôi sao*/
+#rating_5>.half_5:before{content:"\f089";position:absolute;margin-top: 4px;}/*0.5 ngôi sao*/
+#rating_5>label{color:#797979;float:right;}/*float:right để lật ngược các ngôi sao lại đúng theo thứ tự trong thực tế*/
 /*thêm màu cho sao đã chọn và các ngôi sao phía trước*/
 #rating_5>input:checked~label,
 #rating_5:not(:checked)>label:hover, 

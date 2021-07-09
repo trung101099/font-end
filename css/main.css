@@ -6784,27 +6784,6 @@ a i {
   -webkit-transition: all 0.9s ease 0s;
   -o-transition: all 0.9s ease 0s; }
 
-.social-icons a i:hover {
-  color: #fff;
-  transition: all 0.9s ease 0s;
-  -moz-transition: all 0.9s ease 0s;
-  -webkit-transition: all 0.9s ease 0s;
-  -o-transition: all 0.9s ease 0s; }
-
-.social-icons a:hover {
-  border: 0 none;
-  border-radius: 0;
-  color: #ffff;
-  padding: 0px; }
-
-@media (max-width: 1200px) {
-  .header_top {
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    height: 100%; }
-
-  .header_top .contactinfo,
-  .header_top .social-icons {
-    float: none; } }
 @media (max-width: 768px) {
   .header_top.responsive a {
     float: none;
@@ -6818,9 +6797,14 @@ a i {
   .social-icons {
     width: 100%;
     text-align: center; } }
-@media (width: 425px) {
-  .header-top {
-    width: 425px; } }
+@media (min-width: 1200px) {
+  .header_top {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    height: 100%; }
+
+  .header_top .contactinfo,
+  .header_top .social-icons {
+    float: none; } }
 .navbar .navbar-header {
   padding-top: 15px; }
   .navbar .navbar-header .navbar-collapse ul {
@@ -6893,7 +6877,7 @@ a i {
   width: 100%; }
   #slider .banner .banner-img .pricing {
     width: 100%;
-    height: 755px; }
+    height: 750px; }
   #slider .banner .banner-text {
     font-family: 'Poppins', sans-serif;
     position: absolute;
@@ -6925,11 +6909,11 @@ a i {
       #slider .banner .button-banner {
         display: inline-block; } }
     #slider .banner .button-banner input {
-      text-align: center;
       width: 230px;
       height: 50px;
       border: none;
-      color: #8a8a8a; }
+      color: #8a8a8a;
+      padding-left: 28px; }
     #slider .banner .button-banner input:focus-visible {
       outline: none; }
     #slider .banner .button-banner select {
@@ -6941,7 +6925,8 @@ a i {
       background-image: url(../image/Line.png);
       background-repeat: no-repeat;
       background-size: 1px 32px;
-      background-position: left; }
+      background-position: left;
+      padding-left: 26px; }
     #slider .banner .button-banner select:focus-visible {
       outline: none; }
     #slider .banner .button-banner button {
@@ -6953,41 +6938,26 @@ a i {
     #slider .banner .button-banner .button-banner button:focus {
       outline: none; }
 
-.list-categore {
-  margin-right: 50px; }
-
-.categore {
-  border-right: 1px solid #e5e5e5;
-  height: 180px;
-  padding-top: 22px;
-  border-bottom: none;
-  width: 200px; }
-
-#categore-salon:first-child {
-  border-left: 1px solid #e5e5e5; }
-
-.categore:hover {
-  background: #f28478;
-  color: #ffff; }
-
 .nav-categore {
-  border-bottom: 1px solid #e5e5e5; }
+  border-bottom: 1px solid #e5e5e5;
+  height: 185px; }
+  .nav-categore .list-categore ul {
+    display: flex; }
+    .nav-categore .list-categore ul li {
+      width: 100%;
+      height: 185px;
+      border: 1px solid #e5e5e5;
+      border-top: none;
+      text-align: center; }
+      .nav-categore .list-categore ul li .categore {
+        padding-top: 40px; }
+        .nav-categore .list-categore ul li .categore .categore-icon {
+          font-size: 53px; }
+        .nav-categore .list-categore ul li .categore .categore-text {
+          font-size: 18px; }
+    .nav-categore .list-categore ul li:hover {
+      background: #f28478; }
 
-.categore-icon {
-  font-size: 53px;
-  margin-left: 36px;
-  padding-top: 16px; }
-
-.categore-icon span {
-  margin-left: 50px; }
-
-.categore-text {
-  margin-left: 70px;
-  margin-top: -10px; }
-
-@media (max-width: 1200px) {
-  .categore {
-    width: 100%; } }
 .title {
   text-align: center;
   padding-top: 40px;
@@ -7044,14 +7014,18 @@ a i {
   padding-top: 48px; }
 
 .new-product {
-  border: 1px solid #6c757d;
   background: #fff;
   position: relative;
   width: 100%;
   height: 475px; }
 
-.new-product:hover {
-  border: 1px solid #fc887b; }
+.new-product:hover .text-product {
+  border: 1px solid #fc887b;
+  border-top: none; }
+
+.text-product {
+  border: 1px solid #6c757d;
+  border-top: none; }
 
 .product-con {
   border: 1px solid #B2B2B2; }
@@ -7087,9 +7061,10 @@ a i {
   bottom: 14%; }
 
 .button-product a button {
-  border: none;
+  border: 1px solid #c0c0c0;
+  background: #fff;
   border-radius: 15px;
-  padding: 5px 15px 5px 15px;
+  padding: 5px 20px 5px 20px;
   color: black; }
 
 .button-product a button:hover {
@@ -7106,7 +7081,8 @@ a i {
 
 .diachi p {
   display: inline-block;
-  color: black; }
+  color: black;
+  font-weight: 400; }
 
 .diachi {
   margin-left: 30px;
@@ -7128,11 +7104,10 @@ a i {
 .text-like {
   position: relative;
   color: black;
-  margin-left: 22px;
-  padding-top: 10px; }
+  margin-left: 28px; }
 
 .border-like {
-  border: 1px solid;
+  border: 1px solid #c0c0c0;
   width: 35px;
   height: 35px;
   border-radius: 20px; }
@@ -7176,33 +7151,33 @@ a i {
 
 #rating {
   position: absolute;
-  bottom: 48%;
-  left: 68%; }
+  bottom: 50%;
+  left: 78%; }
 
 #rating_1 {
   position: absolute;
-  bottom: 48%;
-  left: 65%; }
+  bottom: 50%;
+  left: 76%; }
 
 #rating_2 {
   position: absolute;
-  bottom: 48%;
-  left: 65%; }
+  bottom: 50%;
+  left: 76%; }
 
 #rating_3 {
   position: absolute;
-  bottom: 48%;
-  left: 65%; }
+  bottom: 50%;
+  left: 76%; }
 
 #rating_4 {
   position: absolute;
-  bottom: 48%;
-  left: 65%; }
+  bottom: 50%;
+  left: 76%; }
 
 #rating_5 {
   position: absolute;
-  bottom: 48%;
-  left: 65%; }
+  bottom: 50%;
+  left: 76%; }
 
 #rating {
   border: none;
@@ -7213,20 +7188,21 @@ a i {
 
 /*ẩn input radio - vì chúng ta đã có label là GUI*/
 #rating > label:before {
-  margin: 5px;
   font-size: 12px;
   font-family: FontAwesome;
   display: inline-block;
-  content: "\f005"; }
+  content: "\f005";
+  margin: 2px; }
 
 /*1 ngôi sao*/
 #rating > .half:before {
   content: "\f089";
-  position: absolute; }
+  position: absolute;
+  margin-top: 4px; }
 
 /*0.5 ngôi sao*/
 #rating > label {
-  color: #ddd;
+  color: #797979;
   float: right; }
 
 /*float:right để lật ngược các ngôi sao lại đúng theo thứ tự trong thực tế*/
@@ -7253,8 +7229,8 @@ a i {
 
 /*ẩn input radio - vì chúng ta đã có label là GUI*/
 #rating_1 > label:before {
-  margin: 5px;
-  font-size: 14px;
+  margin: 2px;
+  font-size: 12px;
   font-family: FontAwesome;
   display: inline-block;
   content: "\f005"; }
@@ -7262,11 +7238,12 @@ a i {
 /*1 ngôi sao*/
 #rating_1 > .half_1:before {
   content: "\f089";
-  position: absolute; }
+  position: absolute;
+  margin-top: 4px; }
 
 /*0.5 ngôi sao*/
 #rating_1 > label {
-  color: #ddd;
+  color: #797979;
   float: right; }
 
 /*float:right để lật ngược các ngôi sao lại đúng theo thứ tự trong thực tế*/
@@ -7293,8 +7270,8 @@ a i {
 
 /*ẩn input radio - vì chúng ta đã có label là GUI*/
 #rating_2 > label:before {
-  margin: 5px;
-  font-size: 14px;
+  margin: 2px;
+  font-size: 12px;
   font-family: FontAwesome;
   display: inline-block;
   content: "\f005"; }
@@ -7302,11 +7279,12 @@ a i {
 /*1 ngôi sao*/
 #rating_2 > .half_2:before {
   content: "\f089";
-  position: absolute; }
+  position: absolute;
+  margin-top: 4px; }
 
 /*0.5 ngôi sao*/
 #rating_2 > label {
-  color: #ddd;
+  color: #797979;
   float: right; }
 
 /*float:right để lật ngược các ngôi sao lại đúng theo thứ tự trong thực tế*/
@@ -7333,8 +7311,8 @@ a i {
 
 /*ẩn input radio - vì chúng ta đã có label là GUI*/
 #rating_3 > label:before {
-  margin: 5px;
-  font-size: 14px;
+  margin: 2px;
+  font-size: 12px;
   font-family: FontAwesome;
   display: inline-block;
   content: "\f005"; }
@@ -7342,11 +7320,12 @@ a i {
 /*1 ngôi sao*/
 #rating_3 > .half_3:before {
   content: "\f089";
-  position: absolute; }
+  position: absolute;
+  margin-top: 4px; }
 
 /*0.5 ngôi sao*/
 #rating_3 > label {
-  color: #ddd;
+  color: #797979;
   float: right; }
 
 /*float:right để lật ngược các ngôi sao lại đúng theo thứ tự trong thực tế*/
@@ -7373,8 +7352,8 @@ a i {
 
 /*ẩn input radio - vì chúng ta đã có label là GUI*/
 #rating_4 > label:before {
-  margin: 5px;
-  font-size: 14px;
+  margin: 2px;
+  font-size: 12px;
   font-family: FontAwesome;
   display: inline-block;
   content: "\f005"; }
@@ -7382,11 +7361,12 @@ a i {
 /*1 ngôi sao*/
 #rating_4 > .half_4:before {
   content: "\f089";
-  position: absolute; }
+  position: absolute;
+  margin-top: 4px; }
 
 /*0.5 ngôi sao*/
 #rating_4 > label {
-  color: #ddd;
+  color: #797979;
   float: right; }
 
 /*float:right để lật ngược các ngôi sao lại đúng theo thứ tự trong thực tế*/
@@ -7413,8 +7393,8 @@ a i {
 
 /*ẩn input radio - vì chúng ta đã có label là GUI*/
 #rating_5 > label:before {
-  margin: 5px;
-  font-size: 14px;
+  margin: 2px;
+  font-size: 12px;
   font-family: FontAwesome;
   display: inline-block;
   content: "\f005"; }
@@ -7422,11 +7402,12 @@ a i {
 /*1 ngôi sao*/
 #rating_5 > .half_5:before {
   content: "\f089";
-  position: absolute; }
+  position: absolute;
+  margin-top: 4px; }
 
 /*0.5 ngôi sao*/
 #rating_5 > label {
-  color: #ddd;
+  color: #797979;
   float: right; }
 
 /*float:right để lật ngược các ngôi sao lại đúng theo thứ tự trong thực tế*/
@@ -7521,28 +7502,28 @@ a i {
     padding-left: 15px;
     padding-right: 15px; }
 
-.btn {
+.nav-video {
   position: relative;
   background-image: url(../image/video.png);
   width: 100%;
   height: 570px;
   background-repeat: round;
   margin-top: 50px; }
-  .btn .icon-video {
+  .nav-video .icon-video {
     position: absolute;
     top: 30%;
     right: 47%;
     font-size: 100px;
     color: #fff; }
-  .btn .text-video {
+  .nav-video .text-video {
     position: absolute;
     top: 48%;
     right: 32%; }
-    .btn .text-video h1 {
+    .nav-video .text-video h1 {
       font-size: 95px;
       color: #fff; }
   @media screen and (max-width: 425px) {
-    .btn .text-video {
+    .nav-video .text-video {
       position: absolute;
       top: 47%;
       right: 5%; } }
@@ -7552,16 +7533,19 @@ a i {
   height: 310px; }
   .content-backgroud .content .icon {
     margin-left: 52px; }
+    .content-backgroud .content .icon .icon-b {
+      margin-top: -12px;
+      margin-left: 7px; }
     .content-backgroud .content .icon .icon-iteam span {
       position: absolute;
-      top: 13%;
-      left: 25%;
+      top: 10%;
+      left: 29%;
       font-size: 50px;
       color: #fff; }
   .content-backgroud .content .icon-number {
     position: absolute;
-    top: 36%;
-    left: 45%; }
+    top: 32%;
+    left: 47%; }
     .content-backgroud .content .icon-number p {
       position: absolute;
       color: #ffff;
@@ -7591,7 +7575,7 @@ a i {
   content: "";
   width: 128px;
   height: 13px;
-  right: -63px;
+  right: -80px;
   top: 75px;
   background: url(../image/Arrow.png);
   z-index: 100; }
@@ -7650,14 +7634,22 @@ a i {
 .all-product {
   color: #fff;
   width: 100%; }
-
-.product {
-  padding-top: 54px;
-  margin-left: 0px; }
-
-.product_1 {
-  padding-top: 30px;
-  margin-left: 7px; }
+  .all-product .product {
+    padding-top: 54px;
+    margin-left: 0px; }
+    .all-product .product .new-product {
+      background: #fff;
+      position: relative;
+      width: 100%;
+      height: 467px; }
+  .all-product .product_1 {
+    padding-top: 30px;
+    margin-left: 7px; }
+    .all-product .product_1 .new-product {
+      background: #fff;
+      position: relative;
+      width: 100%;
+      height: 467px; }
 
 .tab-content {
   margin-left: 24px; }
@@ -7670,7 +7662,7 @@ ul.nav-tabs {
     margin-left: 30px; }
 
 .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
-  color: #555555;
+  color: #fff;
   cursor: default;
   background-color: #fc887b;
   border: none;

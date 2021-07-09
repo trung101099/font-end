@@ -38,15 +38,31 @@
 .all-product{
     color: #fff;
     width: 100%;
+    .product{
+        padding-top: 54px;
+        margin-left: 0px;
+        .new-product{
+            background: #fff;
+            position: relative;
+            width: 100%;
+            height: 467px;
+
+        }
+    }
+    .product_1{
+        padding-top: 30px;
+        margin-left: 7px;
+        .new-product{
+            background: #fff;
+            position: relative;
+            width: 100%;
+            height: 467px;
+
+        }
+    }
 }
-.product{
-    padding-top: 54px;
-    margin-left: 0px;
-}
-.product_1{
-    padding-top: 30px;
-    margin-left: 7px;
-}
+
+
 .tab-content{
     margin-left: 24px;
 }
@@ -58,7 +74,7 @@ ul.nav-tabs{
 
 }
 .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
-    color: #555555;
+    color: #fff;
     cursor: default;
     background-color: #fc887b;
     border: none;
