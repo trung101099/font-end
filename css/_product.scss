@@ -148,17 +148,16 @@
 }
 .heart:before {
     font-family: 'icomoon';
-   content: "\e90a";
-   position: absolute;
-   visibility:visible;
-   color:#fc887b;
+    content: "\e90a";
+    position: absolute;
+    visibility:visible;
+    color:#fc887b;
 }
 .heart:checked:before {
     font-family: 'icomoon';
-   content: "\e90a";
-   position: absolute;
-   
-   color:#ccc;
+    content: "\e90c";
+    position: absolute;
+    color:black;
 }
 
 

@@ -3,7 +3,9 @@
     color: #ffff;
     background: #2b3840;
     .header-footer{
-        margin-top: -13px;  
+        margin-top: -13px;
+        padding-bottom: 55px;
+        border-bottom: 1px solid #414c53;  
         .footer-logo{
             margin-left: 22px;
             margin-top: 7px;
@@ -20,6 +22,7 @@
                 height: 50px;
                 background:#2b3840;
                 border: 1px solid #414c53;
+                padding-left: 20px;
             }
             button{
                 margin-left: 27px;
@@ -34,10 +37,6 @@
             }
         }
     }
-}
-.footer-border{
-    border-bottom: 1px solid #414c53;
-    padding-top: 55px;
 }
 .midle-footer{
     margin-top: 45px;
