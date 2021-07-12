@@ -5,12 +5,12 @@
     right: -2%;
 }
 .owl-prev span{
-    font-size: 30px;
+    font-size: 40px;
     position: absolute;
     right: 0;
     border: 1px solid;
-    border-radius: 15px;
-    width: 60px;
+    border-radius: 25px;
+    width: 100px;
     
 }
 .owl-prev span:hover{
@@ -18,11 +18,11 @@
         color: #fff;
     }
 .owl-next span{
-    font-size: 30px;
+    font-size: 40px;
     position: absolute;
     border: 1px solid;
-    border-radius: 15px;
-    width: 60px;
+    border-radius: 25px;
+    width: 100px;
 }
 .owl-next span:hover{
         background: #fc887b;
@@ -30,6 +30,7 @@
     }
 .slide-product{
     padding-top: 48px;
+    margin-bottom: 45px;
 }
 .new-product{
     background: #fff;
@@ -45,136 +46,154 @@
 .text-product{
     border: 1px solid #6c757d;
     border-top: none;
+    padding-top: 15px;
+    .product-tille{
+        padding:0px 30px;
+        h4{
+            margin: 0px;
+        }
+    }
+    .product-phude{
+        margin-left: 30px;
+        padding-top: 10px;
+        &:hover{
+            color: #fc887b;
+        }
+        p {
+            font-family: 'Poppins', sans-serif;
+            font-weight: 400;
+            color: #c0c0c0;
+        }
+    }
+    .diachi{    
+        position: relative;
+        margin-left: 30px;
+        padding-top: 22px;
+        p{
+            display: inline-block;
+            color: black;
+            font-weight: 400;
+        }
+        i{
+            color: #fc887b;
+        }
+    }
+    .button-product{
+        position: absolute;
+        left: 56%;
+        bottom: 15%;
+        a{
+            button{
+                border: 1px solid #c0c0c0;
+                background: #fff;
+                border-radius: 15px;
+                padding: 5px 20px 5px 20px;
+                color: black;
+                &:hover{
+                    color: #ffff;
+                    background: #fc887b;
+                    border: none;
+                    transition: all 0.3s ease 0s;
+                    -moz-transition: all 0.3s ease 0s;
+                    -webkit-transition: all 0.3s ease 0s;
+                    -o-transition: all 0.3s ease 0s;
+                }
+                &:focus{
+                    outline: none;
+                } 
+            }
+        }
+
+    }
+    .title-like{
+        border-top: 1px solid #B2B2B2;
+        padding-top: 28px;
+        .text-like{
+            position: relative;
+            color: black;
+            margin-left:28px;
+        }
+        .like{
+            position: absolute;
+            bottom: 2%;
+            right: 9%;
+            color: black;
+            .border-like{
+                border: 1px solid #c0c0c0;
+                width: 35px;
+                height: 35px;
+                border-radius: 20px;
+                input{
+                    position: absolute;
+                    top: 15%;
+                    left: 20%;
+                    margin-left: 3px;
+                    margin-top: 6px;
+                }
+                .heart {
+                    visibility:hidden;
+                    font-size:15px;
+                    cursor:pointer;
+                    &:before {
+                        font-family: 'icomoon';
+                        content: "\e90a";
+                        position: absolute;
+                        visibility:visible;
+                        color:#fc887b;
+                    }
+                    &:checked:before {
+                        font-family: 'icomoon';
+                        content: "\e90c";
+                        position: absolute;
+                        color:black;
+                    }
+                }
+            }
+        }
+    }
+    .price{
+        position: absolute;
+        top: 44%;
+        left: 5%;
+        img{
+            position: relative;
+        }
+        .price-text{
+            p{
+                position: absolute;
+                top: 10%;
+                left: 40%;
+                color: #ffff;
+            } 
+        }
+    }
+    .type{
+        position: absolute;
+        top: 4%;
+        right: 5%;
+        color: black;
+        img{
+            position: relative;
+        }
+        p{
+            position: absolute;
+            top: 10%;
+            right: 30%;
+            color: #ffff;
+        }
+    }
 }
+
+
+
+
+
 .product-con{
     border: 1px solid #B2B2B2;
 }
 .product-image img{
    width: 100%;
 }
-.product-tille{
-    padding-top: 14px;
-    color: black;
-    margin-left: 30px;
-}
-.product-phude p {
-    font-family: 'Poppins', sans-serif;
-    font-weight: 400;
-    color: #c0c0c0;
-}
-.product-tille:hover{
-    color: #fc887b;
-}
-.product-phude{
-    margin-left: 30px;
-    padding-top: 10px;
-}
-
-
-.diachi{    
-    
-    position: relative;
-    margin-left: 30px;
-    padding-top: 10px;
-}
-.button-product{
-    position: absolute;
-    left: 60%;
-    bottom: 14%;
-
-}
-.button-product a button{
-    border: 1px solid #c0c0c0;
-    background: #fff;
-    border-radius: 15px;
-    padding: 5px 20px 5px 20px;
-    color: black;
-}
-.button-product a button:hover{
-    color: #ffff;
-    background: #fc887b;
-    border: none;
-    transition: all 0.3s ease 0s;
-    -moz-transition: all 0.3s ease 0s;
-    -webkit-transition: all 0.3s ease 0s;
-    -o-transition: all 0.3s ease 0s;
-}
-.button-product a button:focus{
-    outline: none;
-}
-.diachi p{
-    display: inline-block;
-    color: black;
-    font-weight: 400;
-}
-.diachi{
-    margin-left: 30px;
-    padding-top: 10px;
-}
-.title-like{
-    border-top: 1px solid #B2B2B2;
-    padding-top: 20px;
-}
-.diachi i{
-    color: #fc887b;
-}
-.like{
-    position: absolute;
-    bottom: 2%;
-    left: 84%;
-    color: black;
-}
-.text-like{
-    position: relative;
-    color: black;
-    margin-left: 28px;
-}
-.border-like{
-    border: 1px solid #c0c0c0;
-    width: 35px;
-    height: 35px;
-    border-radius: 20px;
-}
-.border-like input{
-    position: absolute;
-    top: 15%;
-    left: 20%;
-}
-
-.heart {
-    visibility:hidden;
-    font-size:20px;
-    cursor:pointer;
-}
-.heart:before {
-    font-family: 'icomoon';
-    content: "\e90a";
-    position: absolute;
-    visibility:visible;
-    color:#fc887b;
-}
-.heart:checked:before {
-    font-family: 'icomoon';
-    content: "\e90c";
-    position: absolute;
-    color:black;
-}
-
-
-.price{
-    position: absolute;
-    top: 44%;
-    left: 5%;
-}
-.price img{
-    position: relative;
-}
-.price p{
-    position: absolute;
-    top: 10%;
-    left: 40%;
-    color: #ffff;
-} 
 #rating {
     position: absolute;
     bottom: 50%;
@@ -303,21 +322,7 @@
 #rating_5>input:checked~label:hover,
 #rating_5>label:hover~input:checked~label,
 #rating_5>input:checked~label:hover~label{color:#FFED85;}
-.type{
-    position: absolute;
-    top: 4%;
-    right: 5%;
-    color: black;
-}
-.type img{
-    position: relative;
-}
-.type p{
-    position: absolute;
-    top: 10%;
-    right: 30%;
-    color: #ffff;
-}
+
 .button-view{
     text-align: center;
     padding-top: 62px;  

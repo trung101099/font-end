@@ -1,23 +1,24 @@
 .content-backgroud{
     border: 1px solid #ccc;
-    height: 310px;
+    height: 250px;
     .content
     {
         .icon
         {
             margin-left: 52px;
             .icon-b{
-                margin-top: -12px;
+                margin-top: -65px;
                 margin-left: 7px;
             }
             .icon-iteam
             {
-                span{
-                       position: absolute;
-                        top: 10%;
+                position: absolute;
+                        top: -4%;
                         left: 29%;
                         font-size: 50px;
                         color: #fff;
+                span{
+                       
                     }
                
             }
@@ -25,7 +26,7 @@
         .icon-number
         {
             position: absolute;
-            top: 32%;
+            top: 15%;
             left: 47%;
             p
             {
@@ -37,7 +38,7 @@
         }
         .content-text
         {
-            padding-top: 8px;
+            padding-top: 11px;
             margin-left: 25px;
             p
             {
@@ -47,7 +48,8 @@
     }
 }
 .content-list{
-    margin-top: 50px;
+    margin-top: 111px;
+    margin-right: 40px;
 }
 .icon-back::before{
     position: absolute;
@@ -56,7 +58,7 @@
     height: 13px;
     background: url(../image/Arrow.png);
     left: -50px;
-    top: 75px; 
+    top: 15px; 
     z-index: 100;
 }
 .icon-back::after{
@@ -65,7 +67,7 @@
     width: 128px;
     height: 13px;
     right: -80px;
-    top: 75px;
+    top: 15px;
     background: url(../image/Arrow.png);
     z-index: 100;
 }

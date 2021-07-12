@@ -1,4 +1,5 @@
 .navbar{
+  margin-bottom: 15px;
     .navbar-header{
       padding-top: 15px;
       .navbar-collapse{
@@ -58,19 +59,19 @@
     }
   }}
 @media (max-width: 768px){
-  .menu-navbar{display: none;}
-  .logo-nav{
-    text-align: center;
-  }
-  .navbar-header{
-    width: 100%;
-  }
-  .navbar-collapse{
-    margin-left: -165px;
-    ul {
-      width: 768px;
-    }
-  }
+  .menu-navbar{display: flex}
+  // .logo-nav{
+  //   text-align: center;
+  // }
+  // .navbar-header{
+  //   width: 100%;
+  // }
+  // .navbar-collapse{
+  //   margin-left: -165px;
+  //   ul {
+  //     width: 768px;
+  //   }
+  // }
  
 }
 @media (max-width: 425px){

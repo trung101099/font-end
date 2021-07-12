@@ -1,13 +1,9 @@
-#slider{
-    .banner{
-    position: relative;
+.banner-box{
+    background-image: url(../image/banner-med1.png);
     width: 100%;
-        .banner-img{
-            .pricing{
-                width: 100%;
-                height: 750px;
-            }
-        }
+    height: 753px;
+     position: relative;
+    .banner{
         .banner-text{
             font-family: 'Poppins', sans-serif;
             position: absolute;
@@ -66,7 +62,7 @@
                 padding-left: 30px;
                 background-image: url(../image/down-arrow.png);
                 background-repeat: no-repeat;
-                background-size: 16px;
+                background-size: 9px;
                 background-position: right 20px center;
 
             }

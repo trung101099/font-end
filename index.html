@@ -14,10 +14,10 @@
 	<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 	<link href="css/main.css" rel="stylesheet">
 <body>
-<div class="header_top"><!--header_top-->
+<div class="header_top" id="header"><!--header_top-->
 	<div class="container">
 		<div class="row">
-			<div class="col-md-8 ">
+			<div class="col-md-8">
 				<div class="contactinfo pull-left">
 						<a href="" id="text">Have any question?</a>
 						<a href="" id="icon-email"><i class="fa fa-envelope"></i>support@example.com</a>
@@ -72,29 +72,22 @@
 </nav>
 
 <!--slider-->
-<section id="slider">
-	<div class="container-fluid">
-		<div class="row">
-			<div class="banner">
-				<div class="banner-img">
-					<img src="./image/banner-med1.png" class="pricing">
-				</div>
-				<div class="banner-text">
-					<p>OUR DISCOVER</p>
-					<h1>INSTANTLY BOOK SALONS</br> AND SPAS NEARBY</h1>
-				</div>
-				<form class="button-banner">
-						<input type="text" name="" placeholder="Type Your Text" value=""  >
-						<select name="All categories">
-							<option value="All categories">All categories</option>
-							<option value="Chrome">Chrome</option>
-							<option value="Opera">Opera</option>
-							<option value="Safari">Safari	</option>
-						</select>
-						<button>Search</button>
-				</form>
-			</div>
+<section class="banner-box">
+	<div class="banner">
+		<div class="banner-text">
+			<p>OUR DISCOVER</p>
+			<h1>INSTANTLY BOOK SALONS</br> AND SPAS NEARBY</h1>
 		</div>
+		<form class="button-banner">
+				<input type="text" name="" placeholder="Type Your Text" value=""  >
+				<select name="All categories">
+					<option value="All categories">All categories</option>
+					<option value="Chrome">Chrome</option>
+					<option value="Opera">Opera</option>
+					<option value="Safari">Safari	</option>
+				</select>
+				<button>Search</button>
+		</form>
 	</div>
 </section>
 <!--/slider-->
@@ -654,11 +647,10 @@
 					</div>
 				</div>
 	</section>
-	<section>
-		<div class="container-fluid">
+	<section class="video-box">
+		<div class="container">
 			<div class="nav-video">
   			<div data-toggle="modal" data-target="#myModal">
-  				
   				<div class="img-video">
   					<div class="icon-video">
   						<span class="icon-play-button"></span>
@@ -773,7 +765,7 @@
 		</div>
 	</section>
 	<section class="section-product">
-		<div class="container-fluid">
+		<div class="container">
 			<div class="nav-product">
 				<div class="container">
 					<div class="list-product">
@@ -790,7 +782,6 @@
 						</div>
 					</div>
 				</div>
-				<div class="container">
   <ul class="nav nav-tabs">
     <li class="active"><a data-toggle="tab" href="#home">All</a></li>
     <li><a data-toggle="tab" href="#menu1">Gym</a></li>
@@ -3709,55 +3700,58 @@
       <div class="swiper-wrapper">
         <div class="swiper-slide">
             <div class="news">
-              <div class="news-img">
+              <div class="news-img ">
                 <img src="./image/jan.png">
               </div>
-              <div class="news-text">
+            </div>
+        </div>
+        <div class="news-text">
                 <h4>Jan Losert</h4>
                 <p>(Newyork)</p>
               </div>
-            </div>
-        </div>
         <div class="swiper-slide">
           <div class="news">
-              <div class="news-img">
+              <div class="news-img ">
                 <img src="./image/diana.png">
               </div>
-              <div class="news-text">
+              
+        </div>
+    </div>
+    <div class="news-text">
                 <h4>Diana Tihai</h4>
                 <p>(USA)</p>
               </div>
-            </div>
-        </div>
         <div class="swiper-slide">
           <div class="news">
-              <div class="news-img">
+              <div class="news-img ">
                 <img src="./image/victor.png">
               </div>
-              <div class="news-text">
+              
+            </div>
+        </div>
+        <div class="news-text">
                 <h4>Victor Tihal</h4>
                 <p>(Japan)</p>
               </div>
-            </div>
-        </div>
         <div class="swiper-slide">
           <div class="news">
               <div class="news-img">
                 <img src="./image/lisa.png">
               </div>
-              <div class="news-text">
+              
+            </div>
+        </div>
+        <div class="news-text">
                 <h4>Lisa Doe</h4>
                 <p>(india)</p>
               </div>
-            </div>
-        </div>
       </div>
     </div>
     </div>
     </section>
-	<section>
-		<div class="container-fluid">
-			<div class="section-banner">
+	<section class="section-banner">
+		<div class="container">
+			<div >
 				<div class="section-text">
 					<h1>Your Everyday Retreat</h1>					
 				</div>
@@ -3972,11 +3966,11 @@ $(function() {
         },
       });
     </script>
-    <script type="text/javascript">
+    <!-- <script type="text/javascript">
         function calcRate(r) {
             const f = ~~r,
             id = 'star' + f + (r % f ? 'half' : '')
             id && (document.getElementById(id).checked = !0)
         }
-    </script>
+    </script> -->
 </html>

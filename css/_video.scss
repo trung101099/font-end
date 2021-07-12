@@ -1,4 +1,10 @@
-
+.video-box{
+    background-image: url(../image/video.png);
+    width: 100%;
+    height: 570px;
+    background-repeat: round;
+    position: relative;
+}
     .modal-dialog{
         width: 65%;
         height: 450px;
@@ -18,11 +24,7 @@
         }
     }
 .nav-video{
-    position: relative;
-    background-image: url(../image/video.png);
-    width: 100%;
-    height: 570px;
-    background-repeat: round;
+    
     margin-top: 50px;
     .icon-video{
         position: absolute;
