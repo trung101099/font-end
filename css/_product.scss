@@ -1,34 +1,39 @@
-.owl-carousel .owl-nav .owl-prev {
-    left: -2%;
-}
-.owl-carousel .owl-nav .owl-next {
-    right: -2%;
-}
-.owl-prev span{
-    font-size: 40px;
-    position: absolute;
-    right: 0;
-    border: 1px solid;
-    border-radius: 25px;
-    width: 100px;
-    
-}
-.owl-prev span:hover{
-        background: #fc887b;
-        color: #fff;
+
+.slider_main{
+    .owl-nav{
+         
+        .owl-prev{
+            left:-10%;
+            font-size: 40px;
+            position: absolute;
+            right: 0;
+            border: 1px solid;
+            border-radius: 25px;
+            width: 100px;
+            &:hover{
+                background: #fc887b;
+                color: #fff;
+            }  
+
+        }
+        .owl-next{
+            right: -10%;
+            font-size: 40px;
+            position: absolute;
+            border: 1px solid;
+            border-radius: 25px;
+            width: 100px;
+            &:hover{
+                background: #fc887b;
+                color: #fff;
+            }   
+        }
     }
-.owl-next span{
-    font-size: 40px;
-    position: absolute;
-    border: 1px solid;
-    border-radius: 25px;
-    width: 100px;
 }
-.owl-next span:hover{
-        background: #fc887b;
-        color: #fff;
-    }
+
+
 .slide-product{
+
     padding-top: 48px;
     margin-bottom: 45px;
 }
@@ -345,35 +350,4 @@
 .button-view a button:focus{
     outline: none;
 }
-@media (max-width: 1200px){
-    .slide-product .owl-nav{
-         opacity: 0;
-         transition: 0.35s;
-    }
-    .owl-prev i{
-        font-size: 80px;
-        position: absolute;
-        right: 30px;
-    }
-    .owl-next i{
-        font-size: 80px;
-        position: absolute;
-        left: 30px;
-    }
-    .slide-product:hover .owl-nav{
-        opacity: 1;
-        transition: 0.35s;
-     }
-    .slide-product:hover .owl-nav .owl-next i{
-        font-size: 80px;
-        position: absolute;
-        left: -60px;
-        color: #fc887b;
-    }
-    .slide-product:hover .owl-nav .owl-prev i{
-        font-size: 80px;
-        position: absolute;
-        right: -60px;
-        color: #fc887b;
-    }
-}
+

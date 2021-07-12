@@ -1,4 +1,5 @@
 .content-backgroud{
+  
     border: 1px solid #ccc;
     height: 250px;
     .content
@@ -70,32 +71,4 @@
     top: 15px;
     background: url(../image/Arrow.png);
     z-index: 100;
-}
-@media screen and (max-width: 768px)
-{
-    .icon-iteam{
-        position: absolute;
-        left: 8%;
-        top: 15%;
-    }
-    .icon-number{
-        margin-left: -127px;
-    }
-    .icon-back::before{
-        display: none;
-    }
-    .icon-back::after{
-        display: none;
-    }
-}
-@media screen and (max-width: 320px)
-{
-    .icon-number{
-        margin-left: 12px;
-    }
-    .icon-iteam{
-        position: absolute;
-        left: 8%;
-        top: 15%;
-    }
 }
