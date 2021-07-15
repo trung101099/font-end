@@ -1,46 +1,45 @@
 .section-banner{
-   
     position: relative;
     background-image: url(../image/Doll.png);
     width: 100%;
     height: 570px;
-    background-repeat: round;
-    .section-text{
-        position: absolute;
-        bottom: 56%;
-        left: 33%;
-        color: #fff;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    .banner-main{
         text-align: center;
-        h1{
-            font-weight: 800;
-            font-size: 58px;
-        } 
+        margin-top: 170px;
+        .section-text{
+            color: #fff;
+            h1{
+                font-weight: 800;
+                font-size: 58px;
+            } 
+        }
+        .section-text-title{
+            color: #fff;
+            margin-top: 30px;
+            p{
+                font-weight: 300;
+                font-size: 25px;
+            }
+        }   
+        .section-button{   
+            margin-top: 28px;
+            margin-left: 24px; 
+            input{
+                width: 183px;
+                height: 50px;
+                border: none;
+                margin-left: -5px;
+            }
+            input:focus-visible{
+                outline: none;
+            }
+            
+        }
     }
-    .section-text-title{
-        position: absolute;
-        bottom: 44%;
-        left: 41%;
-        color: #fff;
-        p{
-            font-weight: 300;
-            font-size: 25px;
-        }
-    }   
-    .section-button{    
-       position: absolute;
-        bottom: 33%;
-        left: 46%;
-        input{
-            width: 183px;
-            height: 50px;
-            border: none;
-            margin-left: -5px;
-        }
-        input:focus-visible{
-            outline: none;
-        }
-        
-    }
+    
 }
 
 

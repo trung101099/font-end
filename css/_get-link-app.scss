@@ -1,40 +1,80 @@
 .get-link-app{
-   
+    width: 100%;
     background-image: url(../image/AppDownload.png);
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 80px;
-    .link-app{
-         padding-top: 260px;
-         padding-left: 45px;
-        .img-app{
-            display: flex;
-            margin-top: 40px;
-            margin-left: -43px;
-            .iphone{
-                margin-left: 8px;
+    .get_link{
+        .box-img{   
+            img{
+                width: 100%;
+                vertical-align: middle;
+                display: inline-block;
             }
         }
-        .text-app{
-            h1{
-                font-size: 50px;
-                margin-top: -20px;
-                margin-left: -38px;
-                font-weight: 700;
+        .link-app{
+             margin-top: 235px;
+            .img-app{
+                padding-bottom: 10px;
+                display: flex;
+                .google_play{
+                    img{
+                        width: 100%;
+                    }
+                }
+                .iphone{
+                    margin-left: 8px;
+                    img{
+                        width: 100%;
+                    }
+                }
             }
-            span{
-                font-size: 44px;
-                font-weight: 700;
-                margin-left: -33px;
-            }
+            .text-app{
+                padding-bottom: 10px;
+                h1{
+                    font-size: 44px;
+                    font-weight: 700;
+                }
+                strong{
+                    color: #fc887b;
+                }
 
-        }
-        .text-app-title{
-            p{
-                margin-top: 10px;
-                margin-left: -33px;
-                font-size: 17px;
             }
-        }    
+            .text-app-title{
+                padding-bottom: 10px;
+                p{
+                    font-size: 16px;
+                }
+            }    
+        }
+    }
+}
+@media (min-width: 1024px) and (max-width: 1199px){
+    .get-link-app .get_link .link-app{
+        margin-left: 60px;
+    }
+}
+@media (min-width: 768px) and (max-width: 1023px){
+    .get_link{
+        display: inline-flex;
+    }
+    .box-img{
+        margin-top: 16px;
+        img{
+            max-width: 100%;
+        }
+    }
+    .get-link-app .get_link .link-app{
+        margin-top: inherit;
+        margin-top: 50px;
+    }
+}
+@media (max-width: 767px){
+    .get_link{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .get-link-app .get_link .link-app{
+        margin-top: inherit;
     }
 }

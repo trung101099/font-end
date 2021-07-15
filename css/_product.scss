@@ -14,7 +14,9 @@
                 background: #fc887b;
                 color: #fff;
             }  
-
+            span{
+                
+            }
         }
         .owl-next{
             right: -10%;
@@ -53,6 +55,7 @@
     border-top: none;
     padding-top: 15px;
     .product-tille{
+        color: rgb(43,56,64);
         padding:0px 30px;
         h4{
             margin: 0px;
@@ -351,3 +354,234 @@
     outline: none;
 }
 
+@media (min-width: 1200px){
+    .owl-carousel .owl-dots{
+        display: none;
+    }
+    .new-product{
+        border: none;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199px){
+    .owl-nav{
+        display: none;
+    }
+    #rating {
+        position: absolute;
+        bottom: 58%;
+        left: 71%;
+    }
+    #rating_1 {
+        position: absolute;
+        bottom: 58%;
+        left: 70%;
+    }
+    #rating_2 {
+        position: absolute;
+        bottom: 58%;
+        left: 70%;
+    }
+    #rating_3 {
+        position: absolute;
+        bottom: 58%;
+        left: 70%;
+    }
+    #rating_4 {
+        position: absolute;
+        bottom: 58%;
+        left: 70%;
+    }
+    #rating_5 {
+        position: absolute;
+        bottom: 58%;
+        left: 70%;
+    }
+    .text-product .price{
+        top: 36%;
+    }
+    .owl-carousel .owl-dots{
+        bottom: -8%;
+    }
+    .new-product{
+        border: none;
+    }
+    .text-product .button-product{
+        left: 54%;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px){
+    .owl-nav{
+        display: none;
+    }
+    .owl-carousel .owl-dots{
+        bottom: -8%;
+    }
+    .text-product .button-product {
+        bottom: 17%;
+    }
+    .text-product .title-like .like {
+        bottom: 4%;
+    }
+}
+@media (min-width: 481px)and (max-width: 767px){
+    .owl-carousel .owl-nav{
+        display: none;
+    }
+    .new-product{
+        height: 540px;
+    }
+    .owl-carousel .owl-dots{
+        bottom: 0px;
+    }
+    .text-product .button-product{
+        bottom: 135px;
+    }
+    .text-product .price{
+        top: 214px;
+        left: 20px;
+    }
+    #rating{
+        bottom: 295px;
+        right: 2px;
+    }
+    #rating_1{
+        bottom: 295px;
+        right: 8px;
+    }
+    #rating_2{
+        bottom: 295px;
+        right: 8px;
+    }
+    #rating_3{
+        bottom: 295px;
+        right:8px;
+    }
+    #rating_4{
+        bottom: 295px;
+        right: 8px;
+    }
+    #rating_5{
+        bottom: 295px;
+        right: 8px;
+    }
+    .text-product .title-like .like {
+        bottom: 75px;
+        right: 25px;
+    }
+}
+@media (min-width: 425px)and (max-width: 480px){
+    .owl-carousel .owl-nav{
+        display: none;
+    }
+    .new-product{
+        height: 545px;
+    }
+    .owl-carousel .owl-dots{
+        bottom: -42px;
+    }   
+    .text-product .button-product{
+        right: 2px;
+        bottom: 115px;
+    }
+    .text-product .title-like .like{
+        bottom: 55px;
+        right: 35px;
+    }
+}
+@media (min-width: 330px)and (max-width: 424px){
+    .owl-carousel .owl-nav{
+        display: none;
+    }
+    .new-product{
+        height: 545px;
+    }
+    .owl-carousel .owl-dots{
+        bottom: -42px;
+    }   
+    .text-product .button-product{
+        right: 2px;
+        bottom: 152px;
+    }
+    .text-product .title-like .like{
+        bottom: 88px;
+        right: 35px;
+    }
+    #rating{
+        bottom: 300px;
+        left: 250px;
+    }
+    #rating_1{
+        bottom: 300px;
+        left: 250px;
+    }
+    #rating_2{
+        bottom: 300px;
+        left: 250px;
+    }
+    #rating_3{
+        bottom: 300px;
+        left: 250px;
+    }
+    #rating_4{
+        bottom: 300px;
+        left: 250px;
+    }
+    #rating_5{
+        bottom: 300px;
+        left: 250px;    
+    }
+    .text-product .price{
+        top: 214px;
+        left: 20px;
+    }
+}
+@media (max-width: 325px){
+    .owl-carousel .owl-nav{
+        display: none;
+    }
+    .new-product{
+        height: 545px;
+    }
+    .owl-carousel .owl-dots{
+        bottom: -42px;
+    }   
+    .text-product .button-product{
+        right: 2px;
+        bottom: 152px;
+    }
+    .text-product .title-like .like{
+        bottom: 88px;
+        right: 35px;
+    }
+    #rating{
+        bottom: 342px;
+        left: 200px; 
+    }
+    #rating_1{
+        bottom: 342px;
+        left: 200px; 
+    }
+    #rating_2{
+        bottom: 342px;
+        left: 200px; 
+    }
+    #rating_3{
+        bottom: 342px;
+        left: 200px; 
+    }
+    #rating_4{
+        bottom: 342px;
+        left: 200px; 
+    }
+    #rating_5{
+        bottom: 342px;
+        left: 200px;    
+    }
+    .text-product .price{
+        top: 170px;
+        left: 20px;
+    }
+    .text-product .button-product a button{
+        padding: 5px 5px 5px 5px;
+    }
+}

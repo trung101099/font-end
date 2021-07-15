@@ -1,0 +1,19 @@
+.footer-abs-section{
+	color: rgb(196,196,196);
+    background-color: rgb(23,23,23);
+    padding-top: 28px;
+    padding-bottom: 28px;
+    .footer-abs-middle, p{
+    	width: 100%;
+	    -webkit-box-flex: 0;
+	    -webkit-flex: 0 0 100%;
+	    -ms-flex: 0 0 100%;
+	    flex: 0 0 100%;
+	    text-align: center;
+	    padding-left: 15px;
+	    padding-right: 15px;
+	    a{
+	    	color: rgb(252,136,123);
+	    }
+	}
+}

@@ -149,3 +149,28 @@
     }
 }
 
+@media (max-width: 1024px){
+    .header-footer{
+        text-align: center;
+    }
+    .footer-input{
+        width: 100%;
+        input{
+            width: auto;
+        }
+    }
+}
+@media (max-width: 425px){
+    .header-footer{
+        text-align: center;
+    }
+    .footer .header-footer .footer-input{
+        width: 100%;
+        input{
+            width: 300px;
+        }
+        button{
+            margin-top: 10px;
+        }
+    }
+}

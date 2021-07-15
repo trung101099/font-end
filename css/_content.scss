@@ -72,3 +72,62 @@
     background: url(../image/Arrow.png);
     z-index: 100;
 }
+@media (min-width: 1024px) and (max-width: 1199px){
+    .content-backgroud .content .icon .icon-iteam{
+        top: -11%;
+        left: 36%;
+    }
+    .content-backgroud .content .icon-number {
+        top: 17%;
+        left: 58%;
+    }
+}
+@media (min-width: 768px) and (max-width: 1023px){
+    .content-backgroud {
+        margin-bottom: 90px;
+    }
+    .content-backgroud .content .icon .icon-iteam{
+        top: -11%;
+        left: 16%;
+    }
+    .content-backgroud .content .icon-number {
+        top: 17%;
+        left: 25%;
+    }
+    .icon-back::before{
+        display: none;
+    }
+    .icon-back::after{
+        display: none;
+    }
+}
+@media (min-width: 425px) and (max-width: 767px){
+    .content-backgroud {
+        margin-bottom: 90px;
+    }
+    .icon-back::before{
+        display: none;
+    }
+    .icon-back::after{
+        display: none;
+    }
+}
+@media (max-width: 375px){
+    .content-backgroud {
+        margin-bottom: 90px;
+    }
+    .icon-back::before{
+        display: none;
+    }
+    .icon-back::after{
+        display: none;
+    }
+    .content-backgroud .content .icon .icon-iteam{
+        top: -11%;
+        left: 37%;
+    }
+    .content-backgroud .content .icon-number {
+        top: 16%;
+        left: 185px;
+    }
+}
