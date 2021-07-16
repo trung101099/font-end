@@ -40,6 +40,14 @@
   margin-top: 14px;
     margin-left: 23px;
 }
+.menu-navbar button{
+  border: none;
+  background: no-repeat;
+  span{
+    font-size: 34px;
+    color: rgb(252,136,123);
+  }
+}
 @media (min-width: 1200px){
   .menu-navbar{
     display: none;

@@ -205,7 +205,7 @@
 #rating {
     position: absolute;
     bottom: 50%;
-    left: 78%;
+    left: 76%;
 }
 #rating_1 {
     position: absolute;
@@ -349,6 +349,10 @@
 .button-view a button:hover{
     color: #ffff;
     background: black;
+    transition: all 0.6s ease 0s;
+    -moz-transition: all 0.9s ease 0s;
+    -webkit-transition: all 0.9s ease 0s;
+    -o-transition: all 0.9s ease 0s;
 }
 .button-view a button:focus{
     outline: none;
@@ -423,7 +427,7 @@
         bottom: 4%;
     }
 }
-@media (min-width: 481px)and (max-width: 767px){
+@media (min-width: 480px)and (max-width: 767px){
     .owl-carousel .owl-nav{
         display: none;
     }
@@ -469,7 +473,7 @@
         right: 25px;
     }
 }
-@media (min-width: 425px)and (max-width: 480px){
+@media (min-width: 425px)and (max-width: 479px){
     .owl-carousel .owl-nav{
         display: none;
     }
@@ -477,18 +481,18 @@
         height: 545px;
     }
     .owl-carousel .owl-dots{
-        bottom: -42px;
+        bottom: 0px;
     }   
-    .text-product .button-product{
+    .item .new-product .text-product .button-product{
         right: 2px;
         bottom: 115px;
     }
-    .text-product .title-like .like{
+    .item .new-product .text-product .title-like .like{
         bottom: 55px;
         right: 35px;
     }
 }
-@media (min-width: 330px)and (max-width: 424px){
+@media (min-width: 375px)and (max-width: 424px){
     .owl-carousel .owl-nav{
         display: none;
     }
@@ -496,13 +500,13 @@
         height: 545px;
     }
     .owl-carousel .owl-dots{
-        bottom: -42px;
+        bottom: 34px;
     }   
-    .text-product .button-product{
+    .item .new-product .text-product .button-product{
         right: 2px;
         bottom: 152px;
     }
-    .text-product .title-like .like{
+    .item .new-product .text-product .title-like .like{
         bottom: 88px;
         right: 35px;
     }
@@ -535,7 +539,7 @@
         left: 20px;
     }
 }
-@media (max-width: 325px){
+@media (max-width: 370px){
     .owl-carousel .owl-nav{
         display: none;
     }
@@ -543,13 +547,13 @@
         height: 545px;
     }
     .owl-carousel .owl-dots{
-        bottom: -42px;
+        bottom: 35px;
     }   
-    .text-product .button-product{
+    .item .new-product .text-product .button-product{
         right: 2px;
         bottom: 152px;
     }
-    .text-product .title-like .like{
+    .item .new-product .text-product .title-like .like{
         bottom: 88px;
         right: 35px;
     }
@@ -581,7 +585,7 @@
         top: 170px;
         left: 20px;
     }
-    .text-product .button-product a button{
+    .item .new-product .text-product .button-product a button{
         padding: 5px 5px 5px 5px;
     }
 }

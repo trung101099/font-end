@@ -44,7 +44,7 @@
 
 @media (min-width: 992px) and (max-width: 1199px){
     .owl-carousel .owl-nav.disabled+.owl-dots {
-        margin-bottom: -40px;
+        margin-bottom: -20px;
     }
     .owl-carousel .owl-dots .owl-dot.active span, .owl-carousel .owl-dots .owl-dot:hover span{
         background: #fc887b;
@@ -55,7 +55,7 @@
 
 @media (min-width: 768px) and (max-width: 991px){
     .owl-carousel .owl-nav.disabled+.owl-dots {
-        margin-bottom: -40px;
+        margin-bottom: -20px;
         
     }
     .owl-carousel .owl-dots .owl-dot.active span, .owl-carousel .owl-dots .owl-dot:hover span{
@@ -66,7 +66,7 @@
 
 @media (max-width: 767px){
     .owl-carousel .owl-nav.disabled+.owl-dots {
-        margin-bottom: -25px;
+        margin-bottom: 10px;
         
     }
     .owl-carousel .owl-dots .owl-dot.active span, .owl-carousel .owl-dots .owl-dot:hover span{

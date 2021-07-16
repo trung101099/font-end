@@ -132,6 +132,11 @@
     .section-product{
         display: inline-block;
     }
+    .nav-product ul.nav-tabs{
+        float: none;
+        margin: auto;
+        margin-left: 180px;
+    }
     .all-product .product .new-product{
         margin: 5px 0px 50px 5px;
         height: 462px;
@@ -160,9 +165,13 @@
     .nav-product ul.nav-tabs{
         float: none;
         margin: auto;
+        margin-left: 4px;
+        li{
+            margin-left: inherit;
+        }
     }
     .all-product .product .new-product{
-        margin: 5px 0px 50px -2px;
+        margin: 4px 0px 50px -10px;
         height: 482px;
     }
     .text-product .button-product{
@@ -180,6 +189,10 @@
     .nav-product ul.nav-tabs{
         float: none;
         margin: auto;
+        margin-left: 20px;
+        li{
+            margin-left: inherit;
+        }
     }
     .text-product .button-product{
         bottom: 65px;
@@ -226,43 +239,50 @@
     .nav-product ul.nav-tabs{
         float: none;
         margin: auto;
+        margin-left: 13px;
+        li{
+            margin-left: inherit;
+        }
     }
-    .text-product .button-product{
+    .tab-pane .all-product .product .text-product .button-product{
         bottom: 65px;
         right: 2px;
     }
-    .text-product .title-like .like{
+    .tab-pane .all-product .product .text-product .title-like .like{
         bottom: 5px;
         margin-right: -24px;
     }
-    .all-product .product .new-product{
+    .tab-pane .all-product .product .new-product{
             height: 446px;
     }
-    .text-product .price{
-        top: 150px;
+    .tab-pane .all-product .product .product .new-product button{
+        padding: 5px 10px 5px 10px;
+    }
+    .tab-pane .all-product .product .text-product .price{
+        top: 162px;
     }
     .tab-pane .all-product .product .new-product .product-image #rating{
-        bottom: 264px;
-        left: 180px;
+        bottom: 250px;
+        left: 190px;
     }
     .tab-pane .all-product .product .new-product .product-image #rating_1{
-        bottom: 264px;
-        left: 180px;
+        bottom: 250px;
+        left: 190px
     }
     .tab-pane .all-product .product .new-product .product-image #rating_2{
-        bottom: 264px;
-        left: 180px;
+        bottom: 250px;
+        left: 190px
     }
     .tab-pane .all-product .product .new-product .product-image #rating_3{
-        bottom: 264px;
-        left: 180px;
+        bottom: 250px;
+        left: 190px
     }
     .tab-pane .all-product .product .new-product .product-image #rating_4{
-        bottom: 264px;
-        left: 180px;
+        bottom: 250px;
+        left: 190px
     }
     .tab-pane .all-product .product .new-product .product-image #rating_5{
-        bottom: 264px;
-        left: 180px;
+        bottom: 250px;
+        left: 190px
     }
 }

@@ -10,7 +10,6 @@
         .banner-text{
             font-family: 'Poppins', sans-serif;
             position: absolute;
-            left: 21%;
             bottom: 43%;
             color: #ffff;
             font-weight: 900;
@@ -20,18 +19,15 @@
             p{
                 font-size: 30px;
                 margin-bottom: -10px;
-                margin-left: 12px;
             }
             h1{
                 font-weight: 900;
                 font-size: 60px;
                 margin-bottom: 15px;
-                margin-left: 10px;
             }
         }
         .button-banner{
             position: absolute;
-            left: 21%;
             bottom: 33%;
             transition: all 0.3s;
             z-index: 1;
@@ -86,13 +82,11 @@
     }
 }
 
-@media (max-width: 767px){
-    .banner-box .banner{
-        text-align: center;    
-    }
+@media (max-width: 768px){
    
     .banner-box .banner .banner-text{
-        bottom: 63%;
+        bottom: 55%;
+        left: 154px;
         p{
         font-size: 23px;
         
@@ -109,7 +103,52 @@
     padding: 20px 20px 20px 20px;
     background: #fff;
     bottom: 20%;
-    margin-right: 16px;
+    margin-left: inherit;
+    right: 150px;
+    left: 155px;
+    input{
+        width: 100%; 
+        margin-bottom: 25px; 
+        border-bottom: 1px solid #cfcfd0; 
+        background-image: none; 
+    }
+    select{
+        width: 100%;
+        margin-bottom: 25px;
+        border-bottom: 1px solid #cfcfd0;
+    }
+    button{
+        width: 100%;
+    }
+  }
+}
+@media (max-width: 767px){
+    .banner-box .banner{
+        text-align: center;    
+    }
+   
+    .banner-box .banner .banner-text{
+        bottom: 55%;
+        left: inherit;
+        p{
+        font-size: 23px;
+        
+        }
+    }
+    
+  .banner-box .banner .banner-text h1{
+    font-size: 36px;
+    line-height: 45px;
+  }
+  .banner-box .banner .button-banner{
+    border: 1px solid #fff;
+    border: none;
+    padding: 20px 20px 20px 20px;
+    background: #fff;
+    bottom: 20%;
+    margin-left: inherit;
+    right: 15px;
+    left: 20px;
     input{
         width: 100%; 
         margin-bottom: 25px; 

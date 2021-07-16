@@ -50,7 +50,6 @@
 }
 .content-list{
     margin-top: 111px;
-    margin-right: 40px;
 }
 .icon-back::before{
     position: absolute;
@@ -111,6 +110,15 @@
     .icon-back::after{
         display: none;
     }
+    .content-backgroud .content .icon .icon-iteam{
+        top: -9%;
+        left: 27%;
+    }
+    .content-backgroud .content .icon-number {
+        position: absolute;
+        top: 19%;
+        left: 44%;
+    }
 }
 @media (max-width: 375px){
     .content-backgroud {
@@ -123,11 +131,12 @@
         display: none;
     }
     .content-backgroud .content .icon .icon-iteam{
-        top: -11%;
-        left: 37%;
+        top: -20px;
+        left: 115px;
     }
     .content-backgroud .content .icon-number {
         top: 16%;
         left: 185px;
     }
+
 }
