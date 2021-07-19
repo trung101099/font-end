@@ -6737,7 +6737,6 @@ a i {
   margin-bottom: 2px; }
 
 .contactinfo:first-child {
-  margin-left: 14px;
   padding-top: 4px; }
 
 .contactinfo a {
@@ -6796,35 +6795,30 @@ a i {
 
   .social-icons a {
     margin-left: -30px; } }
-#navbar {
-  overflow: hidden;
-  background: #fff;
-  margin-bottom: 15px;
-  z-index: 100; }
-  #navbar .navbar-header {
-    padding-top: 15px; }
-    #navbar .navbar-header .navbar-collapse ul {
-      margin-top: 6px;
-      margin-left: 170px; }
-      #navbar .navbar-header .navbar-collapse ul li a {
-        color: #2b3840;
-        font-weight: 500;
-        font-size: 16px; }
-      #navbar .navbar-header .navbar-collapse ul li a:hover {
-        background: #fc887b;
-        color: #fff;
-        transition: all 0.6s ease 0s;
-        -moz-transition: all 0.9s ease 0s;
-        -webkit-transition: all 0.9s ease 0s;
-        -o-transition: all 0.9s ease 0s; }
-      #navbar .navbar-header .navbar-collapse ul li button {
-        border: none;
-        width: 150px;
-        height: 50px;
-        background: #fc887b;
-        color: #fff; }
-      #navbar .navbar-header .navbar-collapse ul li button:focus {
-        outline: none; }
+#navbar .navbar-header {
+  padding-top: 15px; }
+  #navbar .navbar-header .navbar-collapse ul {
+    margin-top: 6px;
+    margin-left: 170px; }
+    #navbar .navbar-header .navbar-collapse ul li a {
+      color: #2b3840;
+      font-weight: 500;
+      font-size: 16px; }
+    #navbar .navbar-header .navbar-collapse ul li a:hover {
+      background: #fc887b;
+      color: #fff;
+      transition: all 0.6s ease 0s;
+      -moz-transition: all 0.9s ease 0s;
+      -webkit-transition: all 0.9s ease 0s;
+      -o-transition: all 0.9s ease 0s; }
+    #navbar .navbar-header .navbar-collapse ul li button {
+      border: none;
+      width: 150px;
+      height: 50px;
+      background: #fc887b;
+      color: #fff; }
+    #navbar .navbar-header .navbar-collapse ul li button:focus {
+      outline: none; }
 
 .sticky {
   position: fixed;
@@ -6834,8 +6828,7 @@ a i {
   box-shadow: 0px 0px 5px #ccc; }
 
 .logo-nav {
-  margin-top: 14px;
-  margin-left: 23px; }
+  margin-top: 14px; }
 
 .menu-navbar button {
   border: none;
@@ -6846,7 +6839,13 @@ a i {
 
 @media (min-width: 1200px) {
   .menu-navbar {
-    display: none; } }
+    display: none; }
+
+  #navbar {
+    overflow: hidden;
+    background: #fff;
+    margin-bottom: 15px;
+    z-index: 100; } }
 @media (min-width: 992px) and (max-width: 1199px) {
   .menu-navbar {
     display: none; }
@@ -6874,7 +6873,11 @@ a i {
     right: 5%; }
 
   .navbar .navbar-header .navbar-collapse ul {
-    margin-left: 0px; } }
+    margin-left: 0px; }
+
+  #navbar .navbar-header .navbar-collapse ul {
+    margin-top: 6px;
+    margin-left: inherit; } }
 .banner-box {
   background-image: url(../image/banner-med1.png);
   width: 100%;
@@ -6883,71 +6886,77 @@ a i {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top center; }
-  .banner-box .banner .banner-text {
-    font-family: 'Poppins', sans-serif;
-    position: absolute;
-    bottom: 43%;
-    color: #ffff;
-    font-weight: 900;
-    transition: all 0.3s;
-    z-index: 1;
-    letter-spacing: 1.1px;
-    padding: 0px 580px 0px 0px;
-    margin: -10px 0px 14px 0px; }
-    .banner-box .banner .banner-text p {
-      font-size: 30px;
-      margin-bottom: -13px; }
-    .banner-box .banner .banner-text h1 {
-      color: #FFFFFF;
-      font-family: "Poppins", Sans-serif;
-      font-size: 60px;
-      font-weight: bold;
-      text-transform: uppercase;
-      line-height: 73px; }
-  .banner-box .banner .button-banner {
-    position: absolute;
-    bottom: 33%;
-    transition: all 0.3s;
-    z-index: 1;
-    display: flex;
-    margin-bottom: -5px; }
-    @media (max-width: 768px) {
-      .banner-box .banner .button-banner {
-        display: inline-block; } }
-    .banner-box .banner .button-banner input {
-      width: 270px;
-      height: 50px;
-      border: none;
-      color: #8a8a8a;
-      padding-left: 28px;
-      background-image: url(../image/Line.png);
-      background-repeat: no-repeat;
-      background-size: 1px 32px;
-      background-position: right 38px center; }
-    .banner-box .banner .button-banner input:focus-visible {
-      outline: none; }
-    .banner-box .banner .button-banner select {
-      -webkit-appearance: none;
-      width: 230px;
-      height: 50px;
-      border: none;
-      color: #8a8a8a;
-      background-image: url(../image/down-arrow.png);
-      background-repeat: no-repeat;
-      background-size: 9px;
-      background-position: right 26px center; }
-    .banner-box .banner .button-banner select:focus-visible {
-      outline: none; }
-    .banner-box .banner .button-banner button {
-      width: 210px;
-      height: 50px;
-      border: none;
-      background: #2b3840;
+  .banner-box .banner {
+    margin-left: 20px; }
+    .banner-box .banner .banner-text {
+      font-family: 'Poppins', sans-serif;
+      position: absolute;
+      bottom: 43%;
       color: #ffff;
-      padding-left: 16px; }
-    .banner-box .banner .button-banner .button-banner button:focus {
-      outline: none; }
+      font-weight: 900;
+      transition: all 0.3s;
+      z-index: 1;
+      letter-spacing: 1.1px;
+      padding: 0px 580px 0px 0px;
+      margin: -10px 0px 14px 0px; }
+      .banner-box .banner .banner-text p {
+        font-size: 30px;
+        margin-bottom: -13px; }
+      .banner-box .banner .banner-text h1 {
+        color: #FFFFFF;
+        font-family: "Poppins", Sans-serif;
+        font-size: 60px;
+        font-weight: bold;
+        text-transform: uppercase;
+        line-height: 73px; }
+    .banner-box .banner .button-banner {
+      position: absolute;
+      bottom: 33%;
+      transition: all 0.3s;
+      z-index: 1;
+      display: flex;
+      margin-bottom: -5px; }
+      @media (max-width: 768px) {
+        .banner-box .banner .button-banner {
+          display: inline-block; } }
+      .banner-box .banner .button-banner input {
+        width: 270px;
+        height: 50px;
+        border: none;
+        color: #8a8a8a;
+        padding-left: 28px;
+        background-image: url(../image/Line.png);
+        background-repeat: no-repeat;
+        background-size: 1px 32px;
+        background-position: right 38px center; }
+      .banner-box .banner .button-banner input:focus-visible {
+        outline: none; }
+      .banner-box .banner .button-banner select {
+        -webkit-appearance: none;
+        width: 230px;
+        height: 50px;
+        border: none;
+        color: #8a8a8a;
+        background-image: url(../image/down-arrow.png);
+        background-repeat: no-repeat;
+        background-size: 9px;
+        background-position: right 26px center; }
+      .banner-box .banner .button-banner select:focus-visible {
+        outline: none; }
+      .banner-box .banner .button-banner button {
+        width: 210px;
+        height: 50px;
+        border: none;
+        background: #2b3840;
+        color: #ffff;
+        padding-left: 16px; }
+      .banner-box .banner .button-banner .button-banner button:focus {
+        outline: none; }
 
+@media (min-width: 769px) and (max-width: 1024px) {
+  .banner-text {
+    padding: 0px 150px 0px 0px;
+    margin: -10px 0px 14px 0px; } }
 @media (max-width: 768px) {
   .banner-box .banner .banner-text {
     padding: inherit;
@@ -6970,41 +6979,6 @@ a i {
     margin-left: inherit;
     right: 150px;
     left: 155px; }
-    .banner-box .banner .button-banner input {
-      width: 100%;
-      margin-bottom: 25px;
-      border-bottom: 1px solid #cfcfd0;
-      background-image: none; }
-    .banner-box .banner .button-banner select {
-      width: 100%;
-      margin-bottom: 25px;
-      border-bottom: 1px solid #cfcfd0;
-      padding-left: 30px; }
-    .banner-box .banner .button-banner button {
-      width: 100%; } }
-@media (max-width: 767px) {
-  .banner-box .banner {
-    text-align: center; }
-
-  .banner-box .banner .banner-text {
-    bottom: 55%;
-    left: inherit; }
-    .banner-box .banner .banner-text p {
-      font-size: 23px; }
-
-  .banner-box .banner .banner-text h1 {
-    font-size: 36px;
-    line-height: 45px; }
-
-  .banner-box .banner .button-banner {
-    border: 1px solid #fff;
-    border: none;
-    padding: 20px 20px 20px 20px;
-    background: #fff;
-    bottom: 20%;
-    margin-left: inherit;
-    right: 15px;
-    left: 20px; }
     .banner-box .banner .button-banner input {
       width: 100%;
       margin-bottom: 25px;

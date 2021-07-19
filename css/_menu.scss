@@ -1,8 +1,4 @@
 #navbar{
-  overflow: hidden;
-  background: #fff;
-  margin-bottom: 15px;
-  z-index: 100;
     .navbar-header{
       padding-top: 15px;
       .navbar-collapse{
@@ -47,7 +43,6 @@
 }
 .logo-nav{
   margin-top: 14px;
-    margin-left: 23px;
 }
 .menu-navbar button{
   border: none;
@@ -60,6 +55,12 @@
 @media (min-width: 1200px){
   .menu-navbar{
     display: none;
+  }
+  #navbar{
+    overflow: hidden;
+    background: #fff;
+    margin-bottom: 15px;
+    z-index: 100;
   }
 }
 
@@ -97,5 +98,9 @@
   }
   .navbar .navbar-header .navbar-collapse ul{
     margin-left: 0px;
+  }
+  #navbar .navbar-header .navbar-collapse ul {
+    margin-top: 6px;
+    margin-left: inherit;
   }
 }

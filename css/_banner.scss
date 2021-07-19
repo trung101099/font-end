@@ -7,6 +7,7 @@
     background-size: cover;
     background-position: top center;
     .banner{
+        margin-left: 20px;
         .banner-text{
             font-family: 'Poppins', sans-serif;
             position: absolute;
@@ -86,7 +87,12 @@
         }
     }
 }
-
+@media (min-width: 769px)and (max-width: 1024px){
+    .banner-text{
+        padding: 0px 150px 0px 0px;
+        margin: -10px 0px 14px 0px;
+    }
+}
 @media (max-width: 768px){
    
     .banner-box .banner .banner-text{
@@ -113,50 +119,6 @@
     margin-left: inherit;
     right: 150px;
     left: 155px;
-    input{
-        width: 100%; 
-        margin-bottom: 25px; 
-        border-bottom: 1px solid #cfcfd0; 
-        background-image: none; 
-    }
-    select{
-        width: 100%;
-        margin-bottom: 25px;
-        border-bottom: 1px solid #cfcfd0;
-        padding-left: 30px;
-    }
-    button{
-        width: 100%;
-    }
-  }
-}
-@media (max-width: 767px){
-    .banner-box .banner{
-        text-align: center;    
-    }
-   
-    .banner-box .banner .banner-text{
-        bottom: 55%;
-        left: inherit;
-        p{
-        font-size: 23px;
-        
-        }
-    }
-    
-  .banner-box .banner .banner-text h1{
-    font-size: 36px;
-    line-height: 45px;
-  }
-  .banner-box .banner .button-banner{
-    border: 1px solid #fff;
-    border: none;
-    padding: 20px 20px 20px 20px;
-    background: #fff;
-    bottom: 20%;
-    margin-left: inherit;
-    right: 15px;
-    left: 20px;
     input{
         width: 100%; 
         margin-bottom: 25px; 
