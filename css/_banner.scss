@@ -88,13 +88,15 @@
     }
 }
 @media (min-width: 769px)and (max-width: 1024px){
-    .banner-text{
+    #navbar .navbar-header .navbar-collapse ul{
+        margin-left: inherit;
+    }
+    .banner-box .banner .banner-text{
         padding: 0px 150px 0px 0px;
         margin: -10px 0px 14px 0px;
     }
 }
 @media (max-width: 768px){
-   
     .banner-box .banner .banner-text{
         padding: inherit;
         margin: inherit;
@@ -105,7 +107,6 @@
         
         }
     }
-    
   .banner-box .banner .banner-text h1{
     font-size: 36px;
     line-height: 45px;
@@ -117,8 +118,8 @@
     background: #fff;
     bottom: 20%;
     margin-left: inherit;
-    right: 150px;
-    left: 155px;
+    right: 10px;
+    left: 10px;
     input{
         width: 100%; 
         margin-bottom: 25px; 

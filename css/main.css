@@ -6954,7 +6954,10 @@ a i {
         outline: none; }
 
 @media (min-width: 769px) and (max-width: 1024px) {
-  .banner-text {
+  #navbar .navbar-header .navbar-collapse ul {
+    margin-left: inherit; }
+
+  .banner-box .banner .banner-text {
     padding: 0px 150px 0px 0px;
     margin: -10px 0px 14px 0px; } }
 @media (max-width: 768px) {
@@ -6977,8 +6980,8 @@ a i {
     background: #fff;
     bottom: 20%;
     margin-left: inherit;
-    right: 150px;
-    left: 155px; }
+    right: 10px;
+    left: 10px; }
     .banner-box .banner .button-banner input {
       width: 100%;
       margin-bottom: 25px;
@@ -7022,7 +7025,7 @@ a i {
     display: none; } }
 @media (min-width: 992px) and (max-width: 1199px) {
   .nav-categore .container {
-    width: 100%;
+    max-width: 100%;
     padding: 0;
     margin: 0; }
 
@@ -7033,7 +7036,9 @@ a i {
     background: #fc887b; } }
 @media (min-width: 768px) and (max-width: 991px) {
   .nav-categore .container {
-    width: 100%; }
+    max-width: 100%;
+    padding: 0;
+    margin: 0; }
 
   .owl-carousel .owl-nav.disabled + .owl-dots {
     margin-bottom: -20px; }
@@ -7041,12 +7046,22 @@ a i {
   .owl-carousel .owl-dots .owl-dot.active span, .owl-carousel .owl-dots .owl-dot:hover span {
     background: #fc887b; } }
 @media (min-width: 425px) and (max-width: 767px) {
+  .nav-categore .container {
+    max-width: 100%;
+    padding: 0;
+    margin: 0; }
+
   .owl-carousel .owl-nav.disabled + .owl-dots {
     margin-bottom: -30px; }
 
   .owl-carousel .owl-dots .owl-dot.active span, .owl-carousel .owl-dots .owl-dot:hover span {
     background: #fc887b; } }
 @media (max-width: 375px) {
+  .nav-categore .container {
+    max-width: 100%;
+    padding: 0;
+    margin: 0; }
+
   .owl-carousel .owl-nav.disabled + .owl-dots {
     margin-bottom: -65px; }
 
