@@ -1,10 +1,10 @@
-
 .slider_main{
+    margin-left: 24px;
     .owl-nav{
          
         .owl-prev{
             left:-10%;
-            font-size: 40px;
+            font-size: 35px;
             position: absolute;
             right: 0;
             border: 1px solid;
@@ -15,12 +15,12 @@
                 color: #fff;
             }  
             span{
-                
+                font-size: smaller;
             }
         }
         .owl-next{
             right: -10%;
-            font-size: 40px;
+            font-size: 35px;
             position: absolute;
             border: 1px solid;
             border-radius: 25px;
@@ -29,6 +29,9 @@
                 background: #fc887b;
                 color: #fff;
             }   
+            span{
+                font-size: smaller;
+            }
         }
     }
 }
@@ -53,7 +56,7 @@
 .text-product{
     border: 1px solid #6c757d;
     border-top: none;
-    padding-top: 15px;
+    padding-top: 17px;
     .product-tille{
         color: rgb(43,56,64);
         padding:0px 30px;
@@ -73,68 +76,64 @@
             color: #c0c0c0;
         }
     }
-    .diachi{    
-        position: relative;
-        margin-left: 30px;
-        padding-top: 22px;
-        p{
-            display: inline-block;
-            color: black;
-            font-weight: 400;
-        }
-        i{
-            color: #fc887b;
-        }
-    }
-    .button-product{
-        position: absolute;
-        left: 56%;
-        bottom: 15%;
-        a{
-            button{
-                border: 1px solid #c0c0c0;
-                background: #fff;
-                border-radius: 15px;
-                padding: 5px 20px 5px 20px;
+    .main_diachi{
+        display: flex;
+        justify-content: space-around;
+        padding: 5px;
+        .diachi{   
+        padding: 5px; 
+            p{
+                display: inline-block;
                 color: black;
-                &:hover{
-                    color: #ffff;
-                    background: #fc887b;
-                    border: none;
-                    transition: all 0.3s ease 0s;
-                    -moz-transition: all 0.3s ease 0s;
-                    -webkit-transition: all 0.3s ease 0s;
-                    -o-transition: all 0.3s ease 0s;
+                font-weight: 400;
+            }
+            i{
+                color: #fc887b;
+            }
+        }
+        .button-product{
+            a{
+                button{
+                    border: 1px solid #c0c0c0;
+                    background: #fff;
+                    border-radius: 15px;
+                    padding: 5px 20px 5px 20px;
+                    color: black;
+                    &:hover{
+                        color: #ffff;
+                        background: #fc887b;
+                        border: none;
+                        transition: all 0.3s ease 0s;
+                        -moz-transition: all 0.3s ease 0s;
+                        -webkit-transition: all 0.3s ease 0s;
+                        -o-transition: all 0.3s ease 0s;
+                    }
+                    &:focus{
+                        outline: none;
+                    } 
                 }
-                &:focus{
-                    outline: none;
-                } 
             }
         }
 
     }
     .title-like{
         border-top: 1px solid #B2B2B2;
-        padding-top: 28px;
+        display: flex;
+        justify-content: space-around;
+        padding: 10px;
         .text-like{
-            position: relative;
             color: black;
-            margin-left:28px;
+            padding-top: 8px;
         }
         .like{
-            position: absolute;
-            bottom: 2%;
-            right: 9%;
             color: black;
+            padding-top: 5px;
             .border-like{
                 border: 1px solid #c0c0c0;
                 width: 35px;
                 height: 35px;
                 border-radius: 20px;
                 input{
-                    position: absolute;
-                    top: 15%;
-                    left: 20%;
                     margin-left: 3px;
                     margin-top: 6px;
                 }
@@ -142,6 +141,8 @@
                     visibility:hidden;
                     font-size:15px;
                     cursor:pointer;
+                    text-align: center;
+                    margin-top: 10px;
                     &:before {
                         font-family: 'icomoon';
                         content: "\e90a";
@@ -191,11 +192,6 @@
         }
     }
 }
-
-
-
-
-
 .product-con{
     border: 1px solid #B2B2B2;
 }
@@ -337,27 +333,29 @@
     margin-left: 15px;
     padding-bottom: 35px;
 }
-.button-view a button{
-    color: #ffff;
-    background: #fc887b;
-    width: 150px;
-    height: 50px;
-    border: none;
-
-
+.button-view{
+    
+    a{
+        button{
+            color: #ffff;
+            background: #fc887b;
+            width: 150px;
+            height: 50px;
+            border: none;
+        }
+        button:hover{
+            color: #ffff;
+            background: black;
+            transition: all 0.6s ease 0s;
+            -moz-transition: all 0.9s ease 0s;
+            -webkit-transition: all 0.9s ease 0s;
+            -o-transition: all 0.9s ease 0s;
+        }
+        button:focus{
+            outline: none;
+        }
+    }
 }
-.button-view a button:hover{
-    color: #ffff;
-    background: black;
-    transition: all 0.6s ease 0s;
-    -moz-transition: all 0.9s ease 0s;
-    -webkit-transition: all 0.9s ease 0s;
-    -o-transition: all 0.9s ease 0s;
-}
-.button-view a button:focus{
-    outline: none;
-}
-
 @media (min-width: 1200px){
     .owl-carousel .owl-dots{
         display: none;
@@ -367,6 +365,9 @@
     }
 }
 @media (min-width: 992px) and (max-width: 1199px){
+    .slider_main{
+        margin-left: inherit;
+    }
     .owl-nav{
         display: none;
     }
@@ -414,20 +415,21 @@
     }
 }
 @media (min-width: 768px) and (max-width: 991px){
+    .slider_main{
+        margin-left: inherit;
+    }
     .owl-nav{
         display: none;
     }
     .owl-carousel .owl-dots{
         bottom: -8%;
     }
-    .text-product .button-product {
-        bottom: 17%;
-    }
-    .text-product .title-like .like {
-        bottom: 4%;
-    }
+    
 }
 @media (min-width: 480px)and (max-width: 767px){
+    .slider_main{
+        margin-left: inherit;
+    }
     .owl-carousel .owl-nav{
         display: none;
     }
@@ -437,9 +439,7 @@
     .owl-carousel .owl-dots{
         bottom: 0px;
     }
-    .text-product .button-product{
-        bottom: 135px;
-    }
+    
     .text-product .price{
         top: 214px;
         left: 20px;
@@ -468,12 +468,12 @@
         bottom: 295px;
         right: 8px;
     }
-    .text-product .title-like .like {
-        bottom: 75px;
-        right: 25px;
-    }
+    
 }
 @media (min-width: 425px)and (max-width: 479px){
+    .slider_main{
+        margin-left: inherit;
+    }
     .owl-carousel .owl-nav{
         display: none;
     }
@@ -493,6 +493,9 @@
     }
 }
 @media (min-width: 375px)and (max-width: 424px){
+    .slider_main{
+        margin-left: inherit;
+    }
     .owl-carousel .owl-nav{
         display: none;
     }
@@ -502,14 +505,7 @@
     .owl-carousel .owl-dots{
         bottom: 34px;
     }   
-    .item .new-product .text-product .button-product{
-        right: 2px;
-        bottom: 152px;
-    }
-    .item .new-product .text-product .title-like .like{
-        bottom: 88px;
-        right: 35px;
-    }
+    
     #rating{
         bottom: 300px;
         left: 250px;
@@ -540,6 +536,9 @@
     }
 }
 @media (max-width: 370px){
+    .slider_main{
+        margin-left: inherit;
+    }
     .owl-carousel .owl-nav{
         display: none;
     }
@@ -549,14 +548,6 @@
     .owl-carousel .owl-dots{
         bottom: 35px;
     }   
-    .item .new-product .text-product .button-product{
-        right: 2px;
-        bottom: 152px;
-    }
-    .item .new-product .text-product .title-like .like{
-        bottom: 88px;
-        right: 35px;
-    }
     #rating{
         bottom: 342px;
         left: 200px; 
@@ -586,6 +577,6 @@
         left: 20px;
     }
     .item .new-product .text-product .button-product a button{
-        padding: 5px 5px 5px 5px;
+        padding: 5px 10px 5px 10px;
     }
 }

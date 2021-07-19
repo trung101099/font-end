@@ -8,12 +8,13 @@
     background-position: top center;
     .banner-main{
         text-align: center;
-        margin-top: 170px;
+        margin-top: 180px;
         .section-text{
             color: #fff;
             h1{
                 font-weight: 800;
                 font-size: 58px;
+                letter-spacing: -0.9;
             } 
         }
         .section-text-title{
@@ -22,6 +23,7 @@
             p{
                 font-weight: 300;
                 font-size: 25px;
+                letter-spacing: 2.1;    
             }
         }   
         .section-button{   
@@ -32,6 +34,7 @@
                 height: 50px;
                 border: none;
                 margin-left: -5px;
+                letter-spacing: -0.9;
                 &:hover{
                 background: black;
                 color: #fff;

@@ -79,3 +79,6 @@
 .icon-menu:before {
   content: "\e911";
 }
+.icon-next:before {
+  content: "\e912";
+}
