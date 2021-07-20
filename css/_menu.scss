@@ -26,6 +26,15 @@
                 background: #fc887b;
                 color: #fff;
               }
+              button:hover{
+                color: #fff;
+                background: black;
+                border: none;
+                transition: all 0.6s ease 0s;
+                -moz-transition: all 0.9s ease 0s;
+                -webkit-transition: all 0.9s ease 0s;
+                -o-transition: all 0.9s ease 0s;
+              }
               button:focus{
                 outline: none;
               }
