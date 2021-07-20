@@ -1,25 +1,28 @@
 
 .title{
-
     text-align: center;
     padding-top: 40px;
     letter-spacing: 1px;
-}
-.title-main{
-    padding-top: 15px;
-    padding-left: 36px;
-}
-.title-main h1{
-    font-size: 32px;
-}
-.title-line{
-    margin-top: -6px;
-    margin-left: 35px;
-}
-.title-text{
-    padding-top: 10px;
-}
-.title-text p{
-    font-size: 16px;
-    font-weight: 400;
+    .title-main{
+        padding-top: 15px;
+        padding-left: 36px;
+        padding-bottom: 10px;
+        &::after{
+            width: 30px;
+            height: 5px;
+            background: url( ../image/icon-line.png);
+            content: "";
+            position: absolute;
+        }
+        h1{
+            font-size: 32px;
+        }
+    }
+    .title-text{
+        padding-top: 10px;
+        p{
+            font-size: 16px;
+            font-weight: 400;
+        }
+    }
 }

@@ -33,6 +33,9 @@
                 background:#fc887b;
                 color: #ffff;
                 border: none;
+                i{
+                    font-size: 12px;
+                }
             }
             button, input:focus{
                 outline: none;
@@ -42,14 +45,19 @@
 }
 .midle-footer{
     margin-top: 45px;
+    .footer-tittle-main{
+        padding-bottom: 42px;
+        &::after{
+            width: 30px;
+            height: 5px;
+            background: url( ../image/icon-line.png);
+            content: "";
+            position: absolute;
+            top: 47px;
+        }
+    }
     .footer-tittle{
         margin-left: 24px;
-        .footer-tittle-line{
-            padding-bottom: 18px;
-            img{
-                margin-bottom: 8px
-            }
-        }
         .footer-tittle-text{
             letter-spacing: 1px;
         }
@@ -58,16 +66,43 @@
             margin-left: -13px;
             margin-top: -2px;
             color:#fc887b ;
+            a{
+                &:hover{
+                    color: #fc887b;
+                }
+            }
         } 
+        .footer-tittle-icon{
+            ul{
+                padding-left: 0;
+                list-style-type: none;
+                li{
+                    display: inline-block;
+                    padding: 0 10px 0 0;
+                    margin-bottom: 0;
+                    a{
+                        display: inline-block;
+                        background: #4867aa !important;
+                        border-color: #4867aa !important;
+                        width: 40px;
+                        height: 40px;
+                        line-height: 44px;
+                        color: #fff !important;
+                        border-radius: 5px;
+                        -webkit-border-radius: 5px;
+                        border: 1px solid #ccc;
+                        padding-top: 0px;
+                        text-align: center;
+                        i{ 
+                            font-size: 20px;
+                        }
+                    }
+                }
+            }
+        }
     }
     .footer-tittle_1{
         margin-left: 42px;
-        .footer-tittle-line{
-            padding-bottom: 18px;
-            img{
-                margin-bottom: 8px
-            }
-        }
         .footer-tittle-list{
             padding-top: 17px;
             margin-left: -3px;
@@ -87,16 +122,9 @@
     }
     .footer-tittle_2{
         margin-left: 37px;
-        .footer-tittle-line{
-            padding-bottom: 30px;
-            margin-top: 5px;
-        }
         .footer-tittle-list{
-            padding-top: 17px;
             margin-left: -3px;
             ul{
-                margin-top: -28px;
-                margin-left: -2px;
                 li{
                     padding-bottom: 15px;
                     font-size: 15px;
@@ -110,14 +138,9 @@
         }
     }
     .footer-tittle_3{
-        .footer-tittle-line{
-            img{
-                margin-bottom: 8px;
-            }
-        }
         .footer-icon-phone{
+            margin-top: -22px;
             i{
-                color: #fc887b;
                 margin-right: 29px;
                 padding-bottom: 10px;
                 font-size: 29px;
@@ -134,7 +157,6 @@
         .footer-icon-email{
             margin-top: -7px;
             i{
-                color: #fc887b;
                 margin-right: 29px;
                 padding-bottom: 21px;
                 font-size: 20px;
