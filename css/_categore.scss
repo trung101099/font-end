@@ -13,8 +13,14 @@
                 height: 185px;
                 border-top: none;
                 text-align: center;
+                overflow: hidden;
+                z-index: 1;
                 .categore{
                     padding-top: 40px;
+                    position: relative;
+                    color: #262626;
+                    transition: .5s;
+                    z-index: 3;
                     .categore-icon{
                         font-size: 53px;
                     }
@@ -25,16 +31,27 @@
                 &:last-child{
                     border-right: 1px solid #ccc;
                 }
-                
-                &:hover{
-                    background: #f28478;
-                    .categore{
-                        color: #fff;
-                    }
-                }
             } 
         }
     }
+}
+.list-categore ul li:hover .categore{
+    color: #fff;
+    transform: rotateY(360deg);
+}
+.list-categore ul li::before{
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #f28478;
+    transition: .5s;
+    z-index: 2;
+}
+.list-categore ul li:hover::before{
+    bottom: 0  ;
 }
 @media (min-width: 1200px){
     .owl-carousel .owl-dots .owl-dot span{

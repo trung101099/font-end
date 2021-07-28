@@ -46,7 +46,7 @@
     background: #fff;
     position: relative;
     width: 100%;
-    height: 475px;
+    height: 480px;
 
 }
 .new-product:hover .text-product{
@@ -193,8 +193,19 @@
 .product-con{
     border: 1px solid #B2B2B2;
 }
+.product-image{
+    overflow: hidden;
+}
 .product-image img{
    width: 100%;
+   -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+.product-image:hover img {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
 }
 #rating {
     position: absolute;
